@@ -1,0 +1,52 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-10-20",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Autumn Comfort Blend",
+  "oils": [
+    "Cedarwood Atlas (Cedrus atlantica)",
+    "Patchouli (Pogostemon cablin)",
+    "Clove Bud (Syzygium aromaticum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cedarwood Atlas (Cedrus atlantica)": 3,
+        "Patchouli (Pogostemon cablin)": 2,
+        "Clove Bud (Syzygium aromaticum)": 1
+      },
+      "notes": "Use in a well-ventilated area; adjust water per manufacturer."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 3,
+      "drops": {
+        "Cedarwood Atlas (Cedrus atlantica)": 4,
+        "Patchouli (Pogostemon cablin)": 3
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cedarwood Atlas (Cedrus atlantica)": 6,
+        "Patchouli (Pogostemon cablin)": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; avoid fabrics that spot."
+    }
+  },
+  "why_it_works": "Comforting spice and wood pair with sweet notes for a grounded, focused feel.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a qualified professional if pregnant, nursing, or under medical care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Comfort",
+    "Use:Home"
+  ]
+}
