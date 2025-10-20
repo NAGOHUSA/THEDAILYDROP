@@ -1,0 +1,15 @@
+{
+  "name": "the-daily-drop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generates daily season-aware essential oil recipes for The Daily Drop.",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-daily-drop.js",
+    "lint": "node -e \"console.log('No linter configured')\""
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.1"
+  }
+}
