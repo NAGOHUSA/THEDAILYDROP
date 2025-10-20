@@ -1,0 +1,59 @@
+name: Generate Daily Drop
+
+on:
+  schedule:
+    # 09:00 UTC daily (5:00 AM Eastern during Standard Time; 4:00 AM during DST)
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  generate-daily-drop:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm i
+          fi
+
+      - name: Generate today's Daily Drop
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DAILY_DROP_HEMISPHERE: ${{ secrets.DAILY_DROP_HEMISPHERE }} # "Northern" or "Southern" (optional, default Northern)
+        run: node generate-daily-drop.js
+
+      - name: Commit & push if changed
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add recipes/*.json
+            git commit -m "chore: add The Daily Drop for $(date -u +%F)"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Upload artifact
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: latest-daily-drop
+          path: recipes/*.json
+          if-no-files-found: ignore
