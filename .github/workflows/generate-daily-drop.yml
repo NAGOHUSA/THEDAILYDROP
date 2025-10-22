@@ -4,7 +4,13 @@ on:
   schedule:
     # 09:00 UTC daily (5:00 AM Eastern during Standard Time; 4:00 AM during DST)
     - cron: "0 9 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force_overwrite:
+        description: "Force overwrite today's file (delete & regenerate, commit even if identical)"
+        type: boolean
+        required: false
+        default: false
 
 jobs:
   generate-daily-drop:
@@ -16,6 +22,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # If manually dispatched with force_overwrite=true, remove today's file first (UTC date).
+      - name: Pre-clean today's file on force
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.force_overwrite == true }}
+        run: |
+          set -euxo pipefail
+          TODAY_UTC="$(date -u +%F)"
+          rm -f "recipes/${TODAY_UTC}.json" || true
 
       - name: Use Node.js 20
         uses: actions/setup-node@v4
@@ -24,6 +40,7 @@ jobs:
 
       - name: Install deps
         run: |
+          set -e
           if [ -f package-lock.json ]; then
             npm ci
           else
@@ -36,18 +53,33 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DAILY_DROP_HEMISPHERE: ${{ secrets.DAILY_DROP_HEMISPHERE }} # "Northern" or "Southern" (optional, default Northern)
+          # Let your script know if this was a forced run (optional, in case you want different behavior in JS)
+          FORCE_OVERWRITE: ${{ github.event_name == 'workflow_dispatch' && inputs.force_overwrite == true }}
         run: node generate-daily-drop.js
 
-      - name: Commit & push if changed
+      - name: Commit & push
         run: |
+          set -euxo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Always stage changes, including deletions
+          git add -A recipes/*.json || true
+
+          TODAY_UTC="$(date -u +%F)"
+
           if [ -n "$(git status --porcelain)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add recipes/*.json
-            git commit -m "chore: add The Daily Drop for $(date -u +%F)"
+            # There are actual file changes
+            git commit -m "chore: add/overwrite The Daily Drop for ${TODAY_UTC}"
             git push
           else
-            echo "No changes to commit."
+            # No diff, but if this was a forced manual run, still create a marker commit
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force_overwrite }}" = "true" ]; then
+              git commit --allow-empty -m "chore: forced regeneration (no diff) for ${TODAY_UTC}"
+              git push
+            else
+              echo "No changes to commit."
+            fi
           fi
 
       - name: Upload artifact
