@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-10-22",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Autumn Breeze Revival",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Orange (Citrus sinensis)",
+    "Frankincense (Boswellia serrata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 5,
+        "Orange": 15,
+        "Frankincense": 10
+      },
+      "notes": "Enhance the ambiance with a short diffusion time."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 5,
+        "Orange": 15,
+        "Frankincense": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cinnamon": 15,
+        "Orange": 30,
+        "Frankincense": 15
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Cinnamon's warm, spicy scent evokes feelings of coziness, while Orange brings uplifting energy. Frankincense adds a grounding, woody depth.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Uplifting",
+    "Use:Natural Air Freshener"
+  ]
+}
