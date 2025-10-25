@@ -1,0 +1,58 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-10-25",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Autumn Cozy",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Lemon (Citrus limon)",
+    "Cedarwood (Cedrus deodora)",
+    "Bergamot (Citrus aurantium bergamia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Lemon": 15,
+        "Cedarwood": 10,
+        "Bergamot": 5
+      },
+      "notes": "Create a cozy atmosphere with Frankincense and Cedarwood, uplifted by Lemon and Bergamot."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 5,
+        "Lemon": 7,
+        "Cedarwood": 4,
+        "Bergamot": 2
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 15,
+        "Lemon": 20,
+        "Cedarwood": 15,
+        "Bergamot": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense and Cedarwood evoke a sense of warmth and comfort, while Lemon and Bergamot provide a refreshing twist.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Stress Relief"
+  ]
+}
