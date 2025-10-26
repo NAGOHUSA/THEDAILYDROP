@@ -1,0 +1,58 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-10-26",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Breeze",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Pine (Pinus sylvestris)",
+    "Frankincense (Boswellia serrata)",
+    "Orange (Citrus sinensis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 5,
+        "Pine": 8,
+        "Frankincense": 3,
+        "Orange": 10
+      },
+      "notes": "Inhale deeply for a cozy atmosphere."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 3,
+        "Pine": 5,
+        "Frankincense": 2,
+        "Orange": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cinnamon": 5,
+        "Pine": 8,
+        "Frankincense": 3,
+        "Orange": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "The warm, spicy scent of Cinnamon and Pine evoke feelings of coziness, while Frankincense adds a grounding note. Orange uplifts with a hint of sweetness.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Relaxation"
+  ]
+}
