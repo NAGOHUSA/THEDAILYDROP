@@ -1,0 +1,56 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-10-27",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Harvest Breeze",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Frankincense (Boswellia serrata)",
+    "Ylang-Ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 10,
+        "Bergamot": 10,
+        "Frankincense": 5,
+        "Ylang-Ylang": 5
+      },
+      "notes": "Adjust ratio to prefer Bergamot or Cinnamon for mood"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 15,
+        "Ylang-Ylang": 10,
+        "Bergamot": 5
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cinnamon": 10,
+        "Bergamot": 10,
+        "Frankincense": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Invigorating Cinnamon captures Autumn's energy, while Bergamot's citrus provides uplift, and Frankincense and Ylang-Ylang promote relaxation.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Uplifting",
+    "Use:Relaxation"
+  ]
+}
