@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-10-29",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Golden Days of Autumn",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Pine (Pinus sylvestris)",
+    "Cinnamon Bark (Cinnamomum verum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Pine": 15,
+        "Cinnamon Bark": 5
+      },
+      "notes": "Invigorating aroma for cozy nights."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 20,
+        "Pine": 30,
+        "Cinnamon Bark": 10
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 15,
+        "Pine": 20,
+        "Cinnamon Bark": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense uplifts and soothes, while Pine invigorates and grounds. Cinnamon Bark adds warmth and spice.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calm",
+    "Use:Relaxation"
+  ]
+}
