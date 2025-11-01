@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-01",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Breeze",
+  "oils": [
+    "Lavender (Lavandula Angustifolia)",
+    "Bergamot (Citrus Aurantium Bergamia)",
+    "Frankincense (Boswellia Serrata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lavender": 10,
+        "Bergamot": 5,
+        "Frankincense": 5
+      },
+      "notes": "A soothing blend for a cozy autumn evening."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 25,
+        "Bergamot": 12,
+        "Frankincense": 8
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lavender": 10,
+        "Bergamot": 5,
+        "Frankincense": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Lavender calms the mind, while Bergamot uplifts and Frankincense grounds. Together, they evoke a cozy autumn atmosphere.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Evening"
+  ]
+}
