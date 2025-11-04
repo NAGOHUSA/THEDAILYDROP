@@ -1,0 +1,57 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-04",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Autumn Harvest Bliss",
+  "oils": [
+    "Cedarwood (Cedrus deodora)",
+    "Frankincense (Boswellia serrata)",
+    "Pine (Pinus sylvestris)",
+    "Vanilla (Vanilla planifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cedarwood": 15,
+        "Frankincense": 12,
+        "Pine": 10,
+        "Vanilla": 3
+      },
+      "notes": "A soothing blend to create a cozy atmosphere."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cedarwood": 3,
+        "Frankincense": 2,
+        "Pine": 2,
+        "Vanilla": 1
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cedarwood": 15,
+        "Frankincense": 12,
+        "Pine": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "The earthy, woody scents of Cedarwood and Pine evoke the forest floor, while Frankincense adds a sense of grounding and calm. Vanilla provides a subtle warmth.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Relaxation"
+  ]
+}
