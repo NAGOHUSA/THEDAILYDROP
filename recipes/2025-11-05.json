@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-05",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Nights",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Ginger (Zingiber officinale)",
+    "Lemon (Citrus limon)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 7,
+        "Ginger": 3,
+        "Lemon": 5
+      },
+      "notes": "Adjust to your liking for a cozier atmosphere"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 4,
+        "Ginger": 2,
+        "Lemon": 3
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cinnamon": 9,
+        "Ginger": 6,
+        "Lemon": 12
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Warm cinnamon and ginger evoke the feeling of crackling fires, while lemon adds a refreshing autumnal note.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Relaxation"
+  ]
+}
