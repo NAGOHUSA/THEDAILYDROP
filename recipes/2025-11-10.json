@@ -1,0 +1,58 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-10",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Night",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Sandalwood (Santalum album)",
+    "Cedarwood (Cedrus deodora)",
+    "Orange (Citrus sinensis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Sandalwood": 8,
+        "Cedarwood": 6,
+        "Orange": 12
+      },
+      "notes": "Enhance relaxation with a calming atmosphere"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 6,
+        "Sandalwood": 5,
+        "Cedarwood": 4,
+        "Orange": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 18,
+        "Sandalwood": 15,
+        "Cedarwood": 12,
+        "Orange": 20
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Frankincense and Sandalwood promote relaxation, while Cedarwood and Orange add warmth and coziness.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Relaxation"
+  ]
+}
