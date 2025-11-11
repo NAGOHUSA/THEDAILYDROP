@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-11",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Afternoon",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon (Cinnamomum verum)",
+    "Orange (Citrus sinensis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 8,
+        "Cinnamon": 7,
+        "Orange": 15
+      },
+      "notes": "Adjust to desired strength; enjoy the aroma!"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 5,
+        "Cinnamon": 4,
+        "Orange": 8
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 15,
+        "Cinnamon": 12,
+        "Orange": 25
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use; use in well-ventilated spaces."
+    }
+  },
+  "why_it_works": "Frankincense promotes relaxation, while Cinnamon warms the senses. Orange adds a hint of autumnal brightness.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Relaxing",
+    "Use:Daily"
+  ]
+}
