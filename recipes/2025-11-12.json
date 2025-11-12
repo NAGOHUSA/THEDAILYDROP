@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-12",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Nights",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Frankincense (Boswellia serrata)",
+    "Lemon (Citrus limon)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 5,
+        "Frankincense": 15,
+        "Lemon": 10
+      },
+      "notes": "Adjust ratios to suit personal preference"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 4,
+        "Frankincense": 12,
+        "Lemon": 8
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cinnamon": 15,
+        "Frankincense": 45,
+        "Lemon": 30
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Cinnamon warms the senses, while Frankincense promotes relaxation and focus. Lemon adds a touch of uplifting citrus.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Relaxing",
+    "Use:Diffuse at night, roll on wrists for calm"
+  ]
+}
