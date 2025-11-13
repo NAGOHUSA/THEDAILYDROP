@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-13",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Breeze",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Pine (Pinus sylvestris)",
+    "Cedarwood (Cedrus deodora)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Pine": 10,
+        "Cedarwood": 5
+      },
+      "notes": "Breathe in the warmth of autumn."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 3,
+        "Pine": 3,
+        "Cedarwood": 2
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 9,
+        "Pine": 9,
+        "Cedarwood": 4.5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Invigorating frankincense and pine evoke the crisp freshness of autumn, while cedarwood adds a warm, earthy depth.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Invigorating",
+    "Use:Daily"
+  ]
+}
