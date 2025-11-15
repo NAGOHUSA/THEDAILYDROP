@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-15",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Harvest Breeze",
+  "oils": [
+    "Sandalwood (Santalum album)",
+    "Cedarwood (Cedrus deodora)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Black Pepper (Piper nigrum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sandalwood": 10,
+        "Cedarwood": 10,
+        "Bergamot": 5,
+        "Black Pepper": 5
+      },
+      "notes": "Emphasize seasonal coziness."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sandalwood": 5,
+        "Cedarwood": 5
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Bergamot": 10,
+        "Black Pepper": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use"
+    }
+  },
+  "why_it_works": "Invigorating cedarwood and black pepper evoke crisp autumn air, while sandalwood's warmth soothes the mind. Bergamot adds a citrusy touch.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Invigorating",
+    "Use:Diffuse to relax at home or apply to pulse points for a boost."
+  ]
+}
