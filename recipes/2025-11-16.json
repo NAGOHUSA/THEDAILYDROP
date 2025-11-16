@@ -1,0 +1,51 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-16",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Crisp Autumn Delight",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Orange (Citrus sinensis)",
+    "Grapefruit (Citrus paradisi)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 10,
+        "Orange": 15,
+        "Grapefruit": 10
+      },
+      "notes": "Inhale the aroma to uplift and invigorate."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 5,
+        "Grapefruit": 10
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Orange": 20
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "The invigorating scent of Cinnamon combines with the uplifting properties of Orange and Grapefruit to evoke a sense of crisp Autumn air.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Invigorated",
+    "Use:Desk, Space, or on-the-go"
+  ]
+}
