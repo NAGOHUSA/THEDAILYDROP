@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-18",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Breeze",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Sandalwood (Santalum album)",
+    "Frankincense (Boswellia serrata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 5,
+        "Sandalwood": 10,
+        "Frankincense": 5
+      },
+      "notes": "For a warm atmosphere, add a few drops to your diffuser."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 3,
+        "Sandalwood": 6,
+        "Frankincense": 1
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cinnamon": 10,
+        "Sandalwood": 20,
+        "Frankincense": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Cinnamon warms the senses, while Sandalwood and Frankincense evoke feelings of grounding and calm.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calming",
+    "Use:Skin and mood boost"
+  ]
+}
