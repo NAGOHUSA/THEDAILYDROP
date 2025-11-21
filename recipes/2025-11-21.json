@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-21",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Nights",
+  "oils": [
+    "Lavender (Lavandula angustifolia)",
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon Bark (Cinnamomum verum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lavender": 15,
+        "Frankincense": 10,
+        "Cinnamon Bark": 5
+      },
+      "notes": "Enhance relaxation with this calming blend."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 3,
+        "Frankincense": 2,
+        "Cinnamon Bark": 1
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lavender": 10,
+        "Frankincense": 5,
+        "Cinnamon Bark": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lavender soothes and calms, while Frankincense promotes relaxation and focus. Cinnamon Bark adds a warm, comforting aroma.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Relaxation",
+    "Use:Sleep, Stress"
+  ]
+}
