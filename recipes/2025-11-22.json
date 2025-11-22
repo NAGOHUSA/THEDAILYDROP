@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-22",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Golden Harvest Blend",
+  "oils": [
+    "Bergamot (Citrus aurantium bergamia)",
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon (Cinnamomum verum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Bergamot": 7,
+        "Frankincense": 10,
+        "Cinnamon": 5
+      },
+      "notes": "Energize your space with this uplifting blend."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Bergamot": 5,
+        "Frankincense": 3,
+        "Cinnamon": 2
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Bergamot": 10,
+        "Frankincense": 15,
+        "Cinnamon": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Bergamot uplifts and balances, while Frankincense grounds and calms, and Cinnamon adds warmth and energy.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Energizing",
+    "Use:Stress Relief"
+  ]
+}
