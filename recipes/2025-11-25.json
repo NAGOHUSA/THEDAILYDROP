@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-25",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Night",
+  "oils": [
+    "Cedarwood (Cedrus deodora)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Frankincense (Boswellia serrata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cedarwood": 8,
+        "Bergamot": 12,
+        "Frankincense": 10
+      },
+      "notes": "Relax with this calming blend."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cedarwood": 30,
+        "Bergamot": 20,
+        "Frankincense": 20
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cedarwood": 8,
+        "Bergamot": 12,
+        "Frankincense": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Cedarwood promotes relaxation, while Bergamot uplifts and Frankincense reduces anxiety.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Relaxation",
+    "Use:Evening self-care"
+  ]
+}
