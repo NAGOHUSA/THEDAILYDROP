@@ -1,0 +1,53 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-11-27",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Nights",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Ginger (Zingiber officinale)",
+    "Pine (Pinus sylvestris)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Ginger": 5,
+        "Pine": 5
+      },
+      "notes": "Add a few drops to your evening diffuser for a calming atmosphere."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 7,
+        "Ginger": 3
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 15,
+        "Ginger": 7,
+        "Pine": 8
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use as a room spray."
+    }
+  },
+  "why_it_works": "The warm, spicy scent of Ginger and the earthy aroma of Frankincense evoke feelings of coziness, while Pine adds a refreshing, grounding note.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Relaxation"
+  ]
+}
