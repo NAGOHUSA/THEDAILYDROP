@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-01",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Warm Winter Breeze",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon (Cinnamomum zeylanicum)",
+    "Tangerine (Citrus reticulata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 12,
+        "Cinnamon": 6,
+        "Tangerine": 10
+      },
+      "notes": "Elevate mood & focus."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 6,
+        "Cinnamon": 3,
+        "Tangerine": 5
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 15,
+        "Cinnamon": 7,
+        "Tangerine": 12
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "The invigorating scent of Cinnamon and Tangerine uplifts, while Frankincense's grounding properties soothe.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Uplift",
+    "Use:Desk/Office"
+  ]
+}
