@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-02",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon (Cinnamomum verum)",
+    "Orange (Citrus sinensis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Cinnamon": 5,
+        "Orange": 15
+      },
+      "notes": "A perfect blend to uplift during the cold winter months."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 3,
+        "Cinnamon": 1.5,
+        "Orange": 6
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 10,
+        "Cinnamon": 5,
+        "Orange": 15
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense promotes feelings of calmness, while Cinnamon's warmth and Orange's uplifting scent help to combat winter blues.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Uplifting",
+    "Use:Desk or Space"
+  ]
+}
