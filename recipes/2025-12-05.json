@@ -1,0 +1,55 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-05",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Wonderland",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cedarwood (Cedrus deodora)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Cedarwood": 10,
+        "Lavender": 5
+      },
+      "notes": "Create a cozy atmosphere with this blend."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 5,
+        "Cedarwood": 5,
+        "Lavender": 5,
+        "Carrier Oil": 85
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 15,
+        "Cedarwood": 15,
+        "Lavender": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense and Cedarwood evoke a sense of calmness, while Lavender promotes relaxation.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxation",
+    "Use:Cozy atmosphere"
+  ]
+}
