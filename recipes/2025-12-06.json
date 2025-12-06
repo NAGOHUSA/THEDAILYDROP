@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-06",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon (Cinnamomum verum)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Cinnamon": 5,
+        "Lavender": 5
+      },
+      "notes": "Inhale deeply to calm and uplift."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 5,
+        "Cinnamon": 2,
+        "Lavender": 3
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 10,
+        "Cinnamon": 5,
+        "Lavender": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense and Cinnamon evoke warmth and comfort, while Lavender calms and soothes the mind.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Uplifting",
+    "Use:Stress Relief"
+  ]
+}
