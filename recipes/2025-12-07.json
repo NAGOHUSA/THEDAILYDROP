@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-07",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Nutmeg (Myristica fragrans)",
+    "Frankincense (Boswellia serrata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 5,
+        "Nutmeg": 3,
+        "Frankincense": 7
+      },
+      "notes": "Adjust to taste, as cinnamon can be potent."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 5,
+        "Nutmeg": 3,
+        "Frankincense": 7
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cinnamon": 5,
+        "Nutmeg": 3,
+        "Frankincense": 7
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Cinnamon and nutmeg evoke warmth and comfort, while frankincense adds a grounding, earthy note.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Cozy",
+    "Use:Relaxation"
+  ]
+}
