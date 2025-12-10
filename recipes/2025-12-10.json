@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-10",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Crisp Winter Morning",
+  "oils": [
+    "Cedarwood (Cedrus deodora)",
+    "Frankincense (Boswellia serrata)",
+    "Lemon (Citrus limon)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cedarwood": 12,
+        "Frankincense": 8,
+        "Lemon": 5
+      },
+      "notes": "Inhale to uplift and decongest."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cedarwood": 30,
+        "Frankincense": 20,
+        "Lemon": 10
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cedarwood": 8,
+        "Frankincense": 6,
+        "Lemon": 3
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Cedarwood and Frankincense promote feelings of grounding and warmth, while Lemon's citrus uplifts the mind.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Uplifting",
+    "Use:Morning"
+  ]
+}
