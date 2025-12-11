@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-11",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Warm Winter Solstice",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon (Cinnamomum verum)",
+    "Grapefruit (Citrus paradisi)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Cinnamon": 8,
+        "Grapefruit": 5
+      },
+      "notes": "Adjust quantities for desired intensity"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 7,
+        "Cinnamon": 6,
+        "Grapefruit": 3
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 15,
+        "Cinnamon": 12,
+        "Grapefruit": 9
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use"
+    }
+  },
+  "why_it_works": "Frankincense promotes relaxation, while Cinnamon warms and uplifts. Grapefruit adds a refreshing note.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxing",
+    "Use:Calming atmosphere"
+  ]
+}
