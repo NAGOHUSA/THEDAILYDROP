@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-13",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter's Cozy Warmth",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Frankincense (Boswellia serrata)",
+    "Pine (Pinus sylvestris)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 6,
+        "Frankincense": 8,
+        "Pine": 10
+      },
+      "notes": "Enjoy the invigorating aroma, especially after exercise or a long winter walk."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 8,
+        "Frankincense": 5,
+        "Pine": 7
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cinnamon": 12,
+        "Frankincense": 15,
+        "Pine": 20
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use, and keep away from heat sources."
+    }
+  },
+  "why_it_works": "The spicy warmth of cinnamon and pine, combined with the woody, earthy tone of frankincense, evoke feelings of comfort and relaxation.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxing",
+    "Use:WinterSelfCare"
+  ]
+}
