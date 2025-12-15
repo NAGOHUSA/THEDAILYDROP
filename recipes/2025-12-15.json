@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-15",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warm-Up: Cozy & Invigorating",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Grapefruit (Citrus paradisi)",
+    "Peppermint (Mentha piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 8,
+        "Grapefruit": 10,
+        "Peppermint": 5
+      },
+      "notes": "Enhance the scent by adding a few drops of your favorite spice essential oil."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 5,
+        "Grapefruit": 5,
+        "Peppermint": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 10,
+        "Grapefruit": 10,
+        "Peppermint": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense's woody, earthy notes evoke warmth, while Grapefruit's citrus uplifts the senses, and Peppermint's invigorating freshness awakens the mind.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Invigorating",
+    "Use:Desk or Office"
+  ]
+}
