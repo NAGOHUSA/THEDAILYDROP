@@ -1,0 +1,58 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-19",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth Revival",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon (Cinnamomum verum)",
+    "Lavender (Lavandula angustifolia)",
+    "Ginger (Zingiber officinale)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 6,
+        "Cinnamon": 3,
+        "Lavender": 6,
+        "Ginger": 3
+      },
+      "notes": "Adjust proportions to suit your mood."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 12,
+        "Cinnamon": 6,
+        "Lavender": 12,
+        "Ginger": 6
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 20,
+        "Cinnamon": 10,
+        "Lavender": 20,
+        "Ginger": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense and ginger warm the senses, while cinnamon and lavender calm and uplift.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Uplifting",
+    "Use:Stress Relief"
+  ]
+}
