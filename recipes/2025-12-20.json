@@ -1,0 +1,51 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-20",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth Blend",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Frankincense (Boswellia serrata)",
+    "Ginger (Zingiber officinale)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 6,
+        "Frankincense": 8,
+        "Ginger": 10
+      },
+      "notes": "Inhale deeply for a cozy atmosphere."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 30,
+        "Ginger": 20
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 12
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Cinnamon and ginger evoke warmth and comfort, while frankincense adds a calming, earthy note.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxing",
+    "Use:Stress Relief"
+  ]
+}
