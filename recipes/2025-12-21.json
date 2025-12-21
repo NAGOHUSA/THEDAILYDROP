@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-21",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Revival",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Frankincense (Boswellia serrata)",
+    "Grapefruit (Citrus paradisi)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 5,
+        "Frankincense": 10,
+        "Grapefruit": 15
+      },
+      "notes": "Adjust to your liking; inhale deeply for a boost."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 8,
+        "Frankincense": 6,
+        "Grapefruit": 6
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cinnamon": 15,
+        "Frankincense": 30,
+        "Grapefruit": 45
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; use 2-3 sprays."
+    }
+  },
+  "why_it_works": "Cinnamon warms and invigorates, while Frankincense promotes relaxation. Grapefruit enhances mental clarity and focus.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Invigorated",
+    "Use:Desk,Office"
+  ]
+}
