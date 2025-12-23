@@ -1,0 +1,53 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-23",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Wonder",
+  "oils": [
+    "Cedarwood (Cedrus deodora)",
+    "Frankincense (Boswellia serrata)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cedarwood": 5,
+        "Frankincense": 5,
+        "Lavender": 5
+      },
+      "notes": "Invigorating wintery blend."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cedarwood": 7,
+        "Frankincense": 3
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cedarwood": 10,
+        "Frankincense": 10,
+        "Lavender": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Cedarwood and Frankincense evoke a sense of calm, while Lavender adds a soothing touch, perfect for winter's chill.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Calming",
+    "Use:Stress relief"
+  ]
+}
