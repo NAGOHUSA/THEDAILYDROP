@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-26",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter's Cozy Calm",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Cedarwood (Cedrus deodora)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Bergamot": 15,
+        "Cedarwood": 10
+      },
+      "notes": "Create a relaxing atmosphere for meditation."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 6,
+        "Cedarwood": 3,
+        "Bergamot": 1
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 12,
+        "Cedarwood": 12,
+        "Bergamot": 6
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense soothes and calms, while Bergamot uplifts and Cedarwood grounds. Together, they create a cozy winter atmosphere.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxation",
+    "Use:Stress relief"
+  ]
+}
