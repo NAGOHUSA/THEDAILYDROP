@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-27",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Cedarwood (Cedrus deodora)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 8,
+        "Bergamot": 7,
+        "Cedarwood": 5
+      },
+      "notes": "Use for 30 minutes to ease stress."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 6,
+        "Bergamot": 5,
+        "Cedarwood": 4
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 12,
+        "Bergamot": 10,
+        "Cedarwood": 8
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense and Cedarwood soothe and calm, while Bergamot's citrus uplifts and warms the senses.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxing",
+    "Use:Stress Relief"
+  ]
+}
