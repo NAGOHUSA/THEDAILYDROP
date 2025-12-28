@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-28",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Frosted Morning",
+  "oils": [
+    "Peppermint (Mentha piperita)",
+    "Frankincense (Boswellia serrata)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Peppermint": 7,
+        "Frankincense": 3,
+        "Geranium": 5
+      },
+      "notes": "Invigorating for a cold winter morning."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Peppermint": 40,
+        "Frankincense": 15,
+        "Geranium": 20
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Peppermint": 10,
+        "Frankincense": 5,
+        "Geranium": 8
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Peppermint's invigorating aroma helps reduce mental fogginess, while Frankincense promotes relaxation and calmness.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Invigorated",
+    "Use:Morning"
+  ]
+}
