@@ -651,6 +651,22 @@
         .spring-icon { color: #32CD32; }
         .summer-icon { color: #FFD700; }
         .autumn-icon { color: var(--pumpkin); }
+        
+        .date-badge {
+            display: inline-block;
+            background: var(--golden-yellow);
+            color: var(--deep-brown);
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-left: 5px;
+        }
+        
+        .utc-time {
+            font-size: 0.8rem;
+            color: var(--warm-tan);
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
@@ -689,6 +705,7 @@
                                 </span>
                                 <span id="recipe-hemisphere"><i class="fas fa-globe-americas"></i> Hemisphere</span>
                             </div>
+                            <div class="utc-time" id="utc-time">Current UTC time: loading...</div>
                         </div>
                         <div class="recipe-actions">
                             <button id="print-btn" class="btn"><i class="fas fa-print"></i> Print Recipe</button>
@@ -809,32 +826,51 @@
             'Fall': '🍁'
         };
         
+        // FIXED: Get today's date in UTC properly
         function getTodayISO() {
             const now = new Date();
+            // Use UTC methods to get the date
             const year = now.getUTCFullYear();
             const month = String(now.getUTCMonth() + 1).padStart(2, '0');
             const day = String(now.getUTCDate()).padStart(2, '0');
             return `${year}-${month}-${day}`;
         }
         
+        // FIXED: Format date in UTC to avoid timezone confusion
         function formatDate(dateStr) {
-            const date = new Date(dateStr);
-            return date.toLocaleDateString('en-US', { 
+            const date = new Date(dateStr + 'T00:00:00Z'); // Force UTC
+            const options = { 
                 weekday: 'long', 
                 year: 'numeric', 
                 month: 'long', 
-                day: 'numeric' 
-            });
+                day: 'numeric',
+                timeZone: 'UTC'
+            };
+            return date.toLocaleDateString('en-US', options);
         }
         
         function getSeasonIcon(season) {
             return seasonIcons[season] || '🍂';
         }
         
+        // Update UTC time display
+        function updateUTCTime() {
+            const now = new Date();
+            const utcTime = now.toUTCString();
+            const utcTimeElement = document.getElementById('utc-time');
+            if (utcTimeElement) {
+                utcTimeElement.textContent = `Current UTC time: ${utcTime}`;
+            }
+        }
+        
         async function fetchRecipe(date) {
             try {
                 const url = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main/${RECIPES_FOLDER}/${date}.json`;
                 const response = await fetch(url);
+                
+                if (response.status === 404) {
+                    return null; // Recipe not found
+                }
                 
                 if (!response.ok) {
                     throw new Error(`Failed to fetch recipe: ${response.status}`);
@@ -877,32 +913,31 @@
             }
         }
         
-        async function getLatestRecipe() {
-            try {
+        async function getTodaysRecipe() {
+            const today = getTodayISO();
+            
+            // First try to fetch today's recipe
+            let recipe = await fetchRecipe(today);
+            let isToday = true;
+            
+            // If today's recipe doesn't exist, get the latest available
+            if (!recipe) {
                 const recipes = await getRecipeList();
-                
-                if (recipes.length === 0) {
-                    throw new Error('No recipes found in repository');
+                if (recipes.length > 0) {
+                    const latestDate = recipes[0].date;
+                    recipe = await fetchRecipe(latestDate);
+                    isToday = false;
                 }
-                
-                const latestDate = recipes[0].date;
-                const recipe = await fetchRecipe(latestDate);
-                
-                if (!recipe) {
-                    throw new Error(`Failed to load recipe for ${latestDate}`);
-                }
-                
-                return {
-                    recipe: recipe,
-                    allRecipes: recipes
-                };
-            } catch (error) {
-                console.error('Error getting latest recipe:', error);
-                return null;
             }
+            
+            return {
+                recipe: recipe,
+                isToday: isToday,
+                allRecipes: await getRecipeList()
+            };
         }
         
-        function displayRecipe(recipeData) {
+        function displayRecipe(recipeData, isToday) {
             if (!recipeData) {
                 document.getElementById('recipe-title').textContent = 'Recipe Not Available';
                 document.getElementById('loading').innerHTML = '<i class="fas fa-exclamation-triangle"></i> Unable to load recipe. Please try again later.';
@@ -914,14 +949,11 @@
             
             document.getElementById('recipe-title').textContent = recipeData.title;
             
-            const today = getTodayISO();
-            const isToday = recipeData.date === today;
             const dateElement = document.getElementById('recipe-date');
-            
             if (isToday) {
-                dateElement.innerHTML = `<strong>Today:</strong> ${formatDate(recipeData.date)}`;
+                dateElement.innerHTML = `<strong>Today's Recipe (UTC):</strong> ${formatDate(recipeData.date)} <span class="date-badge">NEW</span>`;
             } else {
-                dateElement.innerHTML = `<strong>Latest Available:</strong> ${formatDate(recipeData.date)} <span style="font-size: 0.8em; color: var(--burnt-orange);">(Today's not ready yet)</span>`;
+                dateElement.innerHTML = `<strong>Latest Available:</strong> ${formatDate(recipeData.date)} <span style="font-size: 0.8em; color: var(--burnt-orange);">(Today's recipe not ready yet)</span>`;
             }
             
             const seasonText = document.getElementById('season-text');
@@ -1071,7 +1103,9 @@
                     document.getElementById('loading').innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading autumn recipe...';
                     
                     const recipe = await fetchRecipe(date);
-                    displayRecipe(recipe);
+                    const today = getTodayISO();
+                    const isToday = date === today;
+                    displayRecipe(recipe, isToday);
                     
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                     history.pushState(null, null, `#${date}`);
@@ -1084,17 +1118,22 @@
                 document.getElementById('loading').style.display = 'block';
                 document.getElementById('recipe-content').style.display = 'none';
                 
-                const result = await getLatestRecipe();
+                // Update UTC time
+                updateUTCTime();
+                setInterval(updateUTCTime, 1000);
                 
-                if (!result) {
+                const result = await getTodaysRecipe();
+                
+                if (!result.recipe) {
                     throw new Error('Could not load any recipes');
                 }
                 
-                displayRecipe(result.recipe);
+                displayRecipe(result.recipe, result.isToday);
                 displayArchive(result.allRecipes);
                 
-                console.log(`Loaded latest recipe: ${result.recipe.date}`);
-                console.log(`Today's date: ${getTodayISO()}`);
+                console.log(`Loaded recipe: ${result.recipe.date}`);
+                console.log(`Today's date (UTC): ${getTodayISO()}`);
+                console.log(`Is today's recipe: ${result.isToday}`);
                 
             } catch (error) {
                 console.error('Error initializing page:', error);
@@ -1116,29 +1155,59 @@
         document.getElementById('refresh-btn').addEventListener('click', async () => {
             document.getElementById('recipe-content').style.display = 'none';
             document.getElementById('loading').style.display = 'block';
-            document.getElementById('loading').innerHTML = '<i class="fas fa-spinner fa-spin"></i> Checking for new recipe...';
+            document.getElementById('loading').innerHTML = '<i class="fas fa-spinner fa-spin"></i> Checking for today\'s recipe...';
             await init();
         });
         
+        // Check for today's recipe every minute
         setInterval(async () => {
             const today = getTodayISO();
-            const currentDateElement = document.getElementById('recipe-date').textContent;
+            const dateElement = document.getElementById('recipe-date').textContent;
             
-            if (!currentDateElement.includes(today)) {
-                console.log('Checking for new recipe...');
-                const result = await getLatestRecipe();
-                if (result && result.recipe.date === today) {
+            // If we're not showing today's recipe, check if it's available now
+            if (!dateElement.includes("Today's Recipe")) {
+                console.log('Checking if today\'s recipe is available...');
+                const todayRecipe = await fetchRecipe(today);
+                
+                if (todayRecipe) {
+                    // Today's recipe is now available!
                     document.getElementById('loading').style.display = 'block';
                     document.getElementById('recipe-content').style.display = 'none';
-                    document.getElementById('loading').innerHTML = '<i class="fas fa-spinner fa-spin"></i> New recipe available! Loading...';
+                    document.getElementById('loading').innerHTML = '<i class="fas fa-spinner fa-spin"></i> Today\'s recipe just arrived! Loading...';
                     
-                    setTimeout(() => {
-                        displayRecipe(result.recipe);
-                        displayArchive(result.allRecipes);
+                    setTimeout(async () => {
+                        const recipes = await getRecipeList();
+                        displayRecipe(todayRecipe, true);
+                        displayArchive(recipes);
+                        
+                        // Show a notification
+                        const notification = document.createElement('div');
+                        notification.style.cssText = `
+                            position: fixed;
+                            top: 20px;
+                            right: 20px;
+                            background: linear-gradient(135deg, var(--golden-yellow) 0%, var(--pumpkin) 100%);
+                            color: white;
+                            padding: 15px 20px;
+                            border-radius: 10px;
+                            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+                            z-index: 1000;
+                            animation: slideIn 0.5s ease;
+                        `;
+                        notification.innerHTML = `
+                            <strong>✨ New Daily Recipe!</strong>
+                            <p>Today's recipe has been loaded.</p>
+                        `;
+                        document.body.appendChild(notification);
+                        
+                        setTimeout(() => {
+                            notification.style.animation = 'slideOut 0.5s ease';
+                            setTimeout(() => notification.remove(), 500);
+                        }, 3000);
                     }, 1000);
                 }
             }
-        }, 300000);
+        }, 60000); // Check every minute
         
         document.addEventListener('DOMContentLoaded', init);
         
@@ -1147,10 +1216,26 @@
             if (hash && hash.match(/\d{4}-\d{2}-\d{2}/)) {
                 const recipe = await fetchRecipe(hash);
                 if (recipe) {
-                    displayRecipe(recipe);
+                    const today = getTodayISO();
+                    const isToday = hash === today;
+                    displayRecipe(recipe, isToday);
                 }
             }
         });
+        
+        // Add CSS animations for notifications
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideIn {
+                from { transform: translateX(100%); opacity: 0; }
+                to { transform: translateX(0); opacity: 1; }
+            }
+            @keyframes slideOut {
+                from { transform: translateX(0); opacity: 1; }
+                to { transform: translateX(100%); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
     </script>
 </body>
 </html>
