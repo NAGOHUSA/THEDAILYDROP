@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#8B4513">
     <title>The Daily Drop - Daily Essential Oil Recipes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -10,6 +13,9 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
 
         :root {
@@ -24,17 +30,26 @@
             --pumpkin: #FF7518;
             --earth-brown: #A0522D;
             --leaf-shadow: rgba(139, 69, 19, 0.1);
+            --safe-area-inset-top: env(safe-area-inset-top);
+            --safe-area-inset-bottom: env(safe-area-inset-bottom);
         }
 
         body {
-            font-family: 'Georgia', 'Times New Roman', serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Georgia', 'Times New Roman', serif;
             line-height: 1.6;
             color: var(--deep-brown);
             background: linear-gradient(135deg, var(--cream) 0%, #f9f3e9 100%);
             padding: 0;
             margin: 0;
             min-height: 100vh;
+            min-height: -webkit-fill-available;
             position: relative;
+            padding-top: env(safe-area-inset-top);
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+
+        html {
+            height: -webkit-fill-available;
         }
 
         body::before {
@@ -52,17 +67,22 @@
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 16px;
+            width: 100%;
         }
 
+        /* Header - Mobile First */
         header {
             background: linear-gradient(135deg, var(--rustic-red) 0%, var(--burnt-orange) 50%, var(--golden-yellow) 100%);
             color: white;
-            padding: 2rem 0;
-            box-shadow: 0 4px 20px rgba(139, 69, 19, 0.3);
-            margin-bottom: 2rem;
+            padding: 1rem 0;
+            padding-top: calc(1rem + env(safe-area-inset-top, 0px));
+            box-shadow: 0 2px 10px rgba(139, 69, 19, 0.3);
+            margin-bottom: 1rem;
             position: relative;
             overflow: hidden;
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            backdrop-filter: saturate(180%) blur(20px);
         }
 
         header::after {
@@ -71,95 +91,124 @@
             bottom: 0;
             left: 0;
             right: 0;
-            height: 4px;
+            height: 3px;
             background: linear-gradient(90deg, var(--forest-green), var(--moss-green), var(--golden-yellow));
         }
 
         .header-content {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             align-items: center;
-            flex-wrap: wrap;
             position: relative;
             z-index: 2;
+            gap: 12px;
         }
 
         .logo {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 12px;
+            text-align: center;
         }
 
         .logo i {
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: var(--golden-yellow);
-            filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.2));
+            filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.2));
         }
 
         .logo h1 {
-            font-size: 2.2rem;
+            font-size: 1.5rem;
             font-weight: 700;
-            letter-spacing: -0.5px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-            font-family: 'Georgia', serif;
+            letter-spacing: -0.3px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+            font-family: -apple-system, BlinkMacSystemFont, 'Georgia', serif;
+            line-height: 1.2;
         }
 
         .logo p {
-            font-size: 1rem;
+            font-size: 0.85rem;
             opacity: 0.95;
-            margin-top: 5px;
             font-style: italic;
+        }
+
+        /* Mobile Menu Button */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            padding: 8px;
+            cursor: pointer;
+            z-index: 1000;
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
         .nav-links {
             display: flex;
-            gap: 25px;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            transition: all 0.3s ease;
         }
 
         .nav-links a {
             color: white;
             text-decoration: none;
             font-weight: 500;
-            padding: 8px 15px;
+            padding: 8px 14px;
             border-radius: 20px;
             transition: all 0.3s;
             border: 1px solid rgba(255,255,255,0.2);
             background: rgba(255,255,255,0.1);
             backdrop-filter: blur(5px);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            min-width: 44px;
+            min-height: 44px;
+            justify-content: center;
         }
 
-        .nav-links a:hover {
+        .nav-links a i {
+            font-size: 1rem;
+        }
+
+        .nav-links a:hover, .nav-links a:active {
             background-color: rgba(255,255,255,0.3);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
         }
 
+        /* Main content - Mobile First */
         .main-content {
-            display: grid;
-            grid-template-columns: 1fr 350px;
-            gap: 30px;
-            margin-bottom: 3rem;
-        }
-
-        @media (max-width: 992px) {
-            .main-content {
-                grid-template-columns: 1fr;
-            }
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 2rem;
+            width: 100%;
         }
 
         .recipe-card {
             background: white;
-            border-radius: 15px;
-            box-shadow: 0 8px 30px var(--leaf-shadow);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px var(--leaf-shadow);
             overflow: hidden;
-            border: 2px solid var(--warm-tan);
+            border: 1px solid var(--warm-tan);
             position: relative;
             transition: transform 0.3s ease;
+            width: 100%;
         }
 
-        .recipe-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 40px rgba(139, 69, 19, 0.2);
+        .recipe-card:hover, .recipe-card:active {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(139, 69, 19, 0.2);
         }
 
         .recipe-card::before {
@@ -168,71 +217,80 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 5px;
+            height: 4px;
             background: linear-gradient(90deg, var(--rustic-red), var(--burnt-orange), var(--golden-yellow));
         }
 
         .recipe-header {
             background: linear-gradient(135deg, var(--earth-brown) 0%, var(--burnt-orange) 100%);
             color: white;
-            padding: 1.5rem 2rem;
+            padding: 1.25rem 1rem;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 12px;
             position: relative;
         }
 
         .recipe-header::after {
             content: "🍂";
             position: absolute;
-            bottom: 10px;
-            right: 20px;
+            bottom: 8px;
+            right: 12px;
             opacity: 0.2;
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
 
         .recipe-title h2 {
-            font-size: 1.8rem;
-            margin-bottom: 5px;
-            font-family: 'Georgia', serif;
+            font-size: 1.4rem;
+            margin-bottom: 4px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Georgia', serif;
             font-weight: 700;
+            line-height: 1.3;
         }
 
         .recipe-meta {
             display: flex;
-            gap: 15px;
-            font-size: 0.9rem;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 0.85rem;
             opacity: 0.95;
+            align-items: center;
         }
 
         .season-badge {
             background-color: rgba(218, 165, 32, 0.3);
-            padding: 3px 12px;
+            padding: 3px 10px;
             border-radius: 20px;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             border: 1px solid rgba(218, 165, 32, 0.5);
             backdrop-filter: blur(5px);
         }
 
+        .recipe-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 8px;
+        }
+
         .recipe-body {
-            padding: 2rem;
+            padding: 1.5rem 1rem;
         }
 
         .oils-section, .formats-section, .why-works, .safety-section {
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
         }
 
         .section-title {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             color: var(--rustic-red);
-            margin-bottom: 1rem;
-            padding-bottom: 8px;
+            margin-bottom: 0.75rem;
+            padding-bottom: 6px;
             border-bottom: 2px solid var(--warm-tan);
             display: flex;
             align-items: center;
-            gap: 10px;
-            font-family: 'Georgia', serif;
+            gap: 8px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Georgia', serif;
             position: relative;
         }
 
@@ -240,107 +298,119 @@
             content: "❧";
             color: var(--forest-green);
             margin-right: 5px;
+            font-size: 1rem;
         }
 
         .section-title i {
             color: var(--burnt-orange);
+            font-size: 1rem;
         }
 
         .oil-list {
             display: flex;
             flex-wrap: wrap;
-            gap: 15px;
+            gap: 10px;
         }
 
         .oil-badge {
             background: linear-gradient(135deg, #f8f4e9 0%, #f1e9d7 100%);
-            padding: 12px 18px;
-            border-radius: 10px;
-            font-size: 0.95rem;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 0.9rem;
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 6px;
             border: 1px solid var(--warm-tan);
-            box-shadow: 0 3px 10px rgba(210, 180, 140, 0.2);
+            box-shadow: 0 2px 6px rgba(210, 180, 140, 0.2);
             transition: all 0.3s;
+            min-width: 44px;
+            min-height: 44px;
         }
 
-        .oil-badge:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(210, 180, 140, 0.4);
+        .oil-badge:hover, .oil-badge:active {
+            transform: translateY(-2px);
+            box-shadow: 0 3px 10px rgba(210, 180, 140, 0.4);
             border-color: var(--burnt-orange);
         }
 
         .oil-badge i {
             color: var(--forest-green);
+            font-size: 0.9rem;
         }
 
         .oil-latin {
             font-style: italic;
             color: var(--earth-brown);
-            font-size: 0.85rem;
-            margin-left: 5px;
+            font-size: 0.8rem;
+            margin-left: 4px;
             opacity: 0.8;
         }
 
         .format-card {
             background: linear-gradient(135deg, #fffaf0 0%, #fdf5e6 100%);
-            border-radius: 10px;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            border-left: 5px solid var(--golden-yellow);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.25rem;
+            border-left: 4px solid var(--golden-yellow);
             border: 1px solid var(--warm-tan);
-            box-shadow: 0 4px 15px rgba(210, 180, 140, 0.1);
+            box-shadow: 0 3px 10px rgba(210, 180, 140, 0.1);
             transition: all 0.3s;
         }
 
-        .format-card:hover {
+        .format-card:hover, .format-card:active {
             border-left-color: var(--pumpkin);
-            box-shadow: 0 6px 20px rgba(210, 180, 140, 0.3);
+            box-shadow: 0 4px 15px rgba(210, 180, 140, 0.3);
         }
 
         .format-card h4 {
             display: flex;
             align-items: center;
-            gap: 10px;
-            margin-bottom: 1rem;
+            gap: 8px;
+            margin-bottom: 0.75rem;
             color: var(--deep-brown);
-            font-family: 'Georgia', serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Georgia', serif;
+            font-size: 1rem;
         }
 
         .drops-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 15px;
-            margin: 1rem 0;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 12px;
+            margin: 0.75rem 0;
         }
 
         .drop-item {
             background-color: white;
-            padding: 12px 15px;
-            border-radius: 8px;
+            padding: 10px 12px;
+            border-radius: 6px;
             border: 1px solid var(--warm-tan);
-            box-shadow: 0 2px 8px rgba(139, 69, 19, 0.05);
+            box-shadow: 0 1px 4px rgba(139, 69, 19, 0.05);
             transition: all 0.3s;
+            min-width: 44px;
+            min-height: 44px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
-        .drop-item:hover {
+        .drop-item:hover, .drop-item:active {
             border-color: var(--burnt-orange);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(139, 69, 19, 0.1);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(139, 69, 19, 0.1);
         }
 
         .drop-name {
             font-weight: 600;
             color: var(--rustic-red);
-            font-family: 'Georgia', serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Georgia', serif;
+            font-size: 0.9rem;
         }
 
         .drop-count {
             color: var(--pumpkin);
             font-weight: 700;
-            font-size: 1.3rem;
-            margin-top: 5px;
+            font-size: 1.1rem;
+            margin-top: 4px;
         }
 
         .safety-list {
@@ -348,11 +418,13 @@
         }
 
         .safety-list li {
-            padding: 10px 0;
+            padding: 8px 0;
             border-bottom: 1px solid var(--warm-tan);
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
+            font-size: 0.9rem;
+            min-height: 44px;
         }
 
         .safety-list li:last-child {
@@ -361,21 +433,24 @@
 
         .safety-list li i {
             color: var(--rustic-red);
-            min-width: 20px;
+            min-width: 18px;
+            font-size: 0.9rem;
         }
 
+        /* Sidebar */
         .sidebar {
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: 20px;
+            width: 100%;
         }
 
         .archive-card, .info-card {
             background: white;
-            border-radius: 15px;
-            box-shadow: 0 6px 20px rgba(139, 69, 19, 0.08);
-            padding: 1.5rem;
-            border: 2px solid var(--warm-tan);
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(139, 69, 19, 0.08);
+            padding: 1.25rem;
+            border: 1px solid var(--warm-tan);
             position: relative;
             overflow: hidden;
         }
@@ -386,20 +461,21 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 4px;
+            height: 3px;
             background: linear-gradient(90deg, var(--forest-green), var(--moss-green));
         }
 
         .archive-list {
-            max-height: 500px;
+            max-height: 300px;
             overflow-y: auto;
-            margin-top: 1rem;
-            border-radius: 8px;
+            margin-top: 0.75rem;
+            border-radius: 6px;
             border: 1px solid var(--warm-tan);
+            -webkit-overflow-scrolling: touch;
         }
 
         .archive-list::-webkit-scrollbar {
-            width: 6px;
+            width: 4px;
         }
 
         .archive-list::-webkit-scrollbar-track {
@@ -408,11 +484,11 @@
 
         .archive-list::-webkit-scrollbar-thumb {
             background: var(--burnt-orange);
-            border-radius: 3px;
+            border-radius: 2px;
         }
 
         .archive-item {
-            padding: 12px 15px;
+            padding: 10px 12px;
             border-bottom: 1px solid var(--warm-tan);
             display: flex;
             justify-content: space-between;
@@ -421,11 +497,12 @@
             background: linear-gradient(to right, transparent 50%, #fdf5e6 50%);
             background-size: 200% 100%;
             background-position: right bottom;
+            min-height: 44px;
         }
 
-        .archive-item:hover {
+        .archive-item:hover, .archive-item:active {
             background-position: left bottom;
-            padding-left: 20px;
+            padding-left: 16px;
         }
 
         .archive-item a {
@@ -434,70 +511,76 @@
             font-weight: 500;
             flex-grow: 1;
             transition: color 0.2s;
-            font-family: 'Georgia', serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Georgia', serif;
+            font-size: 0.9rem;
         }
 
-        .archive-item a:hover {
+        .archive-item a:hover, .archive-item a:active {
             color: var(--rustic-red);
         }
 
         .archive-date {
             color: var(--earth-brown);
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             font-style: italic;
         }
 
         .info-card ul {
             list-style: none;
-            margin-top: 1rem;
+            margin-top: 0.75rem;
         }
 
         .info-card li {
-            padding: 10px 0;
+            padding: 8px 0;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
+            font-size: 0.9rem;
+            min-height: 44px;
         }
 
         .info-card li i {
             color: var(--forest-green);
-            width: 20px;
+            width: 18px;
+            font-size: 0.9rem;
         }
 
+        /* Footer */
         footer {
             background: linear-gradient(135deg, var(--deep-brown) 0%, #3e2723 100%);
             color: var(--warm-tan);
-            padding: 3rem 0 2rem;
-            margin-top: 3rem;
-            border-top: 5px solid var(--golden-yellow);
+            padding: 2rem 0 1.5rem;
+            margin-top: 2rem;
+            border-top: 4px solid var(--golden-yellow);
             position: relative;
+            padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
         }
 
         footer::before {
             content: "🍁 🍂 🍃";
             position: absolute;
-            top: -25px;
+            top: -22px;
             left: 50%;
             transform: translateX(-50%);
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             background: var(--cream);
-            padding: 5px 20px;
-            border-radius: 50px;
-            box-shadow: 0 4px 15px rgba(139, 69, 19, 0.2);
+            padding: 4px 16px;
+            border-radius: 40px;
+            box-shadow: 0 3px 10px rgba(139, 69, 19, 0.2);
         }
 
         .footer-content {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-bottom: 2rem;
+            grid-template-columns: 1fr;
+            gap: 24px;
+            margin-bottom: 1.5rem;
         }
 
         .footer-section h3 {
-            font-size: 1.3rem;
-            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
             color: var(--golden-yellow);
-            font-family: 'Georgia', serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Georgia', serif;
             position: relative;
             display: inline-block;
         }
@@ -505,16 +588,17 @@
         .footer-section h3::after {
             content: "";
             position: absolute;
-            bottom: -5px;
+            bottom: -4px;
             left: 0;
-            width: 40px;
+            width: 30px;
             height: 2px;
             background: var(--golden-yellow);
         }
 
         .footer-section p {
             color: #d2b48c;
-            line-height: 1.7;
+            line-height: 1.6;
+            font-size: 0.9rem;
         }
 
         .footer-links {
@@ -522,7 +606,7 @@
         }
 
         .footer-links li {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         .footer-links a {
@@ -531,146 +615,353 @@
             transition: all 0.3s;
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 6px;
+            font-size: 0.9rem;
+            min-height: 44px;
         }
 
-        .footer-links a:hover {
+        .footer-links a:hover, .footer-links a:active {
             color: var(--golden-yellow);
-            transform: translateX(5px);
+            transform: translateX(3px);
         }
 
         .copyright {
             text-align: center;
-            padding-top: 2rem;
+            padding-top: 1.5rem;
             border-top: 1px solid #5d4037;
             color: #a1887f;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
+            line-height: 1.5;
         }
 
+        /* Loading */
         .loading {
             text-align: center;
-            padding: 3rem;
-            font-size: 1.1rem;
+            padding: 2rem 1rem;
+            font-size: 1rem;
             color: var(--earth-brown);
         }
 
         .loading i {
-            margin-right: 10px;
+            margin-right: 8px;
             color: var(--golden-yellow);
             animation: leaf-fall 2s infinite;
         }
 
         @keyframes leaf-fall {
             0%, 100% { transform: translateY(0) rotate(0deg); }
-            50% { transform: translateY(10px) rotate(10deg); }
+            50% { transform: translateY(6px) rotate(10deg); }
         }
 
+        /* Tags */
         .tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 1.5rem;
+            gap: 8px;
+            margin-top: 1rem;
         }
 
         .tag {
             background: linear-gradient(135deg, #f1e9d7 0%, #e6d7b8 100%);
             color: var(--earth-brown);
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.85rem;
+            padding: 5px 12px;
+            border-radius: 16px;
+            font-size: 0.8rem;
             border: 1px solid var(--warm-tan);
             transition: all 0.3s;
+            min-height: 32px;
+            display: flex;
+            align-items: center;
         }
 
-        .tag:hover {
+        .tag:hover, .tag:active {
             background: linear-gradient(135deg, #e6d7b8 0%, #d8c9a3 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 3px 10px rgba(139, 69, 19, 0.1);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 6px rgba(139, 69, 19, 0.1);
         }
 
+        /* Buttons - Mobile Optimized */
         .btn {
             background: linear-gradient(135deg, var(--burnt-orange) 0%, var(--pumpkin) 100%);
             color: white;
             border: none;
-            padding: 10px 20px;
-            border-radius: 25px;
+            padding: 12px 18px;
+            border-radius: 22px;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s;
-            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.3);
+            box-shadow: 0 3px 10px rgba(210, 105, 30, 0.3);
             display: flex;
             align-items: center;
+            justify-content: center;
             gap: 8px;
-            font-family: 'Georgia', serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Georgia', serif;
+            font-size: 0.9rem;
+            min-width: 44px;
+            min-height: 44px;
+            touch-action: manipulation;
+            user-select: none;
         }
 
-        .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(210, 105, 30, 0.4);
+        .btn:hover, .btn:active {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.4);
             background: linear-gradient(135deg, var(--pumpkin) 0%, var(--golden-yellow) 100%);
         }
 
-        @media (max-width: 768px) {
-            .header-content {
-                flex-direction: column;
-                text-align: center;
-                gap: 20px;
-            }
-            
-            .nav-links {
-                justify-content: center;
-                flex-wrap: wrap;
-            }
-            
-            .recipe-header {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 15px;
-            }
-            
-            .recipe-meta {
-                flex-wrap: wrap;
-            }
-            
-            .drops-grid {
-                grid-template-columns: 1fr;
-            }
+        .utc-time {
+            font-size: 0.75rem;
+            color: var(--warm-tan);
+            margin-top: 4px;
+            opacity: 0.9;
         }
 
-        .leaf-icon {
-            color: var(--forest-green);
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-        }
-
-        .season-icon {
-            display: inline-block;
-            margin-right: 5px;
-        }
-
-        .winter-icon { color: #87CEEB; }
-        .spring-icon { color: #32CD32; }
-        .summer-icon { color: #FFD700; }
-        .autumn-icon { color: var(--pumpkin); }
-        
         .date-badge {
             display: inline-block;
             background: var(--golden-yellow);
             color: var(--deep-brown);
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 0.8rem;
-            margin-left: 5px;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.7rem;
+            margin-left: 4px;
+            font-weight: 600;
         }
-        
-        .utc-time {
-            font-size: 0.8rem;
-            color: var(--warm-tan);
-            margin-top: 5px;
+
+        /* Touch Device Optimizations */
+        @media (hover: none) and (pointer: coarse) {
+            .btn:active, .nav-links a:active, .oil-badge:active, 
+            .format-card:active, .drop-item:active, .archive-item:active,
+            .tag:active, .footer-links a:active {
+                transform: translateY(-1px) scale(0.98);
+                transition: transform 0.1s ease;
+            }
+            
+            .recipe-card:active {
+                transform: translateY(-1px);
+            }
+        }
+
+        /* Tablet and Desktop Styles */
+        @media (min-width: 768px) {
+            .container {
+                padding: 0 20px;
+            }
+            
+            header {
+                padding: 1.5rem 0;
+                padding-top: calc(1.5rem + env(safe-area-inset-top, 0px));
+            }
+            
+            .header-content {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0;
+            }
+            
+            .logo {
+                text-align: left;
+            }
+            
+            .logo h1 {
+                font-size: 1.8rem;
+            }
+            
+            .nav-links {
+                width: auto;
+                gap: 15px;
+            }
+            
+            .main-content {
+                flex-direction: row;
+                gap: 30px;
+            }
+            
+            main {
+                flex: 1;
+            }
+            
+            .sidebar {
+                width: 350px;
+            }
+            
+            .recipe-header {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1.5rem 2rem;
+            }
+            
+            .recipe-title h2 {
+                font-size: 1.6rem;
+            }
+            
+            .recipe-actions {
+                margin-top: 0;
+            }
+            
+            .recipe-body {
+                padding: 2rem;
+            }
+            
+            .footer-content {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .section-title {
+                font-size: 1.2rem;
+            }
+            
+            .archive-list {
+                max-height: 400px;
+            }
+        }
+
+        /* Large Desktop */
+        @media (min-width: 1024px) {
+            .container {
+                max-width: 1200px;
+            }
+            
+            .logo h1 {
+                font-size: 2rem;
+            }
+            
+            .recipe-title h2 {
+                font-size: 1.8rem;
+            }
+            
+            .section-title {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* iPhone Notch & Home Indicator Safe Areas */
+        @supports (padding: max(0px)) {
+            body, header {
+                padding-left: max(16px, env(safe-area-inset-left));
+                padding-right: max(16px, env(safe-area-inset-right));
+            }
+        }
+
+        /* Mobile Menu for Small Screens */
+        @media (max-width: 767px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .nav-links {
+                flex-direction: column;
+                max-height: 0;
+                overflow: hidden;
+                opacity: 0;
+                gap: 0;
+            }
+            
+            .nav-links.active {
+                max-height: 400px;
+                opacity: 1;
+                margin-top: 12px;
+                gap: 8px;
+            }
+            
+            .nav-links a {
+                justify-content: flex-start;
+                padding: 12px 16px;
+                border-radius: 10px;
+                margin-bottom: 4px;
+            }
+            
+            .drops-grid {
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            }
+            
+            .recipe-header {
+                gap: 12px;
+            }
+            
+            .recipe-meta {
+                gap: 8px;
+            }
+            
+            .season-badge {
+                padding: 3px 8px;
+            }
+        }
+
+        /* Landscape Mode Optimizations */
+        @media (max-height: 500px) and (orientation: landscape) {
+            .archive-list {
+                max-height: 200px;
+            }
+            
+            header {
+                padding: 0.75rem 0;
+                padding-top: calc(0.75rem + env(safe-area-inset-top, 0px));
+            }
+            
+            .logo h1 {
+                font-size: 1.3rem;
+            }
+            
+            .recipe-header {
+                padding: 1rem;
+            }
+            
+            .recipe-title h2 {
+                font-size: 1.2rem;
+            }
+        }
+
+        /* Dark Mode Support */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --rustic-red: #A0522D;
+                --burnt-orange: #FF8C00;
+                --golden-yellow: #FFD700;
+                --forest-green: #6B8E23;
+                --moss-green: #9CAF88;
+                --warm-tan: #DEB887;
+                --cream: #2A2A2A;
+                --deep-brown: #E0D3B8;
+                --pumpkin: #FFA500;
+                --earth-brown: #CD853F;
+                --leaf-shadow: rgba(160, 82, 45, 0.2);
+            }
+            
+            body {
+                background: linear-gradient(135deg, #2A2A2A 0%, #333333 100%);
+            }
+            
+            .recipe-card, .archive-card, .info-card, .format-card, .drop-item, .oil-badge {
+                background: #3A3A3A;
+                border-color: #555;
+                color: #E0D3B8;
+            }
+            
+            .oil-badge {
+                background: linear-gradient(135deg, #444 0%, #555 100%);
+            }
+            
+            .format-card {
+                background: linear-gradient(135deg, #444 0%, #555 100%);
+            }
+            
+            .drop-name {
+                color: var(--rustic-red);
+            }
+            
+            .section-title {
+                color: var(--rustic-red);
+            }
         }
     </style>
 </head>
 <body>
     <header>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
         <div class="container">
             <div class="header-content">
                 <div class="logo">
@@ -680,11 +971,11 @@
                         <p>Autumn-inspired essential oil recipes</p>
                     </div>
                 </div>
-                <nav class="nav-links">
-                    <a href="#"><i class="fas fa-home"></i> Today's Recipe</a>
-                    <a href="#archive"><i class="fas fa-archive"></i> Archive</a>
-                    <a href="#"><i class="fas fa-seedling"></i> Oil Catalog</a>
-                    <a href="#"><i class="fas fa-user"></i> My Account</a>
+                <nav class="nav-links" id="nav-links">
+                    <a href="#" class="nav-link"><i class="fas fa-home"></i> Today's Recipe</a>
+                    <a href="#archive" class="nav-link"><i class="fas fa-archive"></i> Archive</a>
+                    <a href="#" class="nav-link"><i class="fas fa-seedling"></i> Oil Catalog</a>
+                    <a href="#" class="nav-link"><i class="fas fa-user"></i> My Account</a>
                 </nav>
             </div>
         </div>
@@ -708,8 +999,8 @@
                             <div class="utc-time" id="utc-time">Current UTC time: loading...</div>
                         </div>
                         <div class="recipe-actions">
-                            <button id="print-btn" class="btn"><i class="fas fa-print"></i> Print Recipe</button>
-                            <button id="refresh-btn" class="btn" style="margin-left: 10px; background: linear-gradient(135deg, var(--forest-green) 0%, var(--moss-green) 100%);">
+                            <button id="print-btn" class="btn"><i class="fas fa-print"></i> Print</button>
+                            <button id="refresh-btn" class="btn" style="background: linear-gradient(135deg, var(--forest-green) 0%, var(--moss-green) 100%);">
                                 <i class="fas fa-sync-alt"></i> Refresh
                             </button>
                         </div>
@@ -786,7 +1077,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>The Daily Drop</h3>
-                    <p>Discover a new essential oil recipe every day, inspired by the warm, earthy tones of autumn. Perfect for creating cozy atmospheres with your diffuser, rollers, and sprays.</p>
+                    <p>Discover a new essential oil recipe every day, inspired by the warm, earthy tones of autumn.</p>
                 </div>
                 <div class="footer-section">
                     <h3>Navigation</h3>
@@ -814,6 +1105,7 @@
     </footer>
 
     <script>
+        // Configuration
         const REPO_OWNER = 'NAGOHUSA';
         const REPO_NAME = 'THEDAILYDROP';
         const RECIPES_FOLDER = 'recipes';
@@ -826,19 +1118,47 @@
             'Fall': '🍁'
         };
         
-        // FIXED: Get today's date in UTC properly
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const navLinks = document.getElementById('nav-links');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenuBtn.innerHTML = navLinks.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Close menu when clicking outside on mobile
+        document.addEventListener('click', (e) => {
+            if (window.innerWidth <= 767 && !navLinks.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+                navLinks.classList.remove('active');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            }
+        });
+        
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 767) {
+                    navLinks.classList.remove('active');
+                    mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                }
+            });
+        });
+        
+        // Get today's date in UTC properly
         function getTodayISO() {
             const now = new Date();
-            // Use UTC methods to get the date
             const year = now.getUTCFullYear();
             const month = String(now.getUTCMonth() + 1).padStart(2, '0');
             const day = String(now.getUTCDate()).padStart(2, '0');
             return `${year}-${month}-${day}`;
         }
         
-        // FIXED: Format date in UTC to avoid timezone confusion
+        // Format date in UTC to avoid timezone confusion
         function formatDate(dateStr) {
-            const date = new Date(dateStr + 'T00:00:00Z'); // Force UTC
+            const date = new Date(dateStr + 'T00:00:00Z');
             const options = { 
                 weekday: 'long', 
                 year: 'numeric', 
@@ -859,7 +1179,7 @@
             const utcTime = now.toUTCString();
             const utcTimeElement = document.getElementById('utc-time');
             if (utcTimeElement) {
-                utcTimeElement.textContent = `Current UTC time: ${utcTime}`;
+                utcTimeElement.textContent = `Current UTC: ${utcTime}`;
             }
         }
         
@@ -869,7 +1189,7 @@
                 const response = await fetch(url);
                 
                 if (response.status === 404) {
-                    return null; // Recipe not found
+                    return null;
                 }
                 
                 if (!response.ok) {
@@ -916,11 +1236,9 @@
         async function getTodaysRecipe() {
             const today = getTodayISO();
             
-            // First try to fetch today's recipe
             let recipe = await fetchRecipe(today);
             let isToday = true;
             
-            // If today's recipe doesn't exist, get the latest available
             if (!recipe) {
                 const recipes = await getRecipeList();
                 if (recipes.length > 0) {
@@ -1118,7 +1436,6 @@
                 document.getElementById('loading').style.display = 'block';
                 document.getElementById('recipe-content').style.display = 'none';
                 
-                // Update UTC time
                 updateUTCTime();
                 setInterval(updateUTCTime, 1000);
                 
@@ -1164,13 +1481,11 @@
             const today = getTodayISO();
             const dateElement = document.getElementById('recipe-date').textContent;
             
-            // If we're not showing today's recipe, check if it's available now
             if (!dateElement.includes("Today's Recipe")) {
                 console.log('Checking if today\'s recipe is available...');
                 const todayRecipe = await fetchRecipe(today);
                 
                 if (todayRecipe) {
-                    // Today's recipe is now available!
                     document.getElementById('loading').style.display = 'block';
                     document.getElementById('recipe-content').style.display = 'none';
                     document.getElementById('loading').innerHTML = '<i class="fas fa-spinner fa-spin"></i> Today\'s recipe just arrived! Loading...';
@@ -1188,11 +1503,13 @@
                             right: 20px;
                             background: linear-gradient(135deg, var(--golden-yellow) 0%, var(--pumpkin) 100%);
                             color: white;
-                            padding: 15px 20px;
-                            border-radius: 10px;
-                            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-                            z-index: 1000;
+                            padding: 12px 16px;
+                            border-radius: 8px;
+                            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+                            z-index: 10000;
                             animation: slideIn 0.5s ease;
+                            max-width: 300px;
+                            font-size: 0.9rem;
                         `;
                         notification.innerHTML = `
                             <strong>✨ New Daily Recipe!</strong>
@@ -1207,7 +1524,7 @@
                     }, 1000);
                 }
             }
-        }, 60000); // Check every minute
+        }, 60000);
         
         document.addEventListener('DOMContentLoaded', init);
         
