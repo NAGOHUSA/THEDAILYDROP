@@ -13,27 +13,41 @@
         }
 
         :root {
-            --primary: #2a5934;
-            --primary-light: #3a7d4a;
-            --secondary: #8a6d3b;
-            --accent: #d4a017;
-            --light: #f8f9fa;
-            --dark: #212529;
-            --gray: #6c757d;
-            --light-gray: #e9ecef;
-            --border: #dee2e6;
-            --success: #28a745;
-            --warning: #ffc107;
-            --danger: #dc3545;
+            --rustic-red: #8B4513;
+            --burnt-orange: #D2691E;
+            --golden-yellow: #DAA520;
+            --forest-green: #556B2F;
+            --moss-green: #8F9779;
+            --warm-tan: #D2B48C;
+            --cream: #FFF8DC;
+            --deep-brown: #654321;
+            --pumpkin: #FF7518;
+            --earth-brown: #A0522D;
+            --leaf-shadow: rgba(139, 69, 19, 0.1);
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            font-family: 'Georgia', 'Times New Roman', serif;
             line-height: 1.6;
-            color: var(--dark);
-            background-color: #fefefe;
+            color: var(--deep-brown);
+            background: linear-gradient(135deg, var(--cream) 0%, #f9f3e9 100%);
             padding: 0;
             margin: 0;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        /* Subtle leaf pattern background */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23d2b48c' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+            opacity: 0.3;
+            z-index: -1;
         }
 
         .container {
@@ -42,13 +56,25 @@
             padding: 0 20px;
         }
 
-        /* Header */
+        /* Header with fall gradient */
         header {
-            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            background: linear-gradient(135deg, var(--rustic-red) 0%, var(--burnt-orange) 50%, var(--golden-yellow) 100%);
             color: white;
             padding: 2rem 0;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 20px rgba(139, 69, 19, 0.3);
             margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--forest-green), var(--moss-green), var(--golden-yellow));
         }
 
         .header-content {
@@ -56,6 +82,8 @@
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
+            position: relative;
+            z-index: 2;
         }
 
         .logo {
@@ -66,19 +94,23 @@
 
         .logo i {
             font-size: 2.5rem;
-            color: var(--accent);
+            color: var(--golden-yellow);
+            filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.2));
         }
 
         .logo h1 {
             font-size: 2.2rem;
             font-weight: 700;
             letter-spacing: -0.5px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            font-family: 'Georgia', serif;
         }
 
         .logo p {
             font-size: 1rem;
-            opacity: 0.9;
+            opacity: 0.95;
             margin-top: 5px;
+            font-style: italic;
         }
 
         .nav-links {
@@ -93,10 +125,15 @@
             padding: 8px 15px;
             border-radius: 20px;
             transition: all 0.3s;
+            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(5px);
         }
 
         .nav-links a:hover {
-            background-color: rgba(255,255,255,0.1);
+            background-color: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
 
         /* Main content */
@@ -116,39 +153,70 @@
         /* Today's Recipe Card */
         .recipe-card {
             background: white;
-            border-radius: 12px;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+            border-radius: 15px;
+            box-shadow: 0 8px 30px var(--leaf-shadow);
             overflow: hidden;
-            border: 1px solid var(--border);
+            border: 2px solid var(--warm-tan);
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .recipe-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(139, 69, 19, 0.2);
+        }
+
+        .recipe-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, var(--rustic-red), var(--burnt-orange), var(--golden-yellow));
         }
 
         .recipe-header {
-            background: linear-gradient(to right, var(--primary), var(--primary-light));
+            background: linear-gradient(135deg, var(--earth-brown) 0%, var(--burnt-orange) 100%);
             color: white;
             padding: 1.5rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
+            position: relative;
+        }
+
+        .recipe-header::after {
+            content: "🍂";
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            opacity: 0.2;
+            font-size: 2rem;
         }
 
         .recipe-title h2 {
             font-size: 1.8rem;
             margin-bottom: 5px;
+            font-family: 'Georgia', serif;
+            font-weight: 700;
         }
 
         .recipe-meta {
             display: flex;
             gap: 15px;
             font-size: 0.9rem;
-            opacity: 0.9;
+            opacity: 0.95;
         }
 
         .season-badge {
-            background-color: rgba(255,255,255,0.2);
+            background-color: rgba(218, 165, 32, 0.3);
             padding: 3px 12px;
             border-radius: 20px;
             font-size: 0.85rem;
+            border: 1px solid rgba(218, 165, 32, 0.5);
+            backdrop-filter: blur(5px);
         }
 
         .recipe-body {
@@ -161,17 +229,25 @@
 
         .section-title {
             font-size: 1.3rem;
-            color: var(--primary);
+            color: var(--rustic-red);
             margin-bottom: 1rem;
             padding-bottom: 8px;
-            border-bottom: 2px solid var(--light-gray);
+            border-bottom: 2px solid var(--warm-tan);
             display: flex;
             align-items: center;
             gap: 10px;
+            font-family: 'Georgia', serif;
+            position: relative;
+        }
+
+        .section-title::before {
+            content: "❧";
+            color: var(--forest-green);
+            margin-right: 5px;
         }
 
         .section-title i {
-            color: var(--accent);
+            color: var(--burnt-orange);
         }
 
         .oil-list {
@@ -181,32 +257,50 @@
         }
 
         .oil-badge {
-            background-color: var(--light-gray);
-            padding: 10px 15px;
-            border-radius: 8px;
+            background: linear-gradient(135deg, #f8f4e9 0%, #f1e9d7 100%);
+            padding: 12px 18px;
+            border-radius: 10px;
             font-size: 0.95rem;
             display: flex;
             align-items: center;
             gap: 8px;
+            border: 1px solid var(--warm-tan);
+            box-shadow: 0 3px 10px rgba(210, 180, 140, 0.2);
+            transition: all 0.3s;
+        }
+
+        .oil-badge:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(210, 180, 140, 0.4);
+            border-color: var(--burnt-orange);
         }
 
         .oil-badge i {
-            color: var(--secondary);
+            color: var(--forest-green);
         }
 
         .oil-latin {
             font-style: italic;
-            color: var(--gray);
+            color: var(--earth-brown);
             font-size: 0.85rem;
             margin-left: 5px;
+            opacity: 0.8;
         }
 
         .format-card {
-            background-color: var(--light);
-            border-radius: 8px;
+            background: linear-gradient(135deg, #fffaf0 0%, #fdf5e6 100%);
+            border-radius: 10px;
             padding: 1.5rem;
             margin-bottom: 1.5rem;
-            border-left: 4px solid var(--accent);
+            border-left: 5px solid var(--golden-yellow);
+            border: 1px solid var(--warm-tan);
+            box-shadow: 0 4px 15px rgba(210, 180, 140, 0.1);
+            transition: all 0.3s;
+        }
+
+        .format-card:hover {
+            border-left-color: var(--pumpkin);
+            box-shadow: 0 6px 20px rgba(210, 180, 140, 0.3);
         }
 
         .format-card h4 {
@@ -214,7 +308,8 @@
             align-items: center;
             gap: 10px;
             margin-bottom: 1rem;
-            color: var(--dark);
+            color: var(--deep-brown);
+            font-family: 'Georgia', serif;
         }
 
         .drops-grid {
@@ -226,20 +321,30 @@
 
         .drop-item {
             background-color: white;
-            padding: 10px 15px;
-            border-radius: 6px;
-            border: 1px solid var(--border);
+            padding: 12px 15px;
+            border-radius: 8px;
+            border: 1px solid var(--warm-tan);
+            box-shadow: 0 2px 8px rgba(139, 69, 19, 0.05);
+            transition: all 0.3s;
+        }
+
+        .drop-item:hover {
+            border-color: var(--burnt-orange);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(139, 69, 19, 0.1);
         }
 
         .drop-name {
             font-weight: 600;
-            color: var(--primary);
+            color: var(--rustic-red);
+            font-family: 'Georgia', serif;
         }
 
         .drop-count {
-            color: var(--accent);
+            color: var(--pumpkin);
             font-weight: 700;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
+            margin-top: 5px;
         }
 
         .safety-list {
@@ -247,15 +352,20 @@
         }
 
         .safety-list li {
-            padding: 8px 0;
-            border-bottom: 1px solid var(--light-gray);
+            padding: 10px 0;
+            border-bottom: 1px solid var(--warm-tan);
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
+        }
+
+        .safety-list li:last-child {
+            border-bottom: none;
         }
 
         .safety-list li i {
-            color: var(--danger);
+            color: var(--rustic-red);
+            min-width: 20px;
         }
 
         /* Sidebar */
@@ -267,46 +377,79 @@
 
         .archive-card, .info-card {
             background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(139, 69, 19, 0.08);
             padding: 1.5rem;
-            border: 1px solid var(--border);
+            border: 2px solid var(--warm-tan);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .archive-card::before, .info-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--forest-green), var(--moss-green));
         }
 
         .archive-list {
             max-height: 500px;
             overflow-y: auto;
             margin-top: 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--warm-tan);
+        }
+
+        .archive-list::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .archive-list::-webkit-scrollbar-track {
+            background: #f1e9d7;
+        }
+
+        .archive-list::-webkit-scrollbar-thumb {
+            background: var(--burnt-orange);
+            border-radius: 3px;
         }
 
         .archive-item {
             padding: 12px 15px;
-            border-bottom: 1px solid var(--light-gray);
+            border-bottom: 1px solid var(--warm-tan);
             display: flex;
             justify-content: space-between;
             align-items: center;
             transition: all 0.2s;
+            background: linear-gradient(to right, transparent 50%, #fdf5e6 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
         }
 
         .archive-item:hover {
-            background-color: var(--light-gray);
+            background-position: left bottom;
             padding-left: 20px;
         }
 
         .archive-item a {
-            color: var(--dark);
+            color: var(--deep-brown);
             text-decoration: none;
             font-weight: 500;
             flex-grow: 1;
+            transition: color 0.2s;
+            font-family: 'Georgia', serif;
         }
 
         .archive-item a:hover {
-            color: var(--primary);
+            color: var(--rustic-red);
         }
 
         .archive-date {
-            color: var(--gray);
+            color: var(--earth-brown);
             font-size: 0.9rem;
+            font-style: italic;
         }
 
         .info-card ul {
@@ -318,20 +461,35 @@
             padding: 10px 0;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
         }
 
         .info-card li i {
-            color: var(--primary);
+            color: var(--forest-green);
             width: 20px;
         }
 
         /* Footer */
         footer {
-            background-color: var(--dark);
-            color: white;
+            background: linear-gradient(135deg, var(--deep-brown) 0%, #3e2723 100%);
+            color: var(--warm-tan);
             padding: 3rem 0 2rem;
             margin-top: 3rem;
+            border-top: 5px solid var(--golden-yellow);
+            position: relative;
+        }
+
+        footer::before {
+            content: "🍁 🍂 🍃";
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.5rem;
+            background: var(--cream);
+            padding: 5px 20px;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(139, 69, 19, 0.2);
         }
 
         .footer-content {
@@ -344,11 +502,24 @@
         .footer-section h3 {
             font-size: 1.3rem;
             margin-bottom: 1.2rem;
-            color: var(--accent);
+            color: var(--golden-yellow);
+            font-family: 'Georgia', serif;
+            position: relative;
+            display: inline-block;
+        }
+
+        .footer-section h3::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background: var(--golden-yellow);
         }
 
         .footer-section p {
-            color: #adb5bd;
+            color: #d2b48c;
             line-height: 1.7;
         }
 
@@ -361,20 +532,24 @@
         }
 
         .footer-links a {
-            color: #adb5bd;
+            color: #d2b48c;
             text-decoration: none;
-            transition: color 0.3s;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
 
         .footer-links a:hover {
-            color: white;
+            color: var(--golden-yellow);
+            transform: translateX(5px);
         }
 
         .copyright {
             text-align: center;
             padding-top: 2rem;
-            border-top: 1px solid #495057;
-            color: #adb5bd;
+            border-top: 1px solid #5d4037;
+            color: #a1887f;
             font-size: 0.9rem;
         }
 
@@ -383,12 +558,18 @@
             text-align: center;
             padding: 3rem;
             font-size: 1.1rem;
-            color: var(--gray);
+            color: var(--earth-brown);
         }
 
         .loading i {
             margin-right: 10px;
-            color: var(--accent);
+            color: var(--golden-yellow);
+            animation: leaf-fall 2s infinite;
+        }
+
+        @keyframes leaf-fall {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(10px) rotate(10deg); }
         }
 
         /* Tags */
@@ -400,12 +581,42 @@
         }
 
         .tag {
-            background-color: var(--light);
-            color: var(--gray);
-            padding: 5px 12px;
+            background: linear-gradient(135deg, #f1e9d7 0%, #e6d7b8 100%);
+            color: var(--earth-brown);
+            padding: 6px 14px;
             border-radius: 20px;
             font-size: 0.85rem;
-            border: 1px solid var(--border);
+            border: 1px solid var(--warm-tan);
+            transition: all 0.3s;
+        }
+
+        .tag:hover {
+            background: linear-gradient(135deg, #e6d7b8 0%, #d8c9a3 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 3px 10px rgba(139, 69, 19, 0.1);
+        }
+
+        /* Buttons */
+        .btn {
+            background: linear-gradient(135deg, var(--burnt-orange) 0%, var(--pumpkin) 100%);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'Georgia', serif;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(210, 105, 30, 0.4);
+            background: linear-gradient(135deg, var(--pumpkin) 0%, var(--golden-yellow) 100%);
         }
 
         /* Responsive */
@@ -418,6 +629,7 @@
             
             .nav-links {
                 justify-content: center;
+                flex-wrap: wrap;
             }
             
             .recipe-header {
@@ -429,7 +641,27 @@
             .recipe-meta {
                 flex-wrap: wrap;
             }
+            
+            .drops-grid {
+                grid-template-columns: 1fr;
+            }
         }
+
+        /* Leaf icons and decorations */
+        .leaf-icon {
+            color: var(--forest-green);
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .season-icon {
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .winter-icon { color: #87CEEB; }
+        .spring-icon { color: #32CD32; }
+        .summer-icon { color: #FFD700; }
+        .autumn-icon { color: var(--pumpkin); }
     </style>
 </head>
 <body>
@@ -437,16 +669,16 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <i class="fas fa-tint"></i>
+                    <i class="fas fa-leaf"></i>
                     <div>
                         <h1>The Daily Drop</h1>
-                        <p>Your daily essential oil recipe companion</p>
+                        <p>Autumn-inspired essential oil recipes</p>
                     </div>
                 </div>
                 <nav class="nav-links">
                     <a href="#"><i class="fas fa-home"></i> Today's Recipe</a>
                     <a href="#archive"><i class="fas fa-archive"></i> Archive</a>
-                    <a href="#"><i class="fas fa-book"></i> Oil Catalog</a>
+                    <a href="#"><i class="fas fa-seedling"></i> Oil Catalog</a>
                     <a href="#"><i class="fas fa-user"></i> My Account</a>
                 </nav>
             </div>
@@ -462,24 +694,27 @@
                             <h2 id="recipe-title">Loading Today's Recipe...</h2>
                             <div class="recipe-meta">
                                 <span id="recipe-date">Fetching date...</span>
-                                <span id="recipe-season" class="season-badge">Season</span>
+                                <span id="recipe-season" class="season-badge">
+                                    <span id="season-icon" class="season-icon">🍂</span>
+                                    <span id="season-text">Season</span>
+                                </span>
                                 <span id="recipe-hemisphere"><i class="fas fa-globe-americas"></i> Hemisphere</span>
                             </div>
                         </div>
                         <div class="recipe-actions">
-                            <button id="print-btn" class="btn"><i class="fas fa-print"></i> Print</button>
+                            <button id="print-btn" class="btn"><i class="fas fa-print"></i> Print Recipe</button>
                         </div>
                     </div>
                     
                     <div class="recipe-body">
                         <div id="loading" class="loading">
-                            <i class="fas fa-spinner fa-spin"></i> Loading recipe data...
+                            <i class="fas fa-spinner fa-spin"></i> Gathering autumn leaves and essential oils...
                         </div>
                         
                         <div id="recipe-content" style="display: none;">
                             <!-- Oils Section -->
                             <div class="oils-section">
-                                <h3 class="section-title"><i class="fas fa-leaf"></i> Essential Oils</h3>
+                                <h3 class="section-title"><i class="fas fa-leaf leaf-icon"></i> Essential Oils</h3>
                                 <div id="oil-list" class="oil-list">
                                     <!-- Oil badges will be inserted here -->
                                 </div>
@@ -487,7 +722,7 @@
                             
                             <!-- Formats Section -->
                             <div class="formats-section">
-                                <h3 class="section-title"><i class="fas fa-flask"></i> Recipe Formats</h3>
+                                <h3 class="section-title"><i class="fas fa-mortar-pestle"></i> Recipe Formats</h3>
                                 <div id="formats-container">
                                     <!-- Format cards will be inserted here -->
                                 </div>
@@ -495,13 +730,13 @@
                             
                             <!-- Why It Works -->
                             <div class="why-works">
-                                <h3 class="section-title"><i class="fas fa-lightbulb"></i> Why This Blend Works</h3>
-                                <p id="why-it-works"></p>
+                                <h3 class="section-title"><i class="fas fa-tree"></i> Why This Blend Works</h3>
+                                <p id="why-it-works" style="font-style: italic; color: var(--earth-brown);"></p>
                             </div>
                             
                             <!-- Safety -->
                             <div class="safety-section">
-                                <h3 class="section-title"><i class="fas fa-exclamation-triangle"></i> Safety Guidelines</h3>
+                                <h3 class="section-title"><i class="fas fa-shield-alt"></i> Safety Guidelines</h3>
                                 <ul id="safety-list" class="safety-list">
                                     <!-- Safety items will be inserted here -->
                                 </ul>
@@ -520,9 +755,9 @@
             </main>
             
             <aside class="sidebar">
-                <div class="archive-card">
+                <div class="archive-card" id="archive">
                     <h3><i class="fas fa-history"></i> Recipe Archive</h3>
-                    <p>Browse all previous recipes:</p>
+                    <p>Browse through past seasonal blends:</p>
                     <div class="archive-list" id="archive-list">
                         <!-- Archive items will be inserted here -->
                     </div>
@@ -530,12 +765,12 @@
                 
                 <div class="info-card">
                     <h3><i class="fas fa-info-circle"></i> About The Daily Drop</h3>
-                    <p>Daily essential oil blends tailored to the season and your hemisphere.</p>
+                    <p>Daily essential oil blends inspired by nature's changing seasons, with a special focus on autumn's rich palette.</p>
                     <ul>
                         <li><i class="fas fa-calendar-alt"></i> Updated daily at 9:00 UTC</li>
                         <li><i class="fas fa-seedling"></i> 100% natural essential oils</li>
                         <li><i class="fas fa-shield-alt"></i> Safety guidelines included</li>
-                        <li><i class="fas fa-mobile-alt"></i> Responsive design</li>
+                        <li><i class="fas fa-leaf"></i> Rustic autumn theme</li>
                     </ul>
                 </div>
                 
@@ -557,29 +792,29 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>The Daily Drop</h3>
-                    <p>Discover a new essential oil recipe every day. Perfect for diffusers, rollers, and sprays. Created with care and automatically updated.</p>
+                    <p>Discover a new essential oil recipe every day, inspired by the warm, earthy tones of autumn. Perfect for creating cozy atmospheres with your diffuser, rollers, and sprays.</p>
                 </div>
                 <div class="footer-section">
                     <h3>Navigation</h3>
                     <ul class="footer-links">
-                        <li><a href="#">Today's Recipe</a></li>
-                        <li><a href="#archive">Recipe Archive</a></li>
-                        <li><a href="#">Oil Catalog</a></li>
-                        <li><a href="#">Inventory Tracker</a></li>
+                        <li><a href="#"><i class="fas fa-arrow-right"></i> Today's Recipe</a></li>
+                        <li><a href="#archive"><i class="fas fa-arrow-right"></i> Recipe Archive</a></li>
+                        <li><a href="#"><i class="fas fa-arrow-right"></i> Oil Catalog</a></li>
+                        <li><a href="#"><i class="fas fa-arrow-right"></i> Inventory Tracker</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Resources</h3>
                     <ul class="footer-links">
-                        <li><a href="https://github.com/NAGOHUSA/THEDAILYDROP" target="_blank">GitHub Repository</a></li>
-                        <li><a href="#">Essential Oil Safety</a></li>
-                        <li><a href="#">Dilution Guidelines</a></li>
-                        <li><a href="#">Blending Tips</a></li>
+                        <li><a href="https://github.com/NAGOHUSA/THEDAILYDROP" target="_blank"><i class="fas fa-arrow-right"></i> GitHub Repository</a></li>
+                        <li><a href="#"><i class="fas fa-arrow-right"></i> Essential Oil Safety</a></li>
+                        <li><a href="#"><i class="fas fa-arrow-right"></i> Dilution Guidelines</a></li>
+                        <li><a href="#"><i class="fas fa-arrow-right"></i> Blending Tips</a></li>
                     </ul>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 The Daily Drop. All recipes are automatically generated. Essential oils should be used with caution. Consult a professional if you have health concerns.</p>
+                <p><i class="fas fa-leaf"></i> &copy; 2025 The Daily Drop. All recipes are automatically generated. Essential oils should be used with caution. Consult a professional if you have health concerns.</p>
             </div>
         </div>
     </footer>
@@ -589,6 +824,15 @@
         const REPO_OWNER = 'NAGOHUSA';
         const REPO_NAME = 'THEDAILYDROP';
         const RECIPES_FOLDER = 'recipes';
+        
+        // Season icons mapping
+        const seasonIcons = {
+            'Winter': '❄️',
+            'Spring': '🌱',
+            'Summer': '☀️',
+            'Autumn': '🍂',
+            'Fall': '🍁'
+        };
         
         // Get today's date in YYYY-MM-DD format
         function getTodayISO() {
@@ -608,6 +852,11 @@
                 month: 'long', 
                 day: 'numeric' 
             });
+        }
+        
+        // Get season icon
+        function getSeasonIcon(season) {
+            return seasonIcons[season] || '🍂';
         }
         
         // Fetch JSON from GitHub raw content
@@ -683,7 +932,13 @@
             // Set basic info
             document.getElementById('recipe-title').textContent = recipeData.title;
             document.getElementById('recipe-date').textContent = formatDate(recipeData.date);
-            document.getElementById('recipe-season').textContent = recipeData.season;
+            
+            // Set season with icon
+            const seasonText = document.getElementById('season-text');
+            const seasonIcon = document.getElementById('season-icon');
+            seasonText.textContent = recipeData.season;
+            seasonIcon.textContent = getSeasonIcon(recipeData.season);
+            
             document.getElementById('recipe-hemisphere').innerHTML = `<i class="fas fa-globe-americas"></i> ${recipeData.hemisphere} Hemisphere`;
             document.getElementById('why-it-works').textContent = recipeData.why_it_works;
             
@@ -715,7 +970,7 @@
                     const oilBadge = document.createElement('div');
                     oilBadge.className = 'oil-badge';
                     oilBadge.innerHTML = `
-                        <i class="fas fa-leaf"></i>
+                        <i class="fas fa-leaf leaf-icon"></i>
                         <strong>${oilName}</strong>
                         ${latinName ? `<span class="oil-latin">${latinName}</span>` : ''}
                     `;
@@ -761,7 +1016,7 @@
                 formatCard.innerHTML = `
                     <h4><i class="fas fa-${getFormatIcon(formatName)}"></i> ${displayName}</h4>
                     
-                    ${formatData.notes ? `<p><em>${formatData.notes}</em></p>` : ''}
+                    ${formatData.notes ? `<p style="color: var(--earth-brown); font-style: italic;">${formatData.notes}</p>` : ''}
                     
                     ${dropsHtml ? `
                         <div class="drops-grid">
@@ -820,7 +1075,7 @@
             const archiveList = document.getElementById('archive-list');
             
             if (recipes.length === 0) {
-                archiveList.innerHTML = '<p style="text-align: center; color: var(--gray);">No recipes found.</p>';
+                archiveList.innerHTML = '<p style="text-align: center; color: var(--earth-brown); padding: 20px;">No recipes found in the archive.</p>';
                 return;
             }
             
@@ -848,7 +1103,7 @@
                     // Show loading
                     document.getElementById('recipe-content').style.display = 'none';
                     document.getElementById('loading').style.display = 'block';
-                    document.getElementById('loading').innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading recipe...';
+                    document.getElementById('loading').innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading autumn recipe...';
                     
                     // Fetch and display the selected recipe
                     const recipe = await fetchRecipe(date);
@@ -856,6 +1111,9 @@
                     
                     // Scroll to top
                     window.scrollTo({ top: 0, behavior: 'smooth' });
+                    
+                    // Update URL without reloading
+                    history.pushState(null, null, `#${date}`);
                 });
             });
         }
@@ -898,6 +1156,17 @@
         
         // Initialize when page loads
         document.addEventListener('DOMContentLoaded', init);
+        
+        // Handle browser back/forward buttons
+        window.addEventListener('popstate', async () => {
+            const hash = window.location.hash.substring(1);
+            if (hash && hash.match(/\d{4}-\d{2}-\d{2}/)) {
+                const recipe = await fetchRecipe(hash);
+                if (recipe) {
+                    displayRecipe(recipe);
+                }
+            }
+        });
     </script>
 </body>
 </html>
