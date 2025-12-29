@@ -1,0 +1,22 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Daily Drop - Today's Essential Oil Recipe</title>
+</head>
+<body>
+    <h1>The Daily Drop</h1>
+    <div id="daily-recipe">
+        <!-- Filled by JavaScript -->
+        Loading today's recipe...
+    </div>
+    
+    <script>
+        // Fetch today's recipe
+        const today = new Date().toISOString().split('T')[0];
+        fetch(`https://raw.githubusercontent.com/NAGOHUSA/THEDAILYDROP/main/recipes/${today}.json`)
+            .then(response => response.json())
+            .then(data => displayRecipe(data));
+    </script>
+</body>
+</html>
