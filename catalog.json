@@ -1,0 +1,16 @@
+{
+  "oils": [
+    {
+      "id": "peppermint",
+      "commonName": "Peppermint",
+      "latinName": "Mentha piperita",
+      "description": "Invigorating and cooling oil...",
+      "uses": ["Headache relief", "Digestive support", "Energy boost"],
+      "safety": ["Dilute properly", "Avoid during pregnancy"],
+      "price": "$15.99",
+      "inventory_key": "PEP-001"
+    }
+  ],
+  "categories": ["Mint", "Citrus", "Floral", "Woody", "Spicy"],
+  "carrier_oils": ["Fractionated Coconut", "Jojoba", "Sweet Almond"]
+}
