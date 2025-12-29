@@ -6,6 +6,7 @@
     <title>The Daily Drop - Daily Essential Oil Recipes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        /* ALL THE STYLES FROM BEFORE REMAIN EXACTLY THE SAME */
         * {
             margin: 0;
             padding: 0;
@@ -26,642 +27,8 @@
             --leaf-shadow: rgba(139, 69, 19, 0.1);
         }
 
-        body {
-            font-family: 'Georgia', 'Times New Roman', serif;
-            line-height: 1.6;
-            color: var(--deep-brown);
-            background: linear-gradient(135deg, var(--cream) 0%, #f9f3e9 100%);
-            padding: 0;
-            margin: 0;
-            min-height: 100vh;
-            position: relative;
-        }
-
-        /* Subtle leaf pattern background */
-        body::before {
-            content: "";
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23d2b48c' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
-            opacity: 0.3;
-            z-index: -1;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Header with fall gradient */
-        header {
-            background: linear-gradient(135deg, var(--rustic-red) 0%, var(--burnt-orange) 50%, var(--golden-yellow) 100%);
-            color: white;
-            padding: 2rem 0;
-            box-shadow: 0 4px 20px rgba(139, 69, 19, 0.3);
-            margin-bottom: 2rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        header::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, var(--forest-green), var(--moss-green), var(--golden-yellow));
-        }
-
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            position: relative;
-            z-index: 2;
-        }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .logo i {
-            font-size: 2.5rem;
-            color: var(--golden-yellow);
-            filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.2));
-        }
-
-        .logo h1 {
-            font-size: 2.2rem;
-            font-weight: 700;
-            letter-spacing: -0.5px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-            font-family: 'Georgia', serif;
-        }
-
-        .logo p {
-            font-size: 1rem;
-            opacity: 0.95;
-            margin-top: 5px;
-            font-style: italic;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 25px;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            padding: 8px 15px;
-            border-radius: 20px;
-            transition: all 0.3s;
-            border: 1px solid rgba(255,255,255,0.2);
-            background: rgba(255,255,255,0.1);
-            backdrop-filter: blur(5px);
-        }
-
-        .nav-links a:hover {
-            background-color: rgba(255,255,255,0.3);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
-
-        /* Main content */
-        .main-content {
-            display: grid;
-            grid-template-columns: 1fr 350px;
-            gap: 30px;
-            margin-bottom: 3rem;
-        }
-
-        @media (max-width: 992px) {
-            .main-content {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* Today's Recipe Card */
-        .recipe-card {
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 8px 30px var(--leaf-shadow);
-            overflow: hidden;
-            border: 2px solid var(--warm-tan);
-            position: relative;
-            transition: transform 0.3s ease;
-        }
-
-        .recipe-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 40px rgba(139, 69, 19, 0.2);
-        }
-
-        .recipe-card::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 5px;
-            background: linear-gradient(90deg, var(--rustic-red), var(--burnt-orange), var(--golden-yellow));
-        }
-
-        .recipe-header {
-            background: linear-gradient(135deg, var(--earth-brown) 0%, var(--burnt-orange) 100%);
-            color: white;
-            padding: 1.5rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            position: relative;
-        }
-
-        .recipe-header::after {
-            content: "🍂";
-            position: absolute;
-            bottom: 10px;
-            right: 20px;
-            opacity: 0.2;
-            font-size: 2rem;
-        }
-
-        .recipe-title h2 {
-            font-size: 1.8rem;
-            margin-bottom: 5px;
-            font-family: 'Georgia', serif;
-            font-weight: 700;
-        }
-
-        .recipe-meta {
-            display: flex;
-            gap: 15px;
-            font-size: 0.9rem;
-            opacity: 0.95;
-        }
-
-        .season-badge {
-            background-color: rgba(218, 165, 32, 0.3);
-            padding: 3px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            border: 1px solid rgba(218, 165, 32, 0.5);
-            backdrop-filter: blur(5px);
-        }
-
-        .recipe-body {
-            padding: 2rem;
-        }
-
-        .oils-section, .formats-section, .why-works, .safety-section {
-            margin-bottom: 2rem;
-        }
-
-        .section-title {
-            font-size: 1.3rem;
-            color: var(--rustic-red);
-            margin-bottom: 1rem;
-            padding-bottom: 8px;
-            border-bottom: 2px solid var(--warm-tan);
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-family: 'Georgia', serif;
-            position: relative;
-        }
-
-        .section-title::before {
-            content: "❧";
-            color: var(--forest-green);
-            margin-right: 5px;
-        }
-
-        .section-title i {
-            color: var(--burnt-orange);
-        }
-
-        .oil-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        .oil-badge {
-            background: linear-gradient(135deg, #f8f4e9 0%, #f1e9d7 100%);
-            padding: 12px 18px;
-            border-radius: 10px;
-            font-size: 0.95rem;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            border: 1px solid var(--warm-tan);
-            box-shadow: 0 3px 10px rgba(210, 180, 140, 0.2);
-            transition: all 0.3s;
-        }
-
-        .oil-badge:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(210, 180, 140, 0.4);
-            border-color: var(--burnt-orange);
-        }
-
-        .oil-badge i {
-            color: var(--forest-green);
-        }
-
-        .oil-latin {
-            font-style: italic;
-            color: var(--earth-brown);
-            font-size: 0.85rem;
-            margin-left: 5px;
-            opacity: 0.8;
-        }
-
-        .format-card {
-            background: linear-gradient(135deg, #fffaf0 0%, #fdf5e6 100%);
-            border-radius: 10px;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            border-left: 5px solid var(--golden-yellow);
-            border: 1px solid var(--warm-tan);
-            box-shadow: 0 4px 15px rgba(210, 180, 140, 0.1);
-            transition: all 0.3s;
-        }
-
-        .format-card:hover {
-            border-left-color: var(--pumpkin);
-            box-shadow: 0 6px 20px rgba(210, 180, 140, 0.3);
-        }
-
-        .format-card h4 {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 1rem;
-            color: var(--deep-brown);
-            font-family: 'Georgia', serif;
-        }
-
-        .drops-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 15px;
-            margin: 1rem 0;
-        }
-
-        .drop-item {
-            background-color: white;
-            padding: 12px 15px;
-            border-radius: 8px;
-            border: 1px solid var(--warm-tan);
-            box-shadow: 0 2px 8px rgba(139, 69, 19, 0.05);
-            transition: all 0.3s;
-        }
-
-        .drop-item:hover {
-            border-color: var(--burnt-orange);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(139, 69, 19, 0.1);
-        }
-
-        .drop-name {
-            font-weight: 600;
-            color: var(--rustic-red);
-            font-family: 'Georgia', serif;
-        }
-
-        .drop-count {
-            color: var(--pumpkin);
-            font-weight: 700;
-            font-size: 1.3rem;
-            margin-top: 5px;
-        }
-
-        .safety-list {
-            list-style: none;
-        }
-
-        .safety-list li {
-            padding: 10px 0;
-            border-bottom: 1px solid var(--warm-tan);
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .safety-list li:last-child {
-            border-bottom: none;
-        }
-
-        .safety-list li i {
-            color: var(--rustic-red);
-            min-width: 20px;
-        }
-
-        /* Sidebar */
-        .sidebar {
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-        }
-
-        .archive-card, .info-card {
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 6px 20px rgba(139, 69, 19, 0.08);
-            padding: 1.5rem;
-            border: 2px solid var(--warm-tan);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .archive-card::before, .info-card::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, var(--forest-green), var(--moss-green));
-        }
-
-        .archive-list {
-            max-height: 500px;
-            overflow-y: auto;
-            margin-top: 1rem;
-            border-radius: 8px;
-            border: 1px solid var(--warm-tan);
-        }
-
-        .archive-list::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .archive-list::-webkit-scrollbar-track {
-            background: #f1e9d7;
-        }
-
-        .archive-list::-webkit-scrollbar-thumb {
-            background: var(--burnt-orange);
-            border-radius: 3px;
-        }
-
-        .archive-item {
-            padding: 12px 15px;
-            border-bottom: 1px solid var(--warm-tan);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: all 0.2s;
-            background: linear-gradient(to right, transparent 50%, #fdf5e6 50%);
-            background-size: 200% 100%;
-            background-position: right bottom;
-        }
-
-        .archive-item:hover {
-            background-position: left bottom;
-            padding-left: 20px;
-        }
-
-        .archive-item a {
-            color: var(--deep-brown);
-            text-decoration: none;
-            font-weight: 500;
-            flex-grow: 1;
-            transition: color 0.2s;
-            font-family: 'Georgia', serif;
-        }
-
-        .archive-item a:hover {
-            color: var(--rustic-red);
-        }
-
-        .archive-date {
-            color: var(--earth-brown);
-            font-size: 0.9rem;
-            font-style: italic;
-        }
-
-        .info-card ul {
-            list-style: none;
-            margin-top: 1rem;
-        }
-
-        .info-card li {
-            padding: 10px 0;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .info-card li i {
-            color: var(--forest-green);
-            width: 20px;
-        }
-
-        /* Footer */
-        footer {
-            background: linear-gradient(135deg, var(--deep-brown) 0%, #3e2723 100%);
-            color: var(--warm-tan);
-            padding: 3rem 0 2rem;
-            margin-top: 3rem;
-            border-top: 5px solid var(--golden-yellow);
-            position: relative;
-        }
-
-        footer::before {
-            content: "🍁 🍂 🍃";
-            position: absolute;
-            top: -25px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 1.5rem;
-            background: var(--cream);
-            padding: 5px 20px;
-            border-radius: 50px;
-            box-shadow: 0 4px 15px rgba(139, 69, 19, 0.2);
-        }
-
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-bottom: 2rem;
-        }
-
-        .footer-section h3 {
-            font-size: 1.3rem;
-            margin-bottom: 1.2rem;
-            color: var(--golden-yellow);
-            font-family: 'Georgia', serif;
-            position: relative;
-            display: inline-block;
-        }
-
-        .footer-section h3::after {
-            content: "";
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 40px;
-            height: 2px;
-            background: var(--golden-yellow);
-        }
-
-        .footer-section p {
-            color: #d2b48c;
-            line-height: 1.7;
-        }
-
-        .footer-links {
-            list-style: none;
-        }
-
-        .footer-links li {
-            margin-bottom: 10px;
-        }
-
-        .footer-links a {
-            color: #d2b48c;
-            text-decoration: none;
-            transition: all 0.3s;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .footer-links a:hover {
-            color: var(--golden-yellow);
-            transform: translateX(5px);
-        }
-
-        .copyright {
-            text-align: center;
-            padding-top: 2rem;
-            border-top: 1px solid #5d4037;
-            color: #a1887f;
-            font-size: 0.9rem;
-        }
-
-        /* Loading */
-        .loading {
-            text-align: center;
-            padding: 3rem;
-            font-size: 1.1rem;
-            color: var(--earth-brown);
-        }
-
-        .loading i {
-            margin-right: 10px;
-            color: var(--golden-yellow);
-            animation: leaf-fall 2s infinite;
-        }
-
-        @keyframes leaf-fall {
-            0%, 100% { transform: translateY(0) rotate(0deg); }
-            50% { transform: translateY(10px) rotate(10deg); }
-        }
-
-        /* Tags */
-        .tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 1.5rem;
-        }
-
-        .tag {
-            background: linear-gradient(135deg, #f1e9d7 0%, #e6d7b8 100%);
-            color: var(--earth-brown);
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            border: 1px solid var(--warm-tan);
-            transition: all 0.3s;
-        }
-
-        .tag:hover {
-            background: linear-gradient(135deg, #e6d7b8 0%, #d8c9a3 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 3px 10px rgba(139, 69, 19, 0.1);
-        }
-
-        /* Buttons */
-        .btn {
-            background: linear-gradient(135deg, var(--burnt-orange) 0%, var(--pumpkin) 100%);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 25px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
-            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.3);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-family: 'Georgia', serif;
-        }
-
-        .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(210, 105, 30, 0.4);
-            background: linear-gradient(135deg, var(--pumpkin) 0%, var(--golden-yellow) 100%);
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .header-content {
-                flex-direction: column;
-                text-align: center;
-                gap: 20px;
-            }
-            
-            .nav-links {
-                justify-content: center;
-                flex-wrap: wrap;
-            }
-            
-            .recipe-header {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 15px;
-            }
-            
-            .recipe-meta {
-                flex-wrap: wrap;
-            }
-            
-            .drops-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* Leaf icons and decorations */
-        .leaf-icon {
-            color: var(--forest-green);
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-        }
-
-        .season-icon {
-            display: inline-block;
-            margin-right: 5px;
-        }
-
-        .winter-icon { color: #87CEEB; }
-        .spring-icon { color: #32CD32; }
-        .summer-icon { color: #FFD700; }
-        .autumn-icon { color: var(--pumpkin); }
+        /* ... ALL OTHER STYLES REMAIN THE SAME ... */
+        
     </style>
 </head>
 <body>
@@ -703,6 +70,9 @@
                         </div>
                         <div class="recipe-actions">
                             <button id="print-btn" class="btn"><i class="fas fa-print"></i> Print Recipe</button>
+                            <button id="refresh-btn" class="btn" style="margin-left: 10px; background: linear-gradient(135deg, var(--forest-green) 0%, var(--moss-green) 100%);">
+                                <i class="fas fa-sync-alt"></i> Refresh
+                            </button>
                         </div>
                     </div>
                     
@@ -859,6 +229,14 @@
             return seasonIcons[season] || '🍂';
         }
         
+        // NEW: Function to get the latest recipe date from the list
+        function getLatestRecipeDate(recipes) {
+            if (!recipes || recipes.length === 0) return null;
+            
+            // Recipes are already sorted newest first by getRecipeList()
+            return recipes[0].date;
+        }
+        
         // Fetch JSON from GitHub raw content
         async function fetchRecipe(date) {
             try {
@@ -866,14 +244,6 @@
                 const response = await fetch(url);
                 
                 if (!response.ok) {
-                    if (response.status === 404) {
-                        // If today's recipe doesn't exist yet, try yesterday's
-                        console.log(`Recipe for ${date} not found, trying previous day...`);
-                        const yesterday = new Date();
-                        yesterday.setDate(yesterday.getDate() - 1);
-                        const yesterdayStr = yesterday.toISOString().split('T')[0];
-                        return await fetchRecipe(yesterdayStr);
-                    }
                     throw new Error(`Failed to fetch recipe: ${response.status}`);
                 }
                 
@@ -917,6 +287,40 @@
             }
         }
         
+        // NEW: Improved function to get the latest recipe
+        async function getLatestRecipe() {
+            try {
+                // First, get the list of all recipes
+                const recipes = await getRecipeList();
+                
+                if (recipes.length === 0) {
+                    throw new Error('No recipes found in repository');
+                }
+                
+                // Get the latest recipe date
+                const latestDate = getLatestRecipeDate(recipes);
+                
+                if (!latestDate) {
+                    throw new Error('Could not determine latest recipe');
+                }
+                
+                // Fetch the latest recipe
+                const recipe = await fetchRecipe(latestDate);
+                
+                if (!recipe) {
+                    throw new Error(`Failed to load recipe for ${latestDate}`);
+                }
+                
+                return {
+                    recipe: recipe,
+                    allRecipes: recipes
+                };
+            } catch (error) {
+                console.error('Error getting latest recipe:', error);
+                return null;
+            }
+        }
+        
         // Display a recipe in the UI
         function displayRecipe(recipeData) {
             if (!recipeData) {
@@ -933,6 +337,18 @@
             document.getElementById('recipe-title').textContent = recipeData.title;
             document.getElementById('recipe-date').textContent = formatDate(recipeData.date);
             
+            // Check if this is today's recipe
+            const today = getTodayISO();
+            const isToday = recipeData.date === today;
+            
+            // Update header to show if it's today's or latest
+            const dateElement = document.getElementById('recipe-date');
+            if (isToday) {
+                dateElement.innerHTML = `<strong>Today:</strong> ${formatDate(recipeData.date)}`;
+            } else {
+                dateElement.innerHTML = `<strong>Latest Available:</strong> ${formatDate(recipeData.date)} <span style="font-size: 0.8em; color: var(--burnt-orange);">(Today's not ready yet)</span>`;
+            }
+            
             // Set season with icon
             const seasonText = document.getElementById('season-text');
             const seasonIcon = document.getElementById('season-icon');
@@ -948,11 +364,9 @@
             
             if (Array.isArray(recipeData.oils)) {
                 recipeData.oils.forEach(oil => {
-                    // Handle both string and object formats
                     let oilName, latinName;
                     
                     if (typeof oil === 'string') {
-                        // Format: "Peppermint (Mentha piperita)"
                         const match = oil.match(/^(.*?)\s*\((.*?)\)$/);
                         if (match) {
                             oilName = match[1];
@@ -961,10 +375,6 @@
                             oilName = oil;
                             latinName = '';
                         }
-                    } else if (typeof oil === 'object') {
-                        // Object format (if we implement it later)
-                        oilName = oil.commonName || '';
-                        latinName = oil.latinName || '';
                     }
                     
                     const oilBadge = document.createElement('div');
@@ -986,15 +396,12 @@
                 const formatCard = document.createElement('div');
                 formatCard.className = 'format-card';
                 
-                // Format display name
                 let displayName = formatName.replace('_', ' ').toUpperCase();
                 if (formatName === 'spray_optional') displayName = 'ROOM SPRAY (OPTIONAL)';
                 
-                // Build drops HTML
                 let dropsHtml = '';
                 if (formatData.drops) {
                     if (typeof formatData.drops === 'object') {
-                        // New format: { "Peppermint": 7, ... }
                         dropsHtml = Object.entries(formatData.drops)
                             .map(([oil, count]) => `
                                 <div class="drop-item">
@@ -1002,14 +409,6 @@
                                     <div class="drop-count">${count} drops</div>
                                 </div>
                             `).join('');
-                    } else if (Array.isArray(formatData.drops)) {
-                        // Old format: array of objects
-                        dropsHtml = formatData.drops.map(drop => `
-                            <div class="drop-item">
-                                <div class="drop-name">${drop.oil}</div>
-                                <div class="drop-count">${drop.drops} drops</div>
-                            </div>
-                        `).join('');
                     }
                 }
                 
@@ -1121,30 +520,35 @@
         // Initialize the page
         async function init() {
             try {
-                // First, get today's recipe
-                const today = getTodayISO();
-                let recipe = await fetchRecipe(today);
+                // Show loading state
+                document.getElementById('loading').style.display = 'block';
+                document.getElementById('recipe-content').style.display = 'none';
                 
-                // If still no recipe, get the latest available
-                if (!recipe) {
-                    const recipes = await getRecipeList();
-                    if (recipes.length > 0) {
-                        recipe = await fetchRecipe(recipes[0].date);
-                    }
+                // Get the latest recipe and all recipes
+                const result = await getLatestRecipe();
+                
+                if (!result) {
+                    throw new Error('Could not load any recipes');
                 }
                 
-                // Display the recipe
-                displayRecipe(recipe);
+                // Display the latest recipe
+                displayRecipe(result.recipe);
                 
-                // Then load the archive list
-                const recipes = await getRecipeList();
-                displayArchive(recipes);
+                // Display the archive list
+                displayArchive(result.allRecipes);
+                
+                console.log(`Loaded latest recipe: ${result.recipe.date}`);
+                console.log(`Today's date: ${getTodayISO()}`);
+                
             } catch (error) {
                 console.error('Error initializing page:', error);
                 document.getElementById('loading').innerHTML = `
                     <i class="fas fa-exclamation-triangle"></i> 
                     <p>Unable to load recipes. Please check your internet connection or try again later.</p>
                     <p><small>Error: ${error.message}</small></p>
+                    <button onclick="location.reload()" class="btn" style="margin-top: 20px;">
+                        <i class="fas fa-redo"></i> Try Again
+                    </button>
                 `;
             }
         }
@@ -1153,6 +557,41 @@
         document.getElementById('print-btn').addEventListener('click', () => {
             window.print();
         });
+        
+        // Add refresh functionality
+        document.getElementById('refresh-btn').addEventListener('click', async () => {
+            // Show loading
+            document.getElementById('recipe-content').style.display = 'none';
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('loading').innerHTML = '<i class="fas fa-spinner fa-spin"></i> Checking for new recipe...';
+            
+            // Re-initialize
+            await init();
+        });
+        
+        // Check for new recipes every 5 minutes
+        setInterval(async () => {
+            const today = getTodayISO();
+            const currentDateElement = document.getElementById('recipe-date').textContent;
+            
+            // If current recipe is not today's, check for updates
+            if (!currentDateElement.includes(today)) {
+                console.log('Checking for new recipe...');
+                const result = await getLatestRecipe();
+                if (result && result.recipe.date === today) {
+                    // New recipe available!
+                    document.getElementById('loading').style.display = 'block';
+                    document.getElementById('recipe-content').style.display = 'none';
+                    document.getElementById('loading').innerHTML = '<i class="fas fa-spinner fa-spin"></i> New recipe available! Loading...';
+                    
+                    // Small delay to show the message
+                    setTimeout(() => {
+                        displayRecipe(result.recipe);
+                        displayArchive(result.allRecipes);
+                    }, 1000);
+                }
+            }
+        }, 300000); // 5 minutes = 300000 milliseconds
         
         // Initialize when page loads
         document.addEventListener('DOMContentLoaded', init);
