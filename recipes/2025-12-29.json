@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2025-12-29",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Serenity",
+  "oils": [
+    "Lavender (Lavandula angustifolia)",
+    "Frankincense (Boswellia serrata)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lavender": 7,
+        "Frankincense": 5,
+        "Geranium": 3
+      },
+      "notes": "Blend calming and uplifting properties."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 20,
+        "Frankincense": 15,
+        "Geranium": 10
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lavender": 15,
+        "Frankincense": 10,
+        "Geranium": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lavender calms and soothes, while Frankincense uplifts and balances. Geranium adds a grounding, floral note.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Calming",
+    "Use:Skin Stress"
+  ]
+}
