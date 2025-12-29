@@ -1,22 +1,903 @@
-<!-- public/index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>The Daily Drop - Today's Essential Oil Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Daily Drop - Daily Essential Oil Recipes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2a5934;
+            --primary-light: #3a7d4a;
+            --secondary: #8a6d3b;
+            --accent: #d4a017;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --light-gray: #e9ecef;
+            --border: #dee2e6;
+            --success: #28a745;
+            --warning: #ffc107;
+            --danger: #dc3545;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: #fefefe;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            padding: 2rem 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo i {
+            font-size: 2.5rem;
+            color: var(--accent);
+        }
+
+        .logo h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .logo p {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        /* Main content */
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 30px;
+            margin-bottom: 3rem;
+        }
+
+        @media (max-width: 992px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Today's Recipe Card */
+        .recipe-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        .recipe-header {
+            background: linear-gradient(to right, var(--primary), var(--primary-light));
+            color: white;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .recipe-title h2 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        .recipe-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .season-badge {
+            background-color: rgba(255,255,255,0.2);
+            padding: 3px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .recipe-body {
+            padding: 2rem;
+        }
+
+        .oils-section, .formats-section, .why-works, .safety-section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--light-gray);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title i {
+            color: var(--accent);
+        }
+
+        .oil-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .oil-badge {
+            background-color: var(--light-gray);
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .oil-badge i {
+            color: var(--secondary);
+        }
+
+        .oil-latin {
+            font-style: italic;
+            color: var(--gray);
+            font-size: 0.85rem;
+            margin-left: 5px;
+        }
+
+        .format-card {
+            background-color: var(--light);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--accent);
+        }
+
+        .format-card h4 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .drops-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 1rem 0;
+        }
+
+        .drop-item {
+            background-color: white;
+            padding: 10px 15px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+        }
+
+        .drop-name {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .drop-count {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        .safety-list {
+            list-style: none;
+        }
+
+        .safety-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--light-gray);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .safety-list li i {
+            color: var(--danger);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .archive-card, .info-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            padding: 1.5rem;
+            border: 1px solid var(--border);
+        }
+
+        .archive-list {
+            max-height: 500px;
+            overflow-y: auto;
+            margin-top: 1rem;
+        }
+
+        .archive-item {
+            padding: 12px 15px;
+            border-bottom: 1px solid var(--light-gray);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s;
+        }
+
+        .archive-item:hover {
+            background-color: var(--light-gray);
+            padding-left: 20px;
+        }
+
+        .archive-item a {
+            color: var(--dark);
+            text-decoration: none;
+            font-weight: 500;
+            flex-grow: 1;
+        }
+
+        .archive-item a:hover {
+            color: var(--primary);
+        }
+
+        .archive-date {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        .info-card ul {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .info-card li {
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-card li i {
+            color: var(--primary);
+            width: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 3rem 0 2rem;
+            margin-top: 3rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1.2rem;
+            color: var(--accent);
+        }
+
+        .footer-section p {
+            color: #adb5bd;
+            line-height: 1.7;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: #adb5bd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #495057;
+            color: #adb5bd;
+            font-size: 0.9rem;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            font-size: 1.1rem;
+            color: var(--gray);
+        }
+
+        .loading i {
+            margin-right: 10px;
+            color: var(--accent);
+        }
+
+        /* Tags */
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 1.5rem;
+        }
+
+        .tag {
+            background-color: var(--light);
+            color: var(--gray);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid var(--border);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+            
+            .nav-links {
+                justify-content: center;
+            }
+            
+            .recipe-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+            
+            .recipe-meta {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>The Daily Drop</h1>
-    <div id="daily-recipe">
-        <!-- Filled by JavaScript -->
-        Loading today's recipe...
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-tint"></i>
+                    <div>
+                        <h1>The Daily Drop</h1>
+                        <p>Your daily essential oil recipe companion</p>
+                    </div>
+                </div>
+                <nav class="nav-links">
+                    <a href="#"><i class="fas fa-home"></i> Today's Recipe</a>
+                    <a href="#archive"><i class="fas fa-archive"></i> Archive</a>
+                    <a href="#"><i class="fas fa-book"></i> Oil Catalog</a>
+                    <a href="#"><i class="fas fa-user"></i> My Account</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <main>
+                <div class="recipe-card">
+                    <div class="recipe-header">
+                        <div class="recipe-title">
+                            <h2 id="recipe-title">Loading Today's Recipe...</h2>
+                            <div class="recipe-meta">
+                                <span id="recipe-date">Fetching date...</span>
+                                <span id="recipe-season" class="season-badge">Season</span>
+                                <span id="recipe-hemisphere"><i class="fas fa-globe-americas"></i> Hemisphere</span>
+                            </div>
+                        </div>
+                        <div class="recipe-actions">
+                            <button id="print-btn" class="btn"><i class="fas fa-print"></i> Print</button>
+                        </div>
+                    </div>
+                    
+                    <div class="recipe-body">
+                        <div id="loading" class="loading">
+                            <i class="fas fa-spinner fa-spin"></i> Loading recipe data...
+                        </div>
+                        
+                        <div id="recipe-content" style="display: none;">
+                            <!-- Oils Section -->
+                            <div class="oils-section">
+                                <h3 class="section-title"><i class="fas fa-leaf"></i> Essential Oils</h3>
+                                <div id="oil-list" class="oil-list">
+                                    <!-- Oil badges will be inserted here -->
+                                </div>
+                            </div>
+                            
+                            <!-- Formats Section -->
+                            <div class="formats-section">
+                                <h3 class="section-title"><i class="fas fa-flask"></i> Recipe Formats</h3>
+                                <div id="formats-container">
+                                    <!-- Format cards will be inserted here -->
+                                </div>
+                            </div>
+                            
+                            <!-- Why It Works -->
+                            <div class="why-works">
+                                <h3 class="section-title"><i class="fas fa-lightbulb"></i> Why This Blend Works</h3>
+                                <p id="why-it-works"></p>
+                            </div>
+                            
+                            <!-- Safety -->
+                            <div class="safety-section">
+                                <h3 class="section-title"><i class="fas fa-exclamation-triangle"></i> Safety Guidelines</h3>
+                                <ul id="safety-list" class="safety-list">
+                                    <!-- Safety items will be inserted here -->
+                                </ul>
+                            </div>
+                            
+                            <!-- Tags -->
+                            <div>
+                                <h3 class="section-title"><i class="fas fa-tags"></i> Tags</h3>
+                                <div id="tags-container" class="tags">
+                                    <!-- Tags will be inserted here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            
+            <aside class="sidebar">
+                <div class="archive-card">
+                    <h3><i class="fas fa-history"></i> Recipe Archive</h3>
+                    <p>Browse all previous recipes:</p>
+                    <div class="archive-list" id="archive-list">
+                        <!-- Archive items will be inserted here -->
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h3><i class="fas fa-info-circle"></i> About The Daily Drop</h3>
+                    <p>Daily essential oil blends tailored to the season and your hemisphere.</p>
+                    <ul>
+                        <li><i class="fas fa-calendar-alt"></i> Updated daily at 9:00 UTC</li>
+                        <li><i class="fas fa-seedling"></i> 100% natural essential oils</li>
+                        <li><i class="fas fa-shield-alt"></i> Safety guidelines included</li>
+                        <li><i class="fas fa-mobile-alt"></i> Responsive design</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h3><i class="fas fa-external-link-alt"></i> Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/NAGOHUSA/THEDAILYDROP" target="_blank"><i class="fab fa-github"></i> View on GitHub</a></li>
+                        <li><a href="#"><i class="fas fa-book"></i> Essential Oil Catalog</a></li>
+                        <li><a href="#"><i class="fas fa-calculator"></i> Dilution Calculator</a></li>
+                        <li><a href="#"><i class="fas fa-question-circle"></i> FAQ & Safety</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
     </div>
-    
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>The Daily Drop</h3>
+                    <p>Discover a new essential oil recipe every day. Perfect for diffusers, rollers, and sprays. Created with care and automatically updated.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Today's Recipe</a></li>
+                        <li><a href="#archive">Recipe Archive</a></li>
+                        <li><a href="#">Oil Catalog</a></li>
+                        <li><a href="#">Inventory Tracker</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/NAGOHUSA/THEDAILYDROP" target="_blank">GitHub Repository</a></li>
+                        <li><a href="#">Essential Oil Safety</a></li>
+                        <li><a href="#">Dilution Guidelines</a></li>
+                        <li><a href="#">Blending Tips</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 The Daily Drop. All recipes are automatically generated. Essential oils should be used with caution. Consult a professional if you have health concerns.</p>
+            </div>
+        </div>
+    </footer>
+
     <script>
-        // Fetch today's recipe
-        const today = new Date().toISOString().split('T')[0];
-        fetch(`https://raw.githubusercontent.com/NAGOHUSA/THEDAILYDROP/main/recipes/${today}.json`)
-            .then(response => response.json())
-            .then(data => displayRecipe(data));
+        // Configuration
+        const REPO_OWNER = 'NAGOHUSA';
+        const REPO_NAME = 'THEDAILYDROP';
+        const RECIPES_FOLDER = 'recipes';
+        
+        // Get today's date in YYYY-MM-DD format
+        function getTodayISO() {
+            const now = new Date();
+            const year = now.getUTCFullYear();
+            const month = String(now.getUTCMonth() + 1).padStart(2, '0');
+            const day = String(now.getUTCDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+        
+        // Format date for display
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            });
+        }
+        
+        // Fetch JSON from GitHub raw content
+        async function fetchRecipe(date) {
+            try {
+                const url = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main/${RECIPES_FOLDER}/${date}.json`;
+                const response = await fetch(url);
+                
+                if (!response.ok) {
+                    if (response.status === 404) {
+                        // If today's recipe doesn't exist yet, try yesterday's
+                        console.log(`Recipe for ${date} not found, trying previous day...`);
+                        const yesterday = new Date();
+                        yesterday.setDate(yesterday.getDate() - 1);
+                        const yesterdayStr = yesterday.toISOString().split('T')[0];
+                        return await fetchRecipe(yesterdayStr);
+                    }
+                    throw new Error(`Failed to fetch recipe: ${response.status}`);
+                }
+                
+                return await response.json();
+            } catch (error) {
+                console.error('Error fetching recipe:', error);
+                return null;
+            }
+        }
+        
+        // Get list of all recipe files from GitHub API
+        async function getRecipeList() {
+            try {
+                // Use GitHub API to get list of files in recipes folder
+                const apiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${RECIPES_FOLDER}`;
+                const response = await fetch(apiUrl);
+                
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch recipe list: ${response.status}`);
+                }
+                
+                const files = await response.json();
+                
+                // Filter for JSON files and extract dates
+                const recipes = files
+                    .filter(file => file.name.endsWith('.json'))
+                    .map(file => {
+                        const date = file.name.replace('.json', '');
+                        return {
+                            date: date,
+                            displayDate: formatDate(date),
+                            url: file.download_url
+                        };
+                    })
+                    .sort((a, b) => b.date.localeCompare(a.date)); // Sort newest first
+                
+                return recipes;
+            } catch (error) {
+                console.error('Error fetching recipe list:', error);
+                return [];
+            }
+        }
+        
+        // Display a recipe in the UI
+        function displayRecipe(recipeData) {
+            if (!recipeData) {
+                document.getElementById('recipe-title').textContent = 'Recipe Not Available';
+                document.getElementById('loading').innerHTML = '<i class="fas fa-exclamation-triangle"></i> Unable to load recipe. Please try again later.';
+                return;
+            }
+            
+            // Hide loading, show content
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('recipe-content').style.display = 'block';
+            
+            // Set basic info
+            document.getElementById('recipe-title').textContent = recipeData.title;
+            document.getElementById('recipe-date').textContent = formatDate(recipeData.date);
+            document.getElementById('recipe-season').textContent = recipeData.season;
+            document.getElementById('recipe-hemisphere').innerHTML = `<i class="fas fa-globe-americas"></i> ${recipeData.hemisphere} Hemisphere`;
+            document.getElementById('why-it-works').textContent = recipeData.why_it_works;
+            
+            // Display oils
+            const oilList = document.getElementById('oil-list');
+            oilList.innerHTML = '';
+            
+            if (Array.isArray(recipeData.oils)) {
+                recipeData.oils.forEach(oil => {
+                    // Handle both string and object formats
+                    let oilName, latinName;
+                    
+                    if (typeof oil === 'string') {
+                        // Format: "Peppermint (Mentha piperita)"
+                        const match = oil.match(/^(.*?)\s*\((.*?)\)$/);
+                        if (match) {
+                            oilName = match[1];
+                            latinName = match[2];
+                        } else {
+                            oilName = oil;
+                            latinName = '';
+                        }
+                    } else if (typeof oil === 'object') {
+                        // Object format (if we implement it later)
+                        oilName = oil.commonName || '';
+                        latinName = oil.latinName || '';
+                    }
+                    
+                    const oilBadge = document.createElement('div');
+                    oilBadge.className = 'oil-badge';
+                    oilBadge.innerHTML = `
+                        <i class="fas fa-leaf"></i>
+                        <strong>${oilName}</strong>
+                        ${latinName ? `<span class="oil-latin">${latinName}</span>` : ''}
+                    `;
+                    oilList.appendChild(oilBadge);
+                });
+            }
+            
+            // Display formats
+            const formatsContainer = document.getElementById('formats-container');
+            formatsContainer.innerHTML = '';
+            
+            for (const [formatName, formatData] of Object.entries(recipeData.formats)) {
+                const formatCard = document.createElement('div');
+                formatCard.className = 'format-card';
+                
+                // Format display name
+                let displayName = formatName.replace('_', ' ').toUpperCase();
+                if (formatName === 'spray_optional') displayName = 'ROOM SPRAY (OPTIONAL)';
+                
+                // Build drops HTML
+                let dropsHtml = '';
+                if (formatData.drops) {
+                    if (typeof formatData.drops === 'object') {
+                        // New format: { "Peppermint": 7, ... }
+                        dropsHtml = Object.entries(formatData.drops)
+                            .map(([oil, count]) => `
+                                <div class="drop-item">
+                                    <div class="drop-name">${oil}</div>
+                                    <div class="drop-count">${count} drops</div>
+                                </div>
+                            `).join('');
+                    } else if (Array.isArray(formatData.drops)) {
+                        // Old format: array of objects
+                        dropsHtml = formatData.drops.map(drop => `
+                            <div class="drop-item">
+                                <div class="drop-name">${drop.oil}</div>
+                                <div class="drop-count">${drop.drops} drops</div>
+                            </div>
+                        `).join('');
+                    }
+                }
+                
+                formatCard.innerHTML = `
+                    <h4><i class="fas fa-${getFormatIcon(formatName)}"></i> ${displayName}</h4>
+                    
+                    ${formatData.notes ? `<p><em>${formatData.notes}</em></p>` : ''}
+                    
+                    ${dropsHtml ? `
+                        <div class="drops-grid">
+                            ${dropsHtml}
+                        </div>
+                    ` : ''}
+                    
+                    ${formatData.size_ml ? `<p><strong>Size:</strong> ${formatData.size_ml} ml</p>` : ''}
+                    ${formatData.dilution_percent ? `<p><strong>Dilution:</strong> ${formatData.dilution_percent}%</p>` : ''}
+                    ${formatData.carrier ? `<p><strong>Carrier Oil:</strong> ${formatData.carrier}</p>` : ''}
+                    ${formatData.base ? `<p><strong>Base:</strong> ${formatData.base}</p>` : ''}
+                    ${formatData.note ? `<p><strong>Note:</strong> ${formatData.note}</p>` : ''}
+                `;
+                
+                formatsContainer.appendChild(formatCard);
+            }
+            
+            // Display safety guidelines
+            const safetyList = document.getElementById('safety-list');
+            safetyList.innerHTML = '';
+            
+            if (Array.isArray(recipeData.safety)) {
+                recipeData.safety.forEach(item => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<i class="fas fa-exclamation-circle"></i> ${item}`;
+                    safetyList.appendChild(li);
+                });
+            }
+            
+            // Display tags
+            const tagsContainer = document.getElementById('tags-container');
+            tagsContainer.innerHTML = '';
+            
+            if (Array.isArray(recipeData.tags)) {
+                recipeData.tags.forEach(tag => {
+                    const tagElement = document.createElement('span');
+                    tagElement.className = 'tag';
+                    tagElement.textContent = tag.replace(':', ': ');
+                    tagsContainer.appendChild(tagElement);
+                });
+            }
+        }
+        
+        // Get icon for format type
+        function getFormatIcon(formatName) {
+            const icons = {
+                diffuser: 'wind',
+                roller: 'dot-circle',
+                spray_optional: 'spray-can'
+            };
+            return icons[formatName] || 'flask';
+        }
+        
+        // Display archive list
+        function displayArchive(recipes) {
+            const archiveList = document.getElementById('archive-list');
+            
+            if (recipes.length === 0) {
+                archiveList.innerHTML = '<p style="text-align: center; color: var(--gray);">No recipes found.</p>';
+                return;
+            }
+            
+            archiveList.innerHTML = '';
+            
+            recipes.forEach(recipe => {
+                const archiveItem = document.createElement('div');
+                archiveItem.className = 'archive-item';
+                archiveItem.innerHTML = `
+                    <a href="#" data-date="${recipe.date}" class="archive-link">
+                        ${recipe.displayDate}
+                    </a>
+                    <span class="archive-date">${recipe.date}</span>
+                `;
+                
+                archiveList.appendChild(archiveItem);
+            });
+            
+            // Add click handlers to archive links
+            document.querySelectorAll('.archive-link').forEach(link => {
+                link.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    const date = e.target.getAttribute('data-date');
+                    
+                    // Show loading
+                    document.getElementById('recipe-content').style.display = 'none';
+                    document.getElementById('loading').style.display = 'block';
+                    document.getElementById('loading').innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading recipe...';
+                    
+                    // Fetch and display the selected recipe
+                    const recipe = await fetchRecipe(date);
+                    displayRecipe(recipe);
+                    
+                    // Scroll to top
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            });
+        }
+        
+        // Initialize the page
+        async function init() {
+            try {
+                // First, get today's recipe
+                const today = getTodayISO();
+                let recipe = await fetchRecipe(today);
+                
+                // If still no recipe, get the latest available
+                if (!recipe) {
+                    const recipes = await getRecipeList();
+                    if (recipes.length > 0) {
+                        recipe = await fetchRecipe(recipes[0].date);
+                    }
+                }
+                
+                // Display the recipe
+                displayRecipe(recipe);
+                
+                // Then load the archive list
+                const recipes = await getRecipeList();
+                displayArchive(recipes);
+            } catch (error) {
+                console.error('Error initializing page:', error);
+                document.getElementById('loading').innerHTML = `
+                    <i class="fas fa-exclamation-triangle"></i> 
+                    <p>Unable to load recipes. Please check your internet connection or try again later.</p>
+                    <p><small>Error: ${error.message}</small></p>
+                `;
+            }
+        }
+        
+        // Add print functionality
+        document.getElementById('print-btn').addEventListener('click', () => {
+            window.print();
+        });
+        
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
 </html>
