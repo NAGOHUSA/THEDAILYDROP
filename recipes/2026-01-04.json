@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-04",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth",
+  "oils": [
+    "Peppermint (Mentha piperita)",
+    "Frankincense (Boswellia serrata)",
+    "Grapefruit (Citrus paradisi)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Peppermint": 8,
+        "Frankincense": 12,
+        "Grapefruit": 5
+      },
+      "notes": "Inhale deeply to invigorate the senses."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Peppermint": 5,
+        "Frankincense": 7,
+        "Grapefruit": 3
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Peppermint": 12,
+        "Frankincense": 20,
+        "Grapefruit": 8
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Peppermint's invigorating scent and Frankincense's grounding notes combine to create a refreshing winter blend, while Grapefruit adds a hint of citrus.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Invigorating",
+    "Use:Desk or Office"
+  ]
+}
