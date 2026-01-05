@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-05",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth Revival",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Frankincense (Boswellia serrata)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 7,
+        "Frankincense": 12,
+        "Lavender": 10
+      },
+      "notes": "Inhale deeply to invigorate."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 5,
+        "Frankincense": 8,
+        "Lavender": 6
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cinnamon": 10,
+        "Frankincense": 20,
+        "Lavender": 15
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Invigorate with the warmth of Cinnamon and grounding of Frankincense. Balance with calming Lavender.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Invigorating",
+    "Use:Winter Blues"
+  ]
+}
