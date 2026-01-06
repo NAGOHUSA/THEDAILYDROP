@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-06",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter's Cozy Warmth",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Lavender (Lavandula angustifolia)",
+    "Grapefruit (Citrus paradisi)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 8,
+        "Lavender": 12,
+        "Grapefruit": 5
+      },
+      "notes": "A calming blend for chilly evenings."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 10,
+        "Lavender": 15,
+        "Grapefruit": 7
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 20,
+        "Lavender": 15,
+        "Grapefruit": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "The grounding scent of Frankincense and soothing effect of Lavender combine with the uplifting citrus of Grapefruit to evoke a sense of warmth and coziness.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxing",
+    "Use:Cold weather"
+  ]
+}
