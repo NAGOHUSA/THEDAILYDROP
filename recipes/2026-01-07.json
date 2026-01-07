@@ -1,0 +1,53 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-07",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Chill Bliss",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Lavender (Lavandula angustifolia)",
+    "Peppermint (Mentha piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 5,
+        "Lavender": 10,
+        "Peppermint": 5
+      },
+      "notes": "Create a cozy atmosphere with a balanced blend."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 5,
+        "Lavender": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 10,
+        "Lavender": 20,
+        "Peppermint": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Frankincense promotes relaxation, while Lavender calms the mind. Peppermint adds a refreshing touch to combat winter blues.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxing",
+    "Use:Cozy Nights"
+  ]
+}
