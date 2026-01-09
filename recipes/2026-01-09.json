@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-09",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth: Cozy Nights Ahead",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon (Cinnamomum verum)",
+    "Ylang-ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 8,
+        "Cinnamon": 6,
+        "Ylang-ylang": 6
+      },
+      "notes": "Diffuse 15 min before bed for a restful night"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 5,
+        "Cinnamon": 3,
+        "Ylang-ylang": 2
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 12,
+        "Cinnamon": 10,
+        "Ylang-ylang": 8
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well and spray around the house for a cozy atmosphere"
+    }
+  },
+  "why_it_works": "Frankincense promotes relaxation, while Cinnamon warms and uplifts. Ylang-ylang adds a soothing and calming touch.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxing",
+    "Use:Sleep, Atmosphere"
+  ]
+}
