@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-10",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warm-Up Bliss",
+  "oils": [
+    "Cedarwood (Cedrus deodora)",
+    "Frankincense (Boswellia serrata)",
+    "Orange (Citrus sinensis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cedarwood": 5,
+        "Frankincense": 7,
+        "Orange": 10
+      },
+      "notes": "Add a few drops of eucalyptus for a refreshing twist."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cedarwood": 5,
+        "Frankincense": 2,
+        "Orange": 3
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cedarwood": 10,
+        "Frankincense": 12,
+        "Orange": 15
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Cedarwood and frankincense promote relaxation, while orange uplifts and brightens the winter mood.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxing",
+    "Use:Self-care"
+  ]
+}
