@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-11",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth Immunity Blend",
+  "oils": [
+    "Cinnamon (Cinnamomum verum)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Frankincense (Boswellia serrata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cinnamon": 5,
+        "Eucalyptus": 10,
+        "Frankincense": 5
+      },
+      "notes": "Breathe deeply for winter wellness."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cinnamon": 4,
+        "Eucalyptus": 8,
+        "Frankincense": 4
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cinnamon": 10,
+        "Eucalyptus": 20,
+        "Frankincense": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Cinnamon and Eucalyptus evoke a sense of warmth and clarity, while Frankincense promotes balance and resilience.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Invigorating",
+    "Use:Immunity & Focus"
+  ]
+}
