@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-13",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon (Cinnamomum verum)",
+    "Ylang-ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 5,
+        "Cinnamon": 3,
+        "Ylang-ylang": 2
+      },
+      "notes": "Uplifting and cozy"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 7,
+        "Cinnamon": 3,
+        "Ylang-ylang": 0
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 5,
+        "Cinnamon": 2,
+        "Ylang-ylang": 3
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well"
+    }
+  },
+  "why_it_works": "Frankincense's warmth and grounding combine with Cinnamon's invigorating aroma, while Ylang-ylang's sweetness softens the blend.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Cozy",
+    "Use:Stress-relief"
+  ]
+}
