@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-15",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Chill Relief",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Ylang-Ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 15,
+        "Bergamot": 10,
+        "Ylang-Ylang": 5
+      },
+      "notes": "Enhance ambiance with this winter blend"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 30,
+        "Bergamot": 20,
+        "Ylang-Ylang": 10
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 10,
+        "Bergamot": 15,
+        "Ylang-Ylang": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Bergamot's citrus uplift and Frankincense's grounding balance Ylang-Ylang's soothing properties.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Calming",
+    "Use:Diffuser"
+  ]
+}
