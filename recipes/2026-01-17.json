@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-17",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Chill-Off",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 5,
+        "Eucalyptus": 10,
+        "Lavender": 5
+      },
+      "notes": "Combine invigorating Eucalyptus with grounding Frankincense for a refreshing atmosphere."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 30,
+        "Eucalyptus": 60,
+        "Lavender": 20
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 15,
+        "Eucalyptus": 30,
+        "Lavender": 15
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense and Eucalyptus promote mental clarity, while Lavender soothes the mind and body.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Invigorating",
+    "Use:Relaxation"
+  ]
+}
