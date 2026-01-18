@@ -1,0 +1,57 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-18",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Ginger (Zingiber officinale)",
+    "Cedarwood (Cedrus deodora)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Ginger": 5,
+        "Cedarwood": 10,
+        "Lavender": 5
+      },
+      "notes": "Add a few drops to a warm bath for extra relaxation"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 20,
+        "Ginger": 10,
+        "Lavender": 20
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 15,
+        "Ginger": 7.5,
+        "Cedarwood": 15,
+        "Lavender": 7.5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Frankincense and Cedarwood evoke warmth and comfort, while Ginger adds a stimulating boost. Lavender promotes relaxation.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxing",
+    "Use:Diffuser, Roller, Room Spray"
+  ]
+}
