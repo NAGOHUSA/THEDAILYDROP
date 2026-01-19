@@ -1,0 +1,52 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-19",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter's Cozy Calm",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 12,
+        "Bergamot": 6,
+        "Lavender": 10
+      },
+      "notes": "Enjoy the calming aroma during cozy winter nights."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 15,
+        "Lavender": 25
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Bergamot": 10,
+        "Lavender": 15
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense calms the mind, while Bergamot uplifts and Lavender soothes the skin.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Calm",
+    "Use:Cozy Nights"
+  ]
+}
