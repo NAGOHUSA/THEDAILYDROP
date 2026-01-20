@@ -1,0 +1,53 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-20",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Cozy",
+  "oils": [
+    "Lavender (Lavandula angustifolia)",
+    "Frankincense (Boswellia serrata)",
+    "Peppermint (Mentha x piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lavender": 15,
+        "Frankincense": 10,
+        "Peppermint": 5
+      },
+      "notes": "Diffuse for 30 minutes before bedtime for a restful night."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 10,
+        "Frankincense": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lavender": 20,
+        "Frankincense": 10,
+        "Peppermint": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lavender calms the mind, while Frankincense reduces inflammation. Peppermint adds invigorating freshness.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxing",
+    "Use:Self-care"
+  ]
+}
