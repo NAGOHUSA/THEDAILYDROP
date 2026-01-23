@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-23",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Frosty Morning Revival",
+  "oils": [
+    "Cedarwood (Cedrus deodora)",
+    "Frankincense (Boswellia serrata)",
+    "Mandarin (Citrus reticulata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cedarwood": 8,
+        "Frankincense": 6,
+        "Mandarin": 6
+      },
+      "notes": "Inhale for a refreshing morning start."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cedarwood": 20,
+        "Frankincense": 15,
+        "Mandarin": 10
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cedarwood": 18,
+        "Frankincense": 12,
+        "Mandarin": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Cedarwood grounds and centers, while Frankincense promotes relaxation; Mandarin uplifts with a sweet citrus aroma.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Uplifting",
+    "Use:Morning"
+  ]
+}
