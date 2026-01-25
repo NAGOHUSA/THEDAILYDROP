@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-01-25",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Warm Winter Breeze",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon (Cinnamomum verum)",
+    "Lemon (Citrus limon)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 6,
+        "Cinnamon": 5,
+        "Lemon": 7
+      },
+      "notes": "Adjust to your liking for a cozy atmosphere"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 35,
+        "Cinnamon": 25,
+        "Lemon": 10
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 12,
+        "Cinnamon": 9,
+        "Lemon": 14
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Frankincense and Cinnamon evoke warmth, while Lemon adds a touch of citrus to uplift the senses.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Cozy",
+    "Use:Diffuse during winter nights"
+  ]
+}
