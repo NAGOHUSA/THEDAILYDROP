@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-02-03",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Revival",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Sandalwood (Santalum album)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Sandalwood": 10,
+        "Lavender": 10
+      },
+      "notes": "Create a cozy atmosphere for meditation or relaxation."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 5,
+        "Sandalwood": 4,
+        "Lavender": 1
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 7,
+        "Sandalwood": 7,
+        "Lavender": 7
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense and sandalwood evoke warmth and grounding, while lavender soothes and calms. This blend helps alleviate stress and anxiety associated with winter.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxation",
+    "Use:Self-care"
+  ]
+}
