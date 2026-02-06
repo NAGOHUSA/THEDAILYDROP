@@ -1,0 +1,52 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-02-06",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Grounded Blend",
+  "oils": [
+    "Frankincense (Boswellia carterii)",
+    "Cardamom (Elettaria cardamomum)",
+    "Sweet Orange (Citrus sinensis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense (Boswellia carterii)": 3,
+        "Cardamom (Elettaria cardamomum)": 2,
+        "Sweet Orange (Citrus sinensis)": 1
+      },
+      "notes": "Use in a well-ventilated area; adjust water per manufacturer."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense (Boswellia carterii)": 4,
+        "Cardamom (Elettaria cardamomum)": 3
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense (Boswellia carterii)": 6,
+        "Cardamom (Elettaria cardamomum)": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; avoid fabrics that spot."
+    }
+  },
+  "why_it_works": "Warm woods and resin provide a cozy base while sweet citrus adds lift.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a qualified professional if pregnant, nursing, or under medical care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Grounded",
+    "Use:Home"
+  ]
+}
