@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-02-08",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon Bark (Cinnamomum verum)",
+    "Ginger (Zingiber officinale)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 6,
+        "Cinnamon Bark": 4,
+        "Ginger": 2
+      },
+      "notes": "Inhale for invigorating warmth."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 24,
+        "Ginger": 16,
+        "Cinnamon Bark": 8
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 12,
+        "Cinnamon Bark": 8,
+        "Ginger": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense eases stress, while Cinnamon Bark and Ginger promote circulation and warmth.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Invigoration",
+    "Use:Cold weather, stress"
+  ]
+}
