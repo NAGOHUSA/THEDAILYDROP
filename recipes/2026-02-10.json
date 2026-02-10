@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-02-10",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth & Renewal",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Peppermint (Mentha piperita)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 8,
+        "Peppermint": 3,
+        "Geranium": 5
+      },
+      "notes": "Inhale deeply to awaken senses."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 25,
+        "Peppermint": 5,
+        "Geranium": 20
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 30,
+        "Peppermint": 15,
+        "Geranium": 30
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Frankincense promotes relaxation, Peppermint invigorates the mind, and Geranium balances emotions.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Invigorating",
+    "Use:Stress"
+  ]
+}
