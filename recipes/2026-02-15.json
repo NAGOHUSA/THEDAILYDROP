@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-02-15",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth",
+  "oils": [
+    "Eucalyptus (Eucalyptus globulus)",
+    "Cinnamon (Cinnamomum verum)",
+    "Frankincense (Boswellia serrata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Eucalyptus": 8,
+        "Cinnamon": 4,
+        "Frankincense": 6
+      },
+      "notes": "Inhale deeply to clear sinuses."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Eucalyptus": 8,
+        "Cinnamon": 2,
+        "Frankincense": 6
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Eucalyptus": 6,
+        "Cinnamon": 2,
+        "Frankincense": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Eucalyptus invigorates, Cinnamon warms, and Frankincense grounds, perfect for chilly winter days.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Invigorating",
+    "Use:Respiratory health & mood boost"
+  ]
+}
