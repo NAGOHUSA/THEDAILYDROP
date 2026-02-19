@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-02-19",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Warmth Immunity Boost",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Lemon (Citrus limon)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 7,
+        "Lemon": 3,
+        "Geranium": 5
+      },
+      "notes": "Adjust blend to your liking"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 20,
+        "Lemon": 10,
+        "Geranium": 15
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 15,
+        "Lemon": 7,
+        "Geranium": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Frankincense's woody notes evoke warmth, while Lemon's citrus uplifts and Geranium's floral balances emotions.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Uplifted",
+    "Use:ImmunityBoost"
+  ]
+}
