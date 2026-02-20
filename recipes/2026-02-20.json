@@ -1,0 +1,56 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-02-20",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Cozy Winter Nights",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cedarwood (Cedrus deodora)",
+    "Lavender (Lavandula angustifolia)",
+    "Eucalyptus (Eucalyptus globulus)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 8,
+        "Cedarwood": 12,
+        "Lavender": 8
+      },
+      "notes": "A soothing blend for relaxation."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 10,
+        "Cedarwood": 15,
+        "Lavender": 10,
+        "Eucalyptus": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 20,
+        "Cedarwood": 30,
+        "Lavender": 20
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense promotes relaxation, while Cedarwood and Lavender soothe the mind and body. Eucalyptus adds a refreshing touch.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxation",
+    "Use:Self-care"
+  ]
+}
