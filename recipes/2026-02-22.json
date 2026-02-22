@@ -1,0 +1,55 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-02-22",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Cozy: Citrus & Spices",
+  "oils": [
+    "Grapefruit (Citrus paradisi)",
+    "Frankincense (Boswellia serrata)",
+    "Cinnamon (Cinnamomum verum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Grapefruit": 8,
+        "Frankincense": 5,
+        "Cinnamon": 3
+      },
+      "notes": "Warm up with a citrusy, woody blend."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Grapefruit": 4,
+        "Frankincense": 2,
+        "Cinnamon": 1,
+        "Fractionated Coconut Oil": 49
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": null,
+      "drops": {
+        "Grapefruit": 5,
+        "Frankincense": 3,
+        "Cinnamon": 1
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Uplifting citrus and woody spices evoke a cozy, comforting atmosphere.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Cozy",
+    "Use:Atmosphere"
+  ]
+}
