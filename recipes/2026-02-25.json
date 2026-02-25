@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-02-25",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Winter Revival",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Cedarwood (Cedrus deodora)",
+    "Spruce (Picea abies)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 10,
+        "Cedarwood": 8,
+        "Spruce": 4
+      },
+      "notes": "A grounding blend to promote a sense of calm."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 20,
+        "Cedarwood": 16,
+        "Spruce": 8
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 10,
+        "Cedarwood": 8,
+        "Spruce": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense and Cedarwood evoke a sense of warmth, while Spruce adds a crisp, invigorating touch.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Calm",
+    "Use:Daytime"
+  ]
+}
