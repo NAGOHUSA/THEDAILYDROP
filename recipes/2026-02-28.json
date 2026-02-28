@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-02-28",
+  "season": "Winter",
+  "hemisphere": "Northern",
+  "title": "Cozy Winter Nights",
+  "oils": [
+    "Frankincense (Boswellia serrata)",
+    "Lavender (Lavandula angustifolia)",
+    "Eucalyptus (Eucalyptus globulus)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 7,
+        "Lavender": 10,
+        "Eucalyptus": 3
+      },
+      "notes": "Uplifts mood and promotes relaxation."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 3,
+      "drops": {
+        "Frankincense": 3,
+        "Lavender": 5,
+        "Eucalyptus": 2
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 15,
+        "Lavender": 20,
+        "Eucalyptus": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Frankincense promotes relaxation and reduces anxiety. Eucalyptus helps ease respiratory issues and Lavender soothes the mind.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Winter",
+    "Mood:Relaxation",
+    "Use:Diffuse or topical application"
+  ]
+}
