@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-03-04",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Awakening",
+  "oils": [
+    "Geranium (Pelargonium graveolens)",
+    "Lemon (Citrus limon)",
+    "Rosemary (Rosmarinus officinalis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Geranium": 6,
+        "Lemon": 6,
+        "Rosemary": 3
+      },
+      "notes": "Inhale deeply to invigorate senses."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Geranium": 6,
+        "Lemon": 3,
+        "Rosemary": 1
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Geranium": 12,
+        "Lemon": 12,
+        "Rosemary": 6
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Geranium uplifts and balances, Lemon refreshes, and Rosemary invigorates.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Desk or Workspace"
+  ]
+}
