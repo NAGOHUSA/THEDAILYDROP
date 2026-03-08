@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-03-08",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Awakening",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Tangerine (Citrus reticulata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 5,
+        "Grapefruit": 10,
+        "Tangerine": 5
+      },
+      "notes": "Add a few drops of Lemon for a refreshing morning boost."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 6,
+        "Grapefruit": 12,
+        "Tangerine": 6
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 15,
+        "Grapefruit": 30,
+        "Tangerine": 15
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Uplifting citrus scents evoke feelings of renewal and joy, perfect for Spring.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Desk or Office"
+  ]
+}
