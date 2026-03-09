@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-03-09",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Blooming Renewal",
+  "oils": [
+    "Bergamot (Citrus aurantium bergamia)",
+    "Ylang-ylang (Cananga odorata)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Bergamot": 12,
+        "Ylang-ylang": 20,
+        "Geranium": 8
+      },
+      "notes": "Balance energizing and calming scents."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Bergamot": 5,
+        "Ylang-ylang": 4,
+        "Geranium": 1
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Bergamot": 10,
+        "Ylang-ylang": 15,
+        "Geranium": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Bergamot's citrus uplift and Ylang-ylang's floral calm create a soothing yet refreshing blend, while Geranium adds a subtle, balancing note.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Balanced",
+    "Use:Mood-boosting & relaxation"
+  ]
+}
