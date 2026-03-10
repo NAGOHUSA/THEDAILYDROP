@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-03-10",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Revival",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Ginger (Zingiber officinale)",
+    "Ylang-Ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 6,
+        "Ginger": 4,
+        "Ylang-Ylang": 10
+      },
+      "notes": "Use in the morning for a refreshing start."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 30,
+        "Ginger": 20,
+        "Ylang-Ylang": 40
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 15,
+        "Ginger": 10,
+        "Ylang-Ylang": 20
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lemon and Ginger invigorate the senses, while Ylang-Ylang calms and uplifts.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifted",
+    "Use:Mood booster"
+  ]
+}
