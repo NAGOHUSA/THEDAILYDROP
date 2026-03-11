@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-03-11",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Awakening",
+  "oils": [
+    "Peppermint (Mentha piperita)",
+    "Lemon (Citrus limon)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Peppermint": 7,
+        "Lemon": 10,
+        "Geranium": 3
+      },
+      "notes": "Revitalize your space with a refreshing mix."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Peppermint": 20,
+        "Lemon": 15,
+        "Geranium": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Peppermint": 15,
+        "Lemon": 20,
+        "Geranium": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Peppermint invigorates, while Lemon uplifts and Geranium balances, perfect for a spring refresh.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifted",
+    "Use:Desk or car"
+  ]
+}
