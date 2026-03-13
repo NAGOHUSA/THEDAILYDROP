@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-03-13",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Awakening",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Geranium (Pelargonium graveolens)",
+    "Bergamot (Citrus aurantium bergamia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 10,
+        "Geranium": 8,
+        "Bergamot": 7
+      },
+      "notes": "Create a refreshing atmosphere to welcome spring."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 5,
+        "Geranium": 4,
+        "Bergamot": 3
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 15,
+        "Geranium": 12,
+        "Bergamot": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Uplifting citrus and floral notes evoke renewal and balance in the spring season.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Refreshing",
+    "Use:Spring Revitalization"
+  ]
+}
