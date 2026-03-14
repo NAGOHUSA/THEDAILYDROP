@@ -1,0 +1,53 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-03-14",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Awakening",
+  "oils": [
+    "Geranium (Pelargonium graveolens)",
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Geranium": 10,
+        "Lemon": 5,
+        "Grapefruit": 5
+      },
+      "notes": "Uplifting for morning routines."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Geranium": 20,
+        "Lemon": 10
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Geranium": 20,
+        "Lemon": 15,
+        "Grapefruit": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Geranium's floral notes balance citrus uplift, perfect for spring's renewal.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Morning"
+  ]
+}
