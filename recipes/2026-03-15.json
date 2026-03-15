@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-03-15",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Revive with Spring Renewal",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Grapefruit (Citrus paradisi)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 10,
+        "Eucalyptus": 15,
+        "Grapefruit": 10
+      },
+      "notes": "Boost your mood with citrus and eucalyptus."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Grapefruit": 10,
+        "Eucalyptus": 2,
+        "Lemon": 1
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Grapefruit": 5,
+        "Lemon": 5,
+        "Eucalyptus": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Citrus uplifts and eucalyptus refreshes, perfect for spring renewal.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Morning"
+  ]
+}
