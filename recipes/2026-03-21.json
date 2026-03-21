@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-03-21",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Renewal in Bloom",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Geranium (Pelargonium graveolens)",
+    "Bergamot (Citrus aurantium bergamia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 10,
+        "Geranium": 8,
+        "Bergamot": 10
+      },
+      "notes": "Uplifting blend, adjust to taste."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Geranium": 30,
+        "Lemon": 20,
+        "Bergamot": 20
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Geranium": 15,
+        "Lemon": 10,
+        "Bergamot": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Invigorating citrus and floral scents evoke renewal and positivity, perfect for spring's fresh start.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Desk/Workspace"
+  ]
+}
