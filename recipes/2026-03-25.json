@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-03-25",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Renewal & Growth",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 7,
+        "Eucalyptus": 10,
+        "Geranium": 3
+      },
+      "notes": "Add a few drops to your yoga mat for a refreshing start."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 30,
+        "Eucalyptus": 20,
+        "Geranium": 10
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 10,
+        "Eucalyptus": 10,
+        "Geranium": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lemon's citrus and Eucalyptus's decongestant properties evoke feelings of renewal, while Geranium's floral notes promote balance.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Invigorating",
+    "Use:Morning"
+  ]
+}
