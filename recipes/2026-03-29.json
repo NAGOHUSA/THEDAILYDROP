@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-03-29",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Renewal Breeze",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Bergamot (Citrus aurantium bergamia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 10,
+        "Grapefruit": 15,
+        "Bergamot": 25
+      },
+      "notes": "Inhale deeply for a refreshing boost."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 6,
+        "Grapefruit": 8,
+        "Bergamot": 12
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 20,
+        "Grapefruit": 30,
+        "Bergamot": 40
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Invigorating citrus scents uplift the senses, while bergamot's calming properties balance the energy of spring.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Inhale or topical"
+  ]
+}
