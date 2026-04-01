@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-04-01",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Revival",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Mint (Mentha spp.)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 20,
+        "Grapefruit": 30,
+        "Mint": 10
+      },
+      "notes": "Balance freshness with mood-boosting citrus."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 50,
+        "Grapefruit": 50,
+        "Mint": 20
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 15,
+        "Grapefruit": 20,
+        "Mint": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Citrus uplifts and revitalizes, while mint cools and focuses the mind.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Energized",
+    "Use:Desk, Gym"
+  ]
+}
