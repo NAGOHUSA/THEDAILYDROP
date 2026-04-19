@@ -1,0 +1,53 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-04-19",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Blooming Renewal",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Mint (Mentha arvensis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 6,
+        "Grapefruit": 4,
+        "Bergamot": 5
+      },
+      "notes": "Uplift with morning diffusion."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Mint": 15,
+        "Lemon": 8
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Grapefruit": 10,
+        "Bergamot": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Invigorating citrus and mint evoke the freshness of spring, boosting mood and energy.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Energizing",
+    "Use:morning"
+  ]
+}
