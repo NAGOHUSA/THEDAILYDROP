@@ -1,0 +1,58 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-04-23",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Awakening Refresh",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Rosemary (Rosmarinus officinalis)",
+    "Bergamot (Citrus aurantium bergamia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 10,
+        "Grapefruit": 10,
+        "Rosemary": 5,
+        "Bergamot": 5
+      },
+      "notes": "Adjust to your liking."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 5,
+        "Grapefruit": 5,
+        "Rosemary": 1,
+        "Bergamot": 1
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 10,
+        "Grapefruit": 10,
+        "Rosemary": 2,
+        "Bergamot": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Cleansing citrus uplifts and freshens the mind. Earthy rosemary grounds and clarifies thought.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifted",
+    "Use:Desk or Office"
+  ]
+}
