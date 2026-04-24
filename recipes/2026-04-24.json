@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-04-24",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Renewal",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 10,
+        "Grapefruit": 8,
+        "Geranium": 4
+      },
+      "notes": "Balance uplifting citrus with floral sweetness."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 7,
+        "Grapefruit": 5,
+        "Geranium": 3
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 20,
+        "Grapefruit": 15,
+        "Geranium": 7
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Citrus scents evoke feelings of renewal, while geranium adds a sense of balance.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Morning"
+  ]
+}
