@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-04-25",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Blooming Renewal",
+  "oils": [
+    "Lavender (Lavandula angustifolia)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lavender": 15,
+        "Bergamot": 10,
+        "Geranium": 5
+      },
+      "notes": "Inhale deeply to boost mood."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 40,
+        "Bergamot": 20,
+        "Geranium": 10
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lavender": 90,
+        "Bergamot": 30,
+        "Geranium": 30
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lavender calms and uplifts, while Bergamot reduces stress and anxiety. Geranium balances emotions.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Stress relief"
+  ]
+}
