@@ -1,0 +1,53 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-04-26",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Renewal",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 10,
+        "Eucalyptus": 10,
+        "Geranium": 5
+      },
+      "notes": "Invigorating, refreshing blend."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 10,
+        "Geranium": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 15,
+        "Eucalyptus": 10,
+        "Geranium": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Uplifting citrus and herbaceous notes evoke spring's renewal and growth, while eucalyptus adds a refreshing, clarifying touch.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Morning"
+  ]
+}
