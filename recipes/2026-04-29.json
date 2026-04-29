@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-04-29",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Awakening",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Rosemary (Rosmarinus officinalis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 5,
+        "Grapefruit": 5,
+        "Rosemary": 3
+      },
+      "notes": "Inhale and feel refreshed."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2.5,
+      "drops": {
+        "Lemon": 6,
+        "Grapefruit": 4,
+        "Rosemary": 3
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 10,
+        "Grapefruit": 10,
+        "Rosemary": 6
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lemon uplifts and refreshes, while grapefruit promotes focus. Rosemary enhances mental clarity.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Desk or Morning Routine"
+  ]
+}
