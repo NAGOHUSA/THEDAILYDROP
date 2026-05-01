@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-05-01",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Blooming Fresh Spring Revival",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Geranium (Pelargonium graveolens)",
+    "Bergamot (Citrus aurantium bergamia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 8,
+        "Geranium": 6,
+        "Bergamot": 4
+      },
+      "notes": "Uplifting blend for a crisp morning"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 10,
+        "Geranium": 8,
+        "Bergamot": 6
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 20,
+        "Geranium": 16,
+        "Bergamot": 12
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Lemon and Bergamot uplift and cleanse, while Geranium brings balance and harmony.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Morning"
+  ]
+}
