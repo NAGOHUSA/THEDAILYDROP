@@ -1,0 +1,58 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-05-04",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Renewal",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Ylang-ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 8,
+        "Grapefruit": 6,
+        "Bergamot": 12,
+        "Ylang-ylang": 4
+      },
+      "notes": "Refresh your space with citrus aromas."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 2,
+        "Grapefruit": 1,
+        "Bergamot": 4,
+        "Ylang-ylang": 1
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 12,
+        "Grapefruit": 9,
+        "Bergamot": 18,
+        "Ylang-ylang": 6
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lemon and Grapefruit uplift with citrus freshness, while Bergamot adds a calming and grounding touch. Ylang-ylang promotes relaxation and balance.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Desk or office"
+  ]
+}
