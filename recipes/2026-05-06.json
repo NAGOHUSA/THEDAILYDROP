@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-05-06",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Blooming Renewal",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Geranium (Pelargonium graveolens)",
+    "Ylang-ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 10,
+        "Geranium": 15,
+        "Ylang-ylang": 5
+      },
+      "notes": "Add a few drops to your diffuser for a refreshing pick-me-up."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 3,
+      "drops": {
+        "Lemon": 7,
+        "Geranium": 10,
+        "Ylang-ylang": 3
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 20,
+        "Geranium": 30,
+        "Ylang-ylang": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Uplifting citrus scents meet floral sweetness to evoke feelings of renewal and joy.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Joyful",
+    "Use:Morning Routine"
+  ]
+}
