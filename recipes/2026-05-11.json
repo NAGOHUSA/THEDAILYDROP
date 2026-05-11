@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-05-11",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Blooming Renewal",
+  "oils": [
+    "Lavender (Lavandula angustifolia)",
+    "Geranium (Pelargonium graveolens)",
+    "Lemon (Citrus limon)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lavender": 15,
+        "Geranium": 10,
+        "Lemon": 5
+      },
+      "notes": "Uplifting and calming for a springtime pick-me-up."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 6,
+        "Geranium": 4,
+        "Lemon": 1
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lavender": 15,
+        "Geranium": 10,
+        "Lemon": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Lavender soothes and calms, while Geranium lifts mood with its floral sweetness. Lemon adds a touch of citrus freshness.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifting",
+    "Use:Mood booster"
+  ]
+}
