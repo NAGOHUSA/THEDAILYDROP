@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-05-16",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Blooming Renewal",
+  "oils": [
+    "Lavender (Lavandula angustifolia)",
+    "Geranium (Pelargonium graveolens)",
+    "Ylang-Ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lavender": 5,
+        "Geranium": 3,
+        "Ylang-Ylang": 7
+      },
+      "notes": "Create a soothing atmosphere for relaxation."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 30,
+        "Geranium": 15,
+        "Ylang-Ylang": 30
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lavender": 18,
+        "Geranium": 9,
+        "Ylang-Ylang": 18
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lavender promotes relaxation, while Geranium and Ylang-Ylang uplift and balance the mood.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Balancing",
+    "Use:Stress relief"
+  ]
+}
