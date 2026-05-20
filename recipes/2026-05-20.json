@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-05-20",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Renewal",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Rosemary (Rosmarinus officinalis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 10,
+        "Eucalyptus": 10,
+        "Rosemary": 5
+      },
+      "notes": "Inhale deeply for vitality."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 20,
+        "Eucalyptus": 15,
+        "Rosemary": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 20,
+        "Eucalyptus": 10,
+        "Rosemary": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Invigorating citrus and eucalyptus stimulate mental clarity, while rosemary enhances focus and memory.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Invigorated",
+    "Use:Desk or workspace"
+  ]
+}
