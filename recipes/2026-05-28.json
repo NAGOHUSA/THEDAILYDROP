@@ -1,0 +1,55 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-05-28",
+  "season": "Spring",
+  "hemisphere": "Northern",
+  "title": "Spring Awakening",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Ylang-ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 6,
+        "Grapefruit": 4,
+        "Bergamot": 8,
+        "Ylang-ylang": 3
+      },
+      "notes": "Uplift your mood with citrus freshness!"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Bergamot": 7,
+        "Grapefruit": 3
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 10,
+        "Ylang-ylang": 5,
+        "Bergamot": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lemon and grapefruit oils boost your mood with invigorating citrus scents, while bergamot adds a calming touch. Ylang-ylang's sweet aroma wraps it all together.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Spring",
+    "Mood:Uplifted",
+    "Use:Mood booster, Air freshener"
+  ]
+}
