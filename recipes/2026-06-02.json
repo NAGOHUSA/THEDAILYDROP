@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-06-02",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Breeze Revival",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Eucalyptus (Eucalyptus globulus)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 5,
+        "Grapefruit": 3,
+        "Eucalyptus": 5
+      },
+      "notes": "Uplifts and refreshes the air."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 6,
+        "Grapefruit": 4,
+        "Eucalyptus": 8
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 20,
+        "Grapefruit": 15,
+        "Eucalyptus": 25
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Invigorating citrus and eucalyptus uplift and refresh the mind and body, perfect for summer days.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifted",
+    "Use:Summer days"
+  ]
+}
