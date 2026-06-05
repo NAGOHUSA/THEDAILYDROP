@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-06-05",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Breeze Revival",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Ylang Ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 7,
+        "Bergamot": 4,
+        "Ylang Ylang": 9
+      },
+      "notes": "A refreshing morning boost to uplift and energize."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 10,
+        "Bergamot": 5,
+        "Ylang Ylang": 3
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 15,
+        "Bergamot": 8,
+        "Ylang Ylang": 7
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lemon's citrus zing and Bergamot's uplifting properties combine with Ylang Ylang's soothing sweet notes to create a refreshing summer blend.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Stress Relief"
+  ]
+}
