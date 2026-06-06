@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-06-06",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Crisp Summer Nights",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 10,
+        "Eucalyptus": 10,
+        "Lavender": 15
+      },
+      "notes": "Enjoy a refreshing evening atmosphere."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 25,
+        "Eucalyptus": 5,
+        "Lemon": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 10,
+        "Eucalyptus": 10,
+        "Lavender": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Eucalyptus cools and uplifts, while lemon refreshes, and lavender calms the mind.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Evening relaxation"
+  ]
+}
