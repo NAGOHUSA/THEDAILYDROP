@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-06-10",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Sunny Vibes Refreshment",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Grapefruit (Citrus paradisi)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 5,
+        "Eucalyptus": 15,
+        "Grapefruit": 10
+      },
+      "notes": "Invigorating citrus blend for a refreshing summer breeze."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 5,
+        "Eucalyptus": 3,
+        "Grapefruit": 2
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 15,
+        "Eucalyptus": 30,
+        "Grapefruit": 15
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Invigorating citrus scents uplift mood, while eucalyptus cools and refreshes.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Afternoon Pick-Me-Up"
+  ]
+}
