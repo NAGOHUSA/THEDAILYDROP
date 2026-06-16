@@ -1,0 +1,53 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-06-16",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Breeze",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Eucalyptus (Eucalyptus globulus)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 5,
+        "Grapefruit": 3,
+        "Eucalyptus": 2
+      },
+      "notes": "Enhance with a few ice cubes for a refreshing blend."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 7,
+        "Grapefruit": 3
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 12,
+        "Grapefruit": 8,
+        "Eucalyptus": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Uplifting citrus and eucalyptus evoke a sense of freedom, perfect for warm summer days.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Outdoor/Workout"
+  ]
+}
