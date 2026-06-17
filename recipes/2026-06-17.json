@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-06-17",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Breeze Revival",
+  "oils": [
+    "Bergamot (Citrus aurantium bergamia)",
+    "Lemon (Citrus limon)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Bergamot (Citrus aurantium bergamia)": 10,
+        "Lemon (Citrus limon)": 15,
+        "Geranium (Pelargonium graveolens)": 5
+      },
+      "notes": "Uplifting and refreshing."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Bergamot (Citrus aurantium bergamia)": 5,
+        "Lemon (Citrus limon)": 3,
+        "Geranium (Pelargonium graveolens)": 2
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Bergamot (Citrus aurantium bergamia)": 10,
+        "Lemon (Citrus limon)": 15,
+        "Geranium (Pelargonium graveolens)": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Bergamot and lemon oils evoke feelings of joy and uplift, while geranium adds a floral touch to balance the blend.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Stress relief and mood booster"
+  ]
+}
