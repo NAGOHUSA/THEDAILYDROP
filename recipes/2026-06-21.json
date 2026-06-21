@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-06-21",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Breeze",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Ylang-ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 6,
+        "Eucalyptus": 4,
+        "Ylang-ylang": 10
+      },
+      "notes": "Invigorating boost for summer mornings."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 4,
+        "Eucalyptus": 2,
+        "Ylang-ylang": 4
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 15,
+        "Eucalyptus": 10,
+        "Ylang-ylang": 15
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Invigorating citrus notes uplift the mood, while eucalyptus refreshes and ylang-ylang soothes.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Upbeat",
+    "Use:Outdoor"
+  ]
+}
