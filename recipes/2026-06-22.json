@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-06-22",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Serenity",
+  "oils": [
+    "Lavender (Lavandula angustifolia)",
+    "Geranium (Pelargonium graveolens)",
+    "Bergamot (Citrus aurantium bergamia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lavender": 10,
+        "Geranium": 8,
+        "Bergamot": 12
+      },
+      "notes": "Adjust proportions for your personal preference."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 7,
+        "Geranium": 6,
+        "Bergamot": 8
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lavender": 15,
+        "Geranium": 12,
+        "Bergamot": 18
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lavender promotes relaxation, Geranium balances emotions, while Bergamot uplifts and cools the senses.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Relaxing",
+    "Use:Evening"
+  ]
+}
