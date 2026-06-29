@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-06-29",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Revival",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Mint (Mentha piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 7,
+        "Eucalyptus": 3,
+        "Mint": 2
+      },
+      "notes": "Invigorating blend for a refreshing atmosphere"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 4,
+        "Eucalyptus": 1,
+        "Mint": 1
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 12,
+        "Eucalyptus": 6,
+        "Mint": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Lemon uplifts and refreshes, while Eucalyptus cools and calms the mind. Mint adds a revitalizing boost.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Stress relief"
+  ]
+}
