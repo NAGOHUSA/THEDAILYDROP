@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-07-02",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Breezy Summer Bliss",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Geranium (Pelargonium graveolens)",
+    "Cedarwood (Cedrus deodora)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 12,
+        "Geranium": 8,
+        "Cedarwood": 6
+      },
+      "notes": "A refreshing blend to keep you cool on a summer day."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 25,
+        "Geranium": 12,
+        "Cedarwood": 8
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 60,
+        "Geranium": 30,
+        "Cedarwood": 20
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lemon's citrus uplift combines with Geranium's floral sweetness to evoke a sense of relaxation, while Cedarwood's earthy depth brings grounding.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Relaxation",
+    "Use:Summer Self-Care"
+  ]
+}
