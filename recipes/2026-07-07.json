@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-07-07",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Midsummer Breeze",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Mint (Mentha x piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 8,
+        "Grapefruit": 6,
+        "Mint": 2
+      },
+      "notes": "Adjust to preference for a refreshing blend."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2.5,
+      "drops": {
+        "Lemon": 5,
+        "Grapefruit": 4,
+        "Mint": 1
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 12,
+        "Grapefruit": 10,
+        "Mint": 3
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Invigorating citrus oils uplift the senses, while mint's cooling properties evoke the sensation of a refreshing breeze.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Energy Boost"
+  ]
+}
