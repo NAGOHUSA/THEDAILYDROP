@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-07-08",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Breeze",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Bergamot (Citrus aurantium bergamia)",
+    "Ylang-ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 8,
+        "Bergamot": 6,
+        "Ylang-ylang": 4
+      },
+      "notes": "Uplifting blend for a hot summer day."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 20,
+        "Bergamot": 15,
+        "Ylang-ylang": 10
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 10,
+        "Bergamot": 8,
+        "Ylang-ylang": 6
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before spraying."
+    }
+  },
+  "why_it_works": "Lemon and bergamot evoke a refreshing, citrusy essence, while ylang-ylang adds a sweet, floral note.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Summer afternoons"
+  ]
+}
