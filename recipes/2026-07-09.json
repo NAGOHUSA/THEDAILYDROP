@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-07-09",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Breeze Revival",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Bergamot (Citrus aurantium bergamia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 15,
+        "Eucalyptus": 10,
+        "Bergamot": 5
+      },
+      "notes": "Perfect blend for a refreshing morning"
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 5,
+        "Eucalyptus": 3,
+        "Bergamot": 2
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 15,
+        "Eucalyptus": 10,
+        "Bergamot": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Invigorating citrus and refreshing eucalyptus evoke a sense of renewal, while bergamot's calming properties soothe the mind.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Morning/Evening"
+  ]
+}
