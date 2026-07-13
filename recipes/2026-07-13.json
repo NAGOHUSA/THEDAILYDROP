@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-07-13",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Breeze Refresher",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Grapefruit (Citrus paradisi)",
+    "Mint (Mentha arvensis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 7,
+        "Grapefruit": 5,
+        "Mint": 3
+      },
+      "notes": "Inhale deeply and enjoy a refreshing summer breeze."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 10,
+        "Grapefruit": 6,
+        "Mint": 4
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 15,
+        "Grapefruit": 10,
+        "Mint": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Invigorating citrus and mint blend uplifts and refreshes the senses.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Invigoration",
+    "Use:Summer afternoons"
+  ]
+}
