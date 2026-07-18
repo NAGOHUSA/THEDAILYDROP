@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-07-18",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Cool Summer Breeze",
+  "oils": [
+    "Lavender (Lavandula angustifolia)",
+    "Peppermint (Mentha piperita)",
+    "Eucalyptus (Eucalyptus globulus)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lavender": 10,
+        "Peppermint": 5,
+        "Eucalyptus": 5
+      },
+      "notes": "Refresh your space with a calming breeze."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 25,
+        "Peppermint": 12.5,
+        "Eucalyptus": 12.5
+      },
+      "carrier": "Fractionated Coconut Oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lavender": 20,
+        "Peppermint": 10,
+        "Eucalyptus": 10
+      },
+      "base": "Distilled Water + 95% Ethanol",
+      "note": "Shake well before use"
+    }
+  },
+  "why_it_works": "Combining calming Lavender with refreshing Peppermint and decongesting Eucalyptus creates a soothing atmosphere perfect for summer.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Relaxing",
+    "Use:Hot Summer Days"
+  ]
+}
