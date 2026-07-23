@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-07-23",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Revitalizer",
+  "oils": [
+    "Lemongrass (Cymbopogon citratus)",
+    "Peppermint (Mentha piperita)",
+    "Ylang-ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemongrass": 15,
+        "Peppermint": 10,
+        "Ylang-ylang": 5
+      },
+      "notes": "Combine for a refreshing and uplifting ambiance."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemongrass": 30,
+        "Peppermint": 20,
+        "Ylang-ylang": 10
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemongrass": 20,
+        "Peppermint": 5,
+        "Ylang-ylang": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lemongrass and peppermint invigorate, while ylang-ylang soothes and calms the senses.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Stress Relief"
+  ]
+}
