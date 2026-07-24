@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-07-24",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Serenity",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Geranium (Pelargonium graveolens)",
+    "Ylang Ylang (Cananga odorata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 8,
+        "Geranium": 6,
+        "Ylang Ylang": 6
+      },
+      "notes": "A soothing blend to calm and uplift."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 15,
+        "Geranium": 12,
+        "Ylang Ylang": 12
+      },
+      "carrier": "fractionated coconut"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 30,
+        "Geranium": 20,
+        "Ylang Ylang": 20
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "Lemon's citrus uplifts and Geranium's floral sweetness balance Ylang Ylang's soothing warmth for a refreshing summer blend.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Calm",
+    "Use:Stress Relief"
+  ]
+}
