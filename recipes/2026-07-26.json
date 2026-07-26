@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-07-26",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Breeze",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Eucalyptus (Eucalyptus globulus)",
+    "Mint (Mentha piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 6,
+        "Eucalyptus": 4,
+        "Mint": 5
+      },
+      "notes": "Invigorating blend for a refreshing summer atmosphere."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 20,
+        "Eucalyptus": 15,
+        "Mint": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 30,
+        "Eucalyptus": 20,
+        "Mint": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use."
+    }
+  },
+  "why_it_works": "The invigorating aroma of lemon and eucalyptus promotes mental clarity, while mint cools and refreshes.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Invigorating",
+    "Use:After-sun or morning pick-me-up"
+  ]
+}
