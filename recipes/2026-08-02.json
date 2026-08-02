@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-08-02",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Breeze",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Geranium (Pelargonium graveolens)",
+    "Eucalyptus (Eucalyptus globulus)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 15,
+        "Geranium": 10,
+        "Eucalyptus": 5
+      },
+      "notes": "Uplifting and refreshing for warm days."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 10,
+        "Geranium": 5,
+        "Eucalyptus": 5
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 45,
+        "Geranium": 15,
+        "Eucalyptus": 15
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Calming and uplifting properties combine to create a refreshing summer blend.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Relaxation"
+  ]
+}
