@@ -1,0 +1,52 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-08-10",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Summer Revival",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Peppermint (Mentha piperita)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 15,
+        "Peppermint": 10,
+        "Geranium": 5
+      },
+      "notes": "Use as a pick-me-up after a morning hike."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 6,
+        "Geranium": 4
+      },
+      "carrier": "fractionated coconut oil"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 20,
+        "Geranium": 10
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Citrus and mint invigorate the senses, while floral geranium balances and uplifts.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Energized",
+    "Use:Outdoor"
+  ]
+}
