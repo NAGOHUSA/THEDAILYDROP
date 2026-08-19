@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-08-19",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Cool Breeze Citrus Lift",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Peppermint (Mentha piperita)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Peppermint": 2,
+        "Lavender": 1
+      },
+      "notes": "Add to a diffuser with water; run for 30–60 minutes for a refreshing burst."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 3,
+        "Peppermint": 2,
+        "Lavender": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Peppermint": 4,
+        "Lavender": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist around the room, avoiding fabrics."
+    }
+  },
+  "why_it_works": "Sweet orange adds a cheerful, sun-kissed lift; peppermint cools and sharpens focus; lavender softens the blend, making it calming yet invigorating for hot days.",
+  "safety": [
+    "Patch test before topical use; dilute properly.",
+    "Avoid eyes and mucous membranes; keep away from children and pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under medical care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Cooling & Focus"
+  ]
+}
