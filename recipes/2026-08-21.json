@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-08-21",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Breezy Citrus Meadow",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Lavender (Lavandula angustifolia)",
+    "Peppermint (Mentha x piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 3,
+        "Lavender": 2,
+        "Peppermint": 1
+      },
+      "notes": "Add to a diffuser with water; run for 30–45 minutes in an open room."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 4,
+        "Lavender": 3,
+        "Peppermint": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 6,
+        "Lavender": 4,
+        "Peppermint": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; spray lightly on linens or air."
+    }
+  },
+  "why_it_works": "Lemon’s bright, uplifting citrus pairs with lavender’s calming floral to ease summer heat, while a hint of peppermint adds a cooling, fresh breeze that feels like a midday sigh.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Home refresh"
+  ]
+}
