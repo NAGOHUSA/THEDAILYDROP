@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-08-22",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Cool Breeze Citrus Mist",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Lavender (Lavandula angustifolia)",
+    "Peppermint (Mentha x piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Lavender": 2,
+        "Peppermint": 2
+      },
+      "notes": "Add to a cool-mist diffuser for a refreshing, airy lift."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 3,
+        "Lavender": 3,
+        "Peppermint": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Lavender": 4,
+        "Peppermint": 3
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist into the air."
+    }
+  },
+  "why_it_works": "Sweet orange uplifts with citrus brightness, lavender calms the heat, and peppermint adds a cooling, crisp edge—perfect for summer days.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Fresh",
+    "Use:Cooldown"
+  ]
+}
