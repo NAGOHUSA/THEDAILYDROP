@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-08-23",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Cool Breeze Citrus Spritz",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Peppermint (Mentha piperita)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 3,
+        "Peppermint": 2,
+        "Lavender": 2
+      },
+      "notes": "Add to a diffuser with water for a refreshing, cooling room atmosphere."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 4,
+        "Peppermint": 2,
+        "Lavender": 4
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 6,
+        "Peppermint": 4,
+        "Lavender": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; spritz on linens or air."
+    }
+  },
+  "why_it_works": "Peppermint and lemon deliver an instant cooling, bright lift for hot days, while lavender softens the edge and adds a calm, grounded finish.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Refreshed",
+    "Use:Air freshener"
+  ]
+}
