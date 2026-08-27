@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-08-27",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Sunlit Breeze Revival",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Peppermint (Mentha × piperita)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 3,
+        "Peppermint": 2,
+        "Lavender": 2
+      },
+      "notes": "Perfect for a midday pick-me-up; run for 30 minutes."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 4,
+        "Peppermint": 2,
+        "Lavender": 6
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 6,
+        "Peppermint": 4,
+        "Lavender": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist around the room."
+    }
+  },
+  "why_it_works": "Lemon and peppermint deliver a crisp, cooling lift for hot days, while lavender softens the edge and adds a calming floral balance—energizing yet serene.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifted",
+    "Use:Home refresh"
+  ]
+}
