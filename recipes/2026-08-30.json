@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-08-30",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Golden Hour Citrus Breeze",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Lavender (Lavandula angustifolia)",
+    "Peppermint (Mentha × piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Lavender": 2,
+        "Peppermint": 1
+      },
+      "notes": "Add to a diffuser with water for a fresh, uplifting room scent."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 3,
+        "Lavender": 2,
+        "Peppermint": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Lavender": 4,
+        "Peppermint": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; spray lightly in the air."
+    }
+  },
+  "why_it_works": "Sweet orange lifts the mood with a sun-kissed aroma, lavender calms the heat of the day, and a hint of peppermint adds a cooling, refreshing edge—perfect for late-summer evenings.",
+  "safety": [
+    "Patch test before topical use; dilute properly.",
+    "Avoid eyes and mucous membranes; keep out of reach of children and pets.",
+    "Do not ingest essential oils.",
+    "Consult a healthcare professional if pregnant, nursing, or under medical care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Evening relaxation"
+  ]
+}
