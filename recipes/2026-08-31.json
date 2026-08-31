@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-08-31",
+  "season": "Summer",
+  "hemisphere": "Northern",
+  "title": "Late Summer Citrus Breeze",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Lavender (Lavandula angustifolia)",
+    "Peppermint (Mentha × piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Lavender": 2,
+        "Peppermint": 1
+      },
+      "notes": "Perfect for a light, uplifting afternoon pick-me-up."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 4,
+        "Lavender": 3,
+        "Peppermint": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Lavender": 4,
+        "Peppermint": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist lightly in the room."
+    }
+  },
+  "why_it_works": "Sweet orange brings a cheerful, sunny lift; lavender softens the heat with calm; peppermint adds a cool, refreshing edge—ideal for late summer humidity.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Summer",
+    "Mood:Uplifting",
+    "Use:Refresh"
+  ]
+}
