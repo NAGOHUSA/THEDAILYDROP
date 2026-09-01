@@ -1,0 +1,55 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-09-01",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Golden Hour Harvest",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Cinnamon Bark (Cinnamomum verum)",
+    "Vetiver (Vetiveria zizanioides)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Vetiver": 2
+      },
+      "notes": "Use in a cool-mist diffuser for 30–45 minutes."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 4,
+        "Cinnamon Bark": 1,
+        "Vetiver": 3
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 9,
+        "Cinnamon Bark": 2,
+        "Vetiver": 5
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use"
+    }
+  },
+  "why_it_works": "Sweet orange brings a bright, sun-warmed lift to cool days; cinnamon adds cozy spice, while vetiver grounds the blend with earthy depth—perfect for crisp autumn evenings.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care.",
+    "Cinnamon can be a skin sensitizer; use low dilution and limit exposure."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Evening"
+  ]
+}
