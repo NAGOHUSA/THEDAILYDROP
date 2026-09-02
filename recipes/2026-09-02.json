@@ -1,0 +1,59 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-09-02",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Golden Harvest Glow",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Cinnamon Bark (Cinnamomum verum)",
+    "Clove Bud (Syzygium aromaticum)",
+    "Cedarwood Atlas (Cedrus atlantica)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Clove Bud": 1,
+        "Cedarwood Atlas": 2
+      },
+      "notes": "Use in a cool-mist diffuser for 30-minute intervals."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 6,
+        "Cinnamon Bark": 2,
+        "Clove Bud": 1,
+        "Cedarwood Atlas": 3
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 9,
+        "Cinnamon Bark": 3,
+        "Clove Bud": 2,
+        "Cedarwood Atlas": 6
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist around room."
+    }
+  },
+  "why_it_works": "Warm, spicy-sweet notes of orange, cinnamon, and clove evoke cozy autumn comfort, while cedarwood adds grounding depth—perfect for crisp evenings.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care.",
+    "Cinnamon and clove are skin sensitizers—use with caution and low dilution."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Evening relaxation"
+  ]
+}
