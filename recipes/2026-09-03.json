@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-09-03",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Harvest Spice Comfort",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Cinnamon Bark (Cinnamomum verum)",
+    "Clove Bud (Syzygium aromaticum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Clove Bud": 1
+      },
+      "notes": "Add to diffuser with water; start with short sessions."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 6,
+        "Cinnamon Bark": 2,
+        "Clove Bud": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 8,
+        "Cinnamon Bark": 3,
+        "Clove Bud": 3
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Sweet orange adds a bright, uplifting citrus note, while cinnamon and clove bring warm, spicy depth—together they evoke cozy autumn comfort and mental clarity.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Home fragrance"
+  ]
+}
