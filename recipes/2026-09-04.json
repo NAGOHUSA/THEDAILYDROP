@@ -1,0 +1,58 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-09-04",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Orchard Glow",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Cinnamon Bark (Cinnamomum verum)",
+    "Cedarwood Atlas (Cedrus atlantica)",
+    "Ginger (Zingiber officinale)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Cedarwood Atlas": 2,
+        "Ginger": 1
+      },
+      "notes": "Start with 1 cinnamon drop if sensitive; diffuse 30 min on low."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Cedarwood Atlas": 2,
+        "Ginger": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 9,
+        "Cinnamon Bark": 2,
+        "Cedarwood Atlas": 6,
+        "Ginger": 3
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist linens or air."
+    }
+  },
+  "why_it_works": "Sweet orange adds a bright harvest note, cinnamon brings cozy warmth, cedarwood grounds the blend with earthy depth, and ginger offers a gentle spice lift—perfect for crisp autumn evenings.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Home fragrance"
+  ]
+}
