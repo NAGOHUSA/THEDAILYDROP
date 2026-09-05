@@ -1,0 +1,56 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-09-05",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Golden Harvest Comfort",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Cinnamon Bark (Cinnamomum verum)",
+    "Cedarwood (Cedrus atlantica)",
+    "Ginger (Zingiber officinale)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Cedarwood": 2
+      },
+      "notes": "Use in a cool-mist diffuser for 30–45 minutes."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Ginger": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Cinnamon Bark": 2,
+        "Cedarwood": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist linens or air."
+    }
+  },
+  "why_it_works": "Sweet orange and cinnamon evoke cozy autumn warmth, while cedarwood adds grounding depth and ginger brings a subtle spicy lift—together they create a comforting, harvest-like atmosphere.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care.",
+    "Cinnamon may be sensitizing; use low drops and avoid on sensitive skin."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Evening unwind"
+  ]
+}
