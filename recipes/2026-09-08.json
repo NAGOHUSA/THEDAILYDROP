@@ -1,0 +1,58 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-09-08",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Golden Harvest Comfort",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Cinnamon Bark (Cinnamomum verum)",
+    "Clove Bud (Syzygium aromaticum)",
+    "Cedarwood Atlas (Cedrus atlantica)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Clove Bud": 1,
+        "Cedarwood Atlas": 2
+      },
+      "notes": "Add to a diffuser with water for a cozy, spicy-sweet aroma."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 4,
+        "Cinnamon Bark": 1,
+        "Clove Bud": 1,
+        "Cedarwood Atlas": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Cinnamon Bark": 2,
+        "Clove Bud": 2,
+        "Cedarwood Atlas": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; spray in air or on linens."
+    }
+  },
+  "why_it_works": "Sweet orange and cinnamon evoke warm harvest bounty, while clove adds spicy depth and cedarwood grounds the blend with earthy calm—perfect for settling into autumn evenings.",
+  "safety": [
+    "Patch test; dilute for skin (2% roller).",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Home fragrance"
+  ]
+}
