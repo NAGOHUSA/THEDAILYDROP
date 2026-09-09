@@ -1,0 +1,55 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-09-09",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Golden Harvest Glow",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Cinnamon Bark (Cinnamomum verum)",
+    "Patchouli (Pogostemon cablin)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Patchouli": 2
+      },
+      "notes": "Use in a cool-mist diffuser for a cozy, warm ambiance."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Patchouli": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Cinnamon Bark": 2,
+        "Patchouli": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Sweet orange lifts with bright citrus warmth, cinnamon adds a snug spice, and patchouli grounds with earthy depth—together they capture autumn’s golden transition.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care.",
+    "Cinnamon bark is a skin sensitizer—use at low dilution and limit exposure."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Home"
+  ]
+}
