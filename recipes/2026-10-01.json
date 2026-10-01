@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-10-01",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Autumn Hearth Glow",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Cinnamon Bark (Cinnamomum verum)",
+    "Clary Sage (Salvia sclarea)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Clary Sage": 2
+      },
+      "notes": "Run 20–30 min in a well-ventilated room; cinnamon is potent, keep it low."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 4,
+        "Cinnamon Bark": 1,
+        "Clary Sage": 3
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Cinnamon Bark": 1,
+        "Clary Sage": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; avoid fabrics and wood."
+    }
+  },
+  "why_it_works": "Warm citrus and soft spice evoke a cozy hearth, while clary sage adds a gentle herbal calm for crisp autumn days.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Evening wind-down"
+  ]
+}
