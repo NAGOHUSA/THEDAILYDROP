@@ -3,18 +3,18 @@
   "date": "2026-10-08",
   "season": "Autumn",
   "hemisphere": "Northern",
-  "title": "Autumn Focus Blend",
+  "title": "Autumn Warmth Blend",
   "oils": [
-    "Ginger (Zingiber officinale)",
-    "Patchouli (Pogostemon cablin)",
-    "Clove Bud (Syzygium aromaticum)"
+    "Sweet Orange (Citrus sinensis)",
+    "Cedarwood Atlas (Cedrus atlantica)",
+    "Ginger (Zingiber officinale)"
   ],
   "formats": {
     "diffuser": {
       "drops": {
-        "Ginger (Zingiber officinale)": 3,
-        "Patchouli (Pogostemon cablin)": 2,
-        "Clove Bud (Syzygium aromaticum)": 1
+        "Sweet Orange (Citrus sinensis)": 3,
+        "Cedarwood Atlas (Cedrus atlantica)": 2,
+        "Ginger (Zingiber officinale)": 1
       },
       "notes": "Use in a well-ventilated area; adjust water per manufacturer."
     },
@@ -22,16 +22,16 @@
       "size_ml": 10,
       "dilution_percent": 3,
       "drops": {
-        "Ginger (Zingiber officinale)": 4,
-        "Patchouli (Pogostemon cablin)": 3
+        "Sweet Orange (Citrus sinensis)": 4,
+        "Cedarwood Atlas (Cedrus atlantica)": 3
       },
       "carrier": "fractionated coconut or jojoba"
     },
     "spray_optional": {
       "size_ml": 30,
       "drops": {
-        "Ginger (Zingiber officinale)": 6,
-        "Patchouli (Pogostemon cablin)": 4
+        "Sweet Orange (Citrus sinensis)": 6,
+        "Cedarwood Atlas (Cedrus atlantica)": 4
       },
       "base": "distilled water + 95% ethanol",
       "note": "Shake well before each use; avoid fabrics that spot."
@@ -46,7 +46,7 @@
   ],
   "tags": [
     "Season:Autumn",
-    "Mood:Focus",
+    "Mood:Warmth",
     "Use:Home"
   ]
 }
