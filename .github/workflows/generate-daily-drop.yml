@@ -60,20 +60,23 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Always stage changes, including deletions
+          TODAY_UTC="$(date -u +%F)"
+
+          # Stage changes
           git add -A recipes/*.json || true
 
-          TODAY_UTC="$(date -u +%F)"
+          # Pull latest changes from remote to avoid non-fast-forward push conflicts
+          git pull --rebase origin main || true
 
           if [ -n "$(git status --porcelain)" ]; then
             # There are actual file changes
             git commit -m "chore: add/overwrite The Daily Drop for ${TODAY_UTC}"
-            git push
+            git push origin main
           else
             # No diff, but if this was a forced manual run, still create a marker commit
             if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force_overwrite }}" = "true" ]; then
               git commit --allow-empty -m "chore: forced regeneration (no diff) for ${TODAY_UTC}"
-              git push
+              git push origin main
             else
               echo "No changes to commit."
             fi
