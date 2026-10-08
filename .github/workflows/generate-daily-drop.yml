@@ -51,7 +51,6 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEP_SEEK_API }}
           DAILY_DROP_HEMISPHERE: ${{ secrets.DAILY_DROP_HEMISPHERE }} # "Northern" or "Southern" (optional, default Northern)
-          # Let your script know if this was a forced run (optional, in case you want different behavior in JS)
           FORCE_OVERWRITE: ${{ github.event_name == 'workflow_dispatch' && inputs.force_overwrite == true }}
         run: node generate-daily-drop.js
 
