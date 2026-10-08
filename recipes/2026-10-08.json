@@ -3,16 +3,16 @@
   "date": "2026-10-08",
   "season": "Autumn",
   "hemisphere": "Northern",
-  "title": "Autumn Warmth Blend",
+  "title": "Autumn Focus Blend",
   "oils": [
-    "Sweet Orange (Citrus sinensis)",
+    "Ginger (Zingiber officinale)",
     "Patchouli (Pogostemon cablin)",
     "Clove Bud (Syzygium aromaticum)"
   ],
   "formats": {
     "diffuser": {
       "drops": {
-        "Sweet Orange (Citrus sinensis)": 3,
+        "Ginger (Zingiber officinale)": 3,
         "Patchouli (Pogostemon cablin)": 2,
         "Clove Bud (Syzygium aromaticum)": 1
       },
@@ -22,7 +22,7 @@
       "size_ml": 10,
       "dilution_percent": 3,
       "drops": {
-        "Sweet Orange (Citrus sinensis)": 4,
+        "Ginger (Zingiber officinale)": 4,
         "Patchouli (Pogostemon cablin)": 3
       },
       "carrier": "fractionated coconut or jojoba"
@@ -30,7 +30,7 @@
     "spray_optional": {
       "size_ml": 30,
       "drops": {
-        "Sweet Orange (Citrus sinensis)": 6,
+        "Ginger (Zingiber officinale)": 6,
         "Patchouli (Pogostemon cablin)": 4
       },
       "base": "distilled water + 95% ethanol",
@@ -46,7 +46,7 @@
   ],
   "tags": [
     "Season:Autumn",
-    "Mood:Warmth",
+    "Mood:Focus",
     "Use:Home"
   ]
 }
