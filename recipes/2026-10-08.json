@@ -3,50 +3,52 @@
   "date": "2026-10-08",
   "season": "Autumn",
   "hemisphere": "Northern",
-  "title": "Autumn Focus Blend",
+  "title": "Autumn Hearth Glow",
   "oils": [
-    "Cedarwood Atlas (Cedrus atlantica)",
-    "Patchouli (Pogostemon cablin)",
-    "Clove Bud (Syzygium aromaticum)"
+    "Sweet Orange (Citrus sinensis)",
+    "Cinnamon Bark (Cinnamomum verum)",
+    "Clary Sage (Salvia sclarea)"
   ],
   "formats": {
     "diffuser": {
       "drops": {
-        "Cedarwood Atlas (Cedrus atlantica)": 3,
-        "Patchouli (Pogostemon cablin)": 2,
-        "Clove Bud (Syzygium aromaticum)": 1
+        "Sweet Orange": 3,
+        "Cinnamon Bark": 1,
+        "Clary Sage": 2
       },
-      "notes": "Use in a well-ventilated area; adjust water per manufacturer."
+      "notes": "Run 20–30 min in a well-ventilated room."
     },
     "roller": {
       "size_ml": 10,
-      "dilution_percent": 3,
+      "dilution_percent": 2,
       "drops": {
-        "Cedarwood Atlas (Cedrus atlantica)": 4,
-        "Patchouli (Pogostemon cablin)": 3
+        "Sweet Orange": 4,
+        "Cinnamon Bark": 1,
+        "Clary Sage": 3
       },
       "carrier": "fractionated coconut or jojoba"
     },
     "spray_optional": {
       "size_ml": 30,
       "drops": {
-        "Cedarwood Atlas (Cedrus atlantica)": 6,
-        "Patchouli (Pogostemon cablin)": 4
+        "Sweet Orange": 6,
+        "Cinnamon Bark": 2,
+        "Clary Sage": 4
       },
       "base": "distilled water + 95% ethanol",
-      "note": "Shake well before each use; avoid fabrics that spot."
+      "note": "Shake well before each use."
     }
   },
-  "why_it_works": "Comforting spice and wood pair with sweet notes for a grounded, focused feel.",
+  "why_it_works": "Warm citrus and spice evoke a cozy hearth, while soft herbal clary sage adds a grounded autumn feel.",
   "safety": [
     "Patch test; dilute for skin.",
     "Avoid eyes/mucosa; keep from children & pets.",
     "Do not ingest oils.",
-    "Consult a qualified professional if pregnant, nursing, or under medical care."
+    "Consult a professional if pregnant, nursing, or under care."
   ],
   "tags": [
     "Season:Autumn",
-    "Mood:Focus",
+    "Mood:Cozy",
     "Use:Home"
   ]
 }
