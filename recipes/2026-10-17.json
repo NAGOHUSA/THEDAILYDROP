@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-10-17",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Cozy Autumn Hearth",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Cinnamon Leaf (Cinnamomum zeylanicum)",
+    "Cedarwood (Juniperus virginiana)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Cinnamon Leaf": 1,
+        "Cedarwood": 2
+      },
+      "notes": "Diffuse 30–45 min in a well-ventilated room."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 4,
+        "Cinnamon Leaf": 1,
+        "Cedarwood": 3
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Cinnamon Leaf": 2,
+        "Cedarwood": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Sweet orange brightens, cinnamon leaf adds warm spice, and cedarwood grounds—evoking a cozy autumn hearth.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Home"
+  ]
+}
