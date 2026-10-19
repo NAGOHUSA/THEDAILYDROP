@@ -1,0 +1,53 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-10-19",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Golden Leaf Glow",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Cedarwood Atlas (Cedrus atlantica)",
+    "Clary Sage (Salvia sclarea)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Cedarwood Atlas": 2,
+        "Clary Sage": 1
+      },
+      "notes": "Run 20–30 min in a ventilated room; refresh mid-afternoon."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 4,
+        "Cedarwood Atlas": 3,
+        "Clary Sage": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Cedarwood Atlas": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each mist; avoid fabrics."
+    }
+  },
+  "why_it_works": "Bright citrus lifts the mood while warm cedarwood and soft clary sage echo crisp autumn air for a cozy, grounding feel.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Evening wind-down"
+  ]
+}
