@@ -3,42 +3,43 @@
   "date": "2026-10-23",
   "season": "Autumn",
   "hemisphere": "Northern",
-  "title": "Golden Leaf Glow",
+  "title": "Quiet Grove Meditation",
   "oils": [
-    "Sweet Orange (Citrus sinensis)",
-    "Cedarwood (Juniperus virginiana)",
-    "Clary Sage (Salvia sclarea)"
+    "Frankincense (Boswellia carterii)",
+    "Vetiver (Vetiveria zizanoides)",
+    "Bergamot (Citrus bergamia)"
   ],
   "formats": {
     "diffuser": {
       "drops": {
-        "Sweet Orange": 3,
-        "Cedarwood": 2,
-        "Clary Sage": 1
+        "Frankincense": 3,
+        "Vetiver": 2,
+        "Bergamot": 2
       },
-      "notes": "Run 20–30 min in a ventilated room."
+      "notes": "Run 20–30 min during your grounding practice."
     },
     "roller": {
       "size_ml": 10,
       "dilution_percent": 2,
       "drops": {
-        "Sweet Orange": 4,
-        "Cedarwood": 3,
-        "Clary Sage": 2
+        "Frankincense": 4,
+        "Vetiver": 2,
+        "Bergamot": 3
       },
       "carrier": "fractionated coconut or jojoba"
     },
     "spray_optional": {
       "size_ml": 30,
       "drops": {
-        "Sweet Orange": 6,
-        "Cedarwood": 4
+        "Frankincense": 4,
+        "Vetiver": 2,
+        "Bergamot": 3
       },
       "base": "distilled water + 95% ethanol",
       "note": "Shake well before each use."
     }
   },
-  "why_it_works": "Bright citrus lifts the mood while warm cedarwood and softly herbal clary sage echo crisp autumn air.",
+  "why_it_works": "Frankincense and vetiver offer a resinous, earthy anchor, while bergamot adds a soft citrus lift to keep the blend calm and centered.",
   "safety": [
     "Patch test; dilute for skin.",
     "Avoid eyes/mucosa; keep from children & pets.",
@@ -47,7 +48,7 @@
   ],
   "tags": [
     "Season:Autumn",
-    "Mood:Cozy",
-    "Use:Evening wind-down"
+    "Mood:Grounded",
+    "Use:Meditation/Yoga"
   ]
 }
