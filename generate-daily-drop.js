@@ -165,8 +165,70 @@ function tinyLocalGenerator(dateISO, hemisphere) {
   };
 }
 
+// --- Variety helpers
+// The model used to get the same prompt every day, so it kept returning the
+// same mix (e.g. "Golden Leaf Glow" five days running). We now tell it what was
+// posted recently and give each day a different focus.
+
+function recentRecipes(dateISO, days = 21) {
+  return fs.readdirSync(OUT_DIR)
+    .filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f) && f.slice(0, 10) < dateISO)
+    .sort()
+    .slice(-days)
+    .map(f => {
+      try { return JSON.parse(fs.readFileSync(path.join(OUT_DIR, f), "utf8")); }
+      catch { return null; }
+    })
+    .filter(Boolean);
+}
+
+function oilKey(r) {
+  const drops = r?.formats?.diffuser?.drops || {};
+  return Object.keys(drops).map(k => k.toLowerCase().split(" ")[0]).sort().join("+");
+}
+
+const DAILY_FOCUS = [
+  "Morning focus for work or study",
+  "Evening wind-down before sleep",
+  "Fresh, clean home after tidying",
+  "Uplifting midday mood boost",
+  "Calm and steady for a busy day",
+  "Cozy gathering with friends or family",
+  "Grounding meditation or yoga",
+  "Creative energy for a hobby",
+  "Bright, airy weekend morning",
+  "Soothing reading nook"
+];
+
+function dailyFocus(dateISO) {
+  const [y, m, d] = dateISO.split("-").map(Number);
+  const dayOfYear = Math.floor((Date.UTC(y, m - 1, d) - Date.UTC(y, 0, 0)) / 86400000);
+  return DAILY_FOCUS[dayOfYear % DAILY_FOCUS.length];
+}
+
+function isRepeat(result, recent) {
+  const title = String(result?.title || "").trim().toLowerCase();
+  const recentTitles = new Set(recent.map(r => String(r.title || "").trim().toLowerCase()));
+  const recentOils = new Set(recent.slice(-7).map(oilKey));
+  return recentTitles.has(title) || recentOils.has(oilKey(result));
+}
+
+// The app shows whole drops; round halves and drop non-numeric entries
+// (the model occasionally puts "carrier" inside "drops").
+function normalizeDrops(result) {
+  for (const fmt of ["diffuser", "roller", "spray_optional"]) {
+    const drops = result?.formats?.[fmt]?.drops;
+    if (!drops || typeof drops !== "object") continue;
+    for (const [k, v] of Object.entries(drops)) {
+      const n = Math.round(Number(v));
+      if (Number.isFinite(n) && n > 0) drops[k] = n; else delete drops[k];
+    }
+  }
+  return result;
+}
+
 // --- DeepSeek Model Call
-async function callDeepSeek(dateISO, season, hemisphere) {
+async function callDeepSeek(dateISO, season, hemisphere, recent = []) {
   if (!DEEPSEEK_API_KEY) throw new Error("no-deepseek-key");
   const sysPath = path.join(__dirname, "prompts/system-daily-drop.txt");
   const sys = fs.existsSync(sysPath) ? fs.readFileSync(sysPath, "utf8") : "You are a professional aromatherapist. Output valid JSON only.";
@@ -179,14 +241,22 @@ async function callDeepSeek(dateISO, season, hemisphere) {
     },
     body: JSON.stringify({
       model: "deepseek-chat",
-      temperature: 0.7,
+      temperature: 1.0,
       max_tokens: 500,
       response_format: { type: "json_object" },
       messages: [
         { role: "system", content: sys },
         {
           role: "user",
-          content: `Today is ${dateISO}. Hemisphere: ${hemisphere}. Season: ${season}. Please produce one JSON recipe as specified.`
+          content: [
+            `Today is ${dateISO}. Hemisphere: ${hemisphere}. Season: ${season}.`,
+            `Today's focus: ${dailyFocus(dateISO)}.`,
+            recent.length
+              ? `Recent mixes (do NOT reuse these titles, and use a different combination of oils than any of them):\n` +
+                recent.map(r => `- ${r.date}: "${r.title}" (${Object.keys(r?.formats?.diffuser?.drops || {}).join(", ")})`).join("\n")
+              : "",
+            "Drops must be whole numbers. Please produce one JSON recipe as specified."
+          ].filter(Boolean).join("\n")
         }
       ]
     })
@@ -225,11 +295,21 @@ async function callDeepSeek(dateISO, season, hemisphere) {
 
   let result = null;
 
-  try {
-    result = await callDeepSeek(dateISO, season, HEMISPHERE);
-    console.log("✅ Generated via DeepSeek");
-  } catch (e) {
-    console.warn(`⚠️ DeepSeek failed: ${e.message}`);
+  const recent = recentRecipes(dateISO);
+
+  for (let attempt = 1; attempt <= 3 && !result; attempt++) {
+    try {
+      const candidate = await callDeepSeek(dateISO, season, HEMISPHERE, recent);
+      if (isRepeat(candidate, recent) && attempt < 3) {
+        console.warn(`↻ Attempt ${attempt} repeated a recent mix ("${candidate.title}"); retrying`);
+        continue;
+      }
+      result = candidate;
+      console.log("✅ Generated via DeepSeek");
+    } catch (e) {
+      console.warn(`⚠️ DeepSeek failed: ${e.message}`);
+      break;
+    }
   }
 
   if (!result) {
@@ -237,6 +317,7 @@ async function callDeepSeek(dateISO, season, hemisphere) {
     result = tinyLocalGenerator(dateISO, HEMISPHERE);
   }
 
+  normalizeDrops(result);
   result.app = "The Daily Drop";
   result.date = dateISO;
   result.season = season;
