@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-10-24",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Maple Muse Spark",
+  "oils": [
+    "Grapefruit (Citrus paradisi)",
+    "Rosemary (Rosmarinus officinalis)",
+    "Black Pepper (Piper nigrum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Grapefruit": 3,
+        "Rosemary": 2,
+        "Black Pepper": 1
+      },
+      "notes": "Diffuse during creative sessions; refresh after 30–45 minutes."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Grapefruit": 6,
+        "Rosemary": 4,
+        "Black Pepper": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Grapefruit": 6,
+        "Rosemary": 4,
+        "Black Pepper": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist away from face."
+    }
+  },
+  "why_it_works": "Bright grapefruit lifts the mood, rosemary supports clear focus, and a touch of black pepper adds warm spark—an invigorating scent for hobby time.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Creative",
+    "Use:Hobby"
+  ]
+}
