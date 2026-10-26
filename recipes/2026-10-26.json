@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-10-26",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Fireside Reading Nook",
+  "oils": [
+    "Bergamot (Citrus bergamia)",
+    "Frankincense (Boswellia carterii)",
+    "Virginia Cedarwood (Juniperus virginiana)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Bergamot": 4,
+        "Frankincense": 2,
+        "Virginia Cedarwood": 3
+      },
+      "notes": "Run 30–45 min while you settle in with a book."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Bergamot": 4,
+        "Frankincense": 2,
+        "Virginia Cedarwood": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Bergamot": 6,
+        "Frankincense": 3,
+        "Virginia Cedarwood": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist linens lightly, not skin."
+    }
+  },
+  "why_it_works": "Bergamot's bright citrus softens resinous frankincense and dry cedarwood, creating a warm, grounded hush that suits slow autumn reading.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calm",
+    "Use:Reading nook"
+  ]
+}
