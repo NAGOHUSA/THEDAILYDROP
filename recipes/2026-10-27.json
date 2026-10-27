@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-10-27",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Autumn Focus Flow",
+  "oils": [
+    "Grapefruit (Citrus × paradisi)",
+    "Rosemary (Rosmarinus officinalis)",
+    "Cedarwood Atlas (Cedrus atlantica)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Grapefruit": 3,
+        "Rosemary": 2,
+        "Cedarwood Atlas": 2
+      },
+      "notes": "Diffuse during morning work sessions for 30–45 minutes."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Grapefruit": 3,
+        "Rosemary": 2,
+        "Cedarwood Atlas": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Grapefruit": 6,
+        "Rosemary": 4,
+        "Cedarwood Atlas": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Bright grapefruit lifts the mood while rosemary and cedarwood add a green, woody clarity that supports a focused, grounded atmosphere.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Focused",
+    "Use:Morning work or study"
+  ]
+}
