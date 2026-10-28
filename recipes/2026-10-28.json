@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-10-28",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Dusk Lantern Lullaby",
+  "oils": [
+    "Lavender (Lavandula angustifolia)",
+    "Sweet Marjoram (Origanum majorana)",
+    "Roman Chamomile (Chamaemelum nobile)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lavender": 3,
+        "Sweet Marjoram": 2,
+        "Roman Chamomile": 1
+      },
+      "notes": "Run 15–20 min before bed to scent the room."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 4,
+        "Sweet Marjoram": 2,
+        "Roman Chamomile": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lavender": 5,
+        "Sweet Marjoram": 3,
+        "Roman Chamomile": 1
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist linens lightly."
+    }
+  },
+  "why_it_works": "Herbaceous lavender and marjoram with soft chamomile create a mellow, cozy aroma that cues calm wind-down.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calm",
+    "Use:Evening wind-down"
+  ]
+}
