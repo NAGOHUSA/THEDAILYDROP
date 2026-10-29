@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-10-29",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Fresh Start Sanctuary",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Tea Tree (Melaleuca alternifolia)",
+    "Spearmint (Mentha spicata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 3,
+        "Tea Tree": 2,
+        "Spearmint": 1
+      },
+      "notes": "Run 20–30 min to refresh the room after tidying."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 4,
+        "Tea Tree": 2,
+        "Spearmint": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 8,
+        "Tea Tree": 4,
+        "Spearmint": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; spray surfaces or air."
+    }
+  },
+  "why_it_works": "Bright lemon and cool spearmint lift the air, while tea tree adds a clean, green note—creating a crisp, just-tidied feeling.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Fresh",
+    "Use:Home refresh"
+  ]
+}
