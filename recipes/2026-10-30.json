@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-10-30",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Midday Amber Bright",
+  "oils": [
+    "Mandarin (Citrus reticulata)",
+    "Litsea Cubeba (Litsea cubeba)",
+    "Cardamom (Elettaria cardamomum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Mandarin": 4,
+        "Litsea Cubeba": 2,
+        "Cardamom": 1
+      },
+      "notes": "Run 20–30 min during the midday slump; refresh after lunch."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Mandarin": 6,
+        "Litsea Cubeba": 3,
+        "Cardamom": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Mandarin": 8,
+        "Litsea Cubeba": 4,
+        "Cardamom": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each spray; mist into air, not on skin."
+    }
+  },
+  "why_it_works": "Sparkling mandarin and lemony litsea lift the spirit, while a whisper of warm cardamom adds cozy autumn grounding.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Uplifting",
+    "Use:Midday boost"
+  ]
+}
