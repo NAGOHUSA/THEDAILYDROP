@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-10-31",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Steady Ember Calm",
+  "oils": [
+    "Petitgrain (Citrus aurantium var. amara)",
+    "Vetiver (Vetiveria zizanioides)",
+    "Sweet Marjoram (Origanum majorana)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Petitgrain": 3,
+        "Vetiver": 2,
+        "Sweet Marjoram": 2
+      },
+      "notes": "Run 15–20 minutes in a busy room; refresh later if needed."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Petitgrain": 4,
+        "Vetiver": 2,
+        "Sweet Marjoram": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Petitgrain": 3,
+        "Vetiver": 2,
+        "Sweet Marjoram": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist away from face."
+    }
+  },
+  "why_it_works": "Petitgrain brings a clean, citrus-leaf lift while vetiver and sweet marjoram add a soft, grounded base—calm without heaviness.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calm",
+    "Use:Busy day"
+  ]
+}
