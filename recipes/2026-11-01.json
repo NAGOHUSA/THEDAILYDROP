@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-01",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Gathering Table Warmth",
+  "oils": [
+    "Bergamot (Citrus bergamia)",
+    "Copaiba (Copaifera officinalis)",
+    "Cardamom (Elettaria cardamomum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Bergamot": 4,
+        "Copaiba": 2,
+        "Cardamom": 1
+      },
+      "notes": "Run 30–45 min while guests arrive; refresh after dinner."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Bergamot": 4,
+        "Copaiba": 2,
+        "Cardamom": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Bergamot": 6,
+        "Copaiba": 3,
+        "Cardamom": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each mist; avoid spraying near faces."
+    }
+  },
+  "why_it_works": "Bright bergamot lifts the room while soft copaiba and warm cardamom add a gentle, welcoming glow.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Gathering"
+  ]
+}
