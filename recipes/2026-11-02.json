@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-02",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Rooted Ritual Retreat",
+  "oils": [
+    "Frankincense (Boswellia carterii)",
+    "Myrrh (Commiphora myrrha)",
+    "Sweet Orange (Citrus sinensis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 3,
+        "Myrrh": 2,
+        "Sweet Orange": 2
+      },
+      "notes": "Diffuse during meditation or yoga for a grounding atmosphere."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 4,
+        "Myrrh": 3,
+        "Sweet Orange": 3
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 6,
+        "Myrrh": 4,
+        "Sweet Orange": 4
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Frankincense and myrrh offer a resinous, meditative aroma that deepens grounding, while sweet orange adds gentle warmth—perfect for autumn introspection.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Grounding",
+    "Use:Meditation/Yoga"
+  ]
+}
