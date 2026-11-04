@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-04",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Airy Autumn Awakening",
+  "oils": [
+    "Lemon (Citrus limon)",
+    "Douglas Fir (Pseudotsuga menziesii)",
+    "Neroli (Citrus aurantium var. amara)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lemon": 3,
+        "Douglas Fir": 2,
+        "Neroli": 1
+      },
+      "notes": "Bright citrus + clean evergreen lifts a weekend morning."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lemon": 4,
+        "Douglas Fir": 3,
+        "Neroli": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lemon": 6,
+        "Douglas Fir": 3,
+        "Neroli": 1
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Lemon’s crisp zest and Douglas fir’s fresh-air evergreen feel light and spacious, while a touch of neroli adds a soft, sunny lift.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Airy",
+    "Use:Weekend morning"
+  ]
+}
