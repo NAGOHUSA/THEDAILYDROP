@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-05",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Quiet Pages Retreat",
+  "oils": [
+    "Patchouli (Pogostemon cablin)",
+    "Mandarin (Citrus reticulata)",
+    "Clary Sage (Salvia sclarea)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Patchouli": 2,
+        "Mandarin": 3,
+        "Clary Sage": 2
+      },
+      "notes": "Run 20–30 min in a reading nook; ventilate after."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Patchouli": 2,
+        "Mandarin": 3,
+        "Clary Sage": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Patchouli": 3,
+        "Mandarin": 4,
+        "Clary Sage": 3
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; avoid fabrics."
+    }
+  },
+  "why_it_works": "Earthy patchouli grounds the space, while soft mandarin and herbal clary sage add a gentle uplift—ideal for cozy, focused reading.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calm",
+    "Use:Reading nook"
+  ]
+}
