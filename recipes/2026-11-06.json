@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-06",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Crisp Canopy Clarity",
+  "oils": [
+    "Bergamot (Citrus bergamia)",
+    "Grapefruit (Citrus paradisi)",
+    "Rosemary (Rosmarinus officinalis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Bergamot": 3,
+        "Grapefruit": 2,
+        "Rosemary": 1
+      },
+      "notes": "Diffuse for 20–30 minutes while starting tasks."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Bergamot": 4,
+        "Grapefruit": 2,
+        "Rosemary": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Bergamot": 6,
+        "Grapefruit": 4,
+        "Rosemary": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before use; spray away from face."
+    }
+  },
+  "why_it_works": "Bright citrus lifts the room while rosemary adds a clean, herbal edge that supports a focused morning atmosphere.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Focused",
+    "Use:Work/Study"
+  ]
+}
