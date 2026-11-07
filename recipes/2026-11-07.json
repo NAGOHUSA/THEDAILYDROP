@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-07",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Amber Dusk Wind-Down",
+  "oils": [
+    "Lavender (Lavandula angustifolia)",
+    "Sweet Marjoram (Origanum majorana)",
+    "Sandalwood (Santalum album)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lavender": 3,
+        "Sweet Marjoram": 2,
+        "Sandalwood": 1
+      },
+      "notes": "Run 30–45 min before bed; keep door ajar."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lavender": 3,
+        "Sweet Marjoram": 2,
+        "Sandalwood": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lavender": 6,
+        "Sweet Marjoram": 4,
+        "Sandalwood": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each mist; avoid linens if sensitive."
+    }
+  },
+  "why_it_works": "Herbaceous lavender and warm marjoram soften the room's edge, while a whisper of sandalwood grounds the blend for bedtime.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calm",
+    "Use:Evening wind-down"
+  ]
+}
