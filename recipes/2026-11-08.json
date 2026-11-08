@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-08",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Tidy Timber Breeze",
+  "oils": [
+    "Siberian Fir (Abies sibirica)",
+    "Lemon (Citrus limon)",
+    "Spearmint (Mentha spicata)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Siberian Fir": 2,
+        "Lemon": 3,
+        "Spearmint": 1
+      },
+      "notes": "Run 30–45 min to refresh the room after tidying."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Siberian Fir": 4,
+        "Lemon": 6,
+        "Spearmint": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Siberian Fir": 3,
+        "Lemon": 5,
+        "Spearmint": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; spray linens/air, not skin."
+    }
+  },
+  "why_it_works": "Crisp fir and bright lemon cut through stale air, while a hint of spearmint keeps the blend clean and uplifting.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Fresh",
+    "Use:Home refresh"
+  ]
+}
