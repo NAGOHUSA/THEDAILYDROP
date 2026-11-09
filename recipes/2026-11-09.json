@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-09",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Amber Noon Bright",
+  "oils": [
+    "Bergamot (Citrus bergamia)",
+    "Sweet Orange (Citrus sinensis)",
+    "Cinnamon Bark (Cinnamomum zeylanicum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Bergamot": 3,
+        "Sweet Orange": 2,
+        "Cinnamon Bark": 1
+      },
+      "notes": "Run 20–30 min midday for a bright, spiced lift."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Bergamot": 4,
+        "Sweet Orange": 4,
+        "Cinnamon Bark": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Bergamot": 5,
+        "Sweet Orange": 4,
+        "Cinnamon Bark": 1
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each mist; avoid spraying near faces or pets."
+    }
+  },
+  "why_it_works": "Citrus bergamot and orange bring a fresh, sunny lift, while a whisper of cinnamon bark adds warm autumn spice that feels cozy and energizing.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Uplifting",
+    "Use:Midday boost"
+  ]
+}
