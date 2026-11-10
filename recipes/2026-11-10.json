@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-10",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Harvest Hush Focus",
+  "oils": [
+    "Lime (Citrus aurantifolia)",
+    "Cypress (Cupressus sempervirens)",
+    "Patchouli (Pogostemon cablin)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Lime": 3,
+        "Cypress": 2,
+        "Patchouli": 1
+      },
+      "notes": "Run 20–30 min bursts during work blocks."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Lime": 4,
+        "Cypress": 3,
+        "Patchouli": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Lime": 6,
+        "Cypress": 4,
+        "Patchouli": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each mist; avoid fabrics."
+    }
+  },
+  "why_it_works": "Bright lime lifts the mood while green cypress and earthy patchouli anchor it, giving a steady, grounded feel for busy hours.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calm",
+    "Use:Focus"
+  ]
+}
