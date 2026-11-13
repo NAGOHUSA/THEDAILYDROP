@@ -1,0 +1,55 @@
+{
+  "type": "json_object",
+  "app": "The Daily Drop",
+  "date": "2026-11-13",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Golden Hour Maker's Spark",
+  "oils": [
+    "Tangerine (Citrus reticulata)",
+    "Clary Sage (Salvia sclarea)",
+    "Cedarwood Atlas (Cedrus atlantica)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Tangerine": 3,
+        "Clary Sage": 2,
+        "Cedarwood Atlas": 1
+      },
+      "notes": "Run 20–30 min while sketching or drafting ideas."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Tangerine": 6,
+        "Clary Sage": 4,
+        "Cedarwood Atlas": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Tangerine": 5,
+        "Clary Sage": 3,
+        "Cedarwood Atlas": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each mist; spray away from face."
+    }
+  },
+  "why_it_works": "Bright tangerine lifts the mood while soft clary sage and grounded cedarwood settle the mind, inviting playful, steady creative focus.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Creative",
+    "Use:Hobby"
+  ]
+}
