@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-15",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Blanket & Pages Nook",
+  "oils": [
+    "Wild Orange (Citrus sinensis)",
+    "Copaiba (Copaifera officinalis)",
+    "Ho Wood (Cinnamomum camphora ct. linalool)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Wild Orange": 2,
+        "Copaiba": 2,
+        "Ho Wood": 1
+      },
+      "notes": "Run 20–30 min while settling in with a book."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Wild Orange": 3,
+        "Copaiba": 2,
+        "Ho Wood": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Wild Orange": 4,
+        "Copaiba": 3,
+        "Ho Wood": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; mist linens lightly and away from faces."
+    }
+  },
+  "why_it_works": "Sweet citrus brightens the page while soft, resinous and woody notes create a cozy, grounded reading atmosphere.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Cozy",
+    "Use:Reading nook"
+  ]
+}
