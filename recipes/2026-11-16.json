@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-16",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Crisp Study Spark",
+  "oils": [
+    "Buddha Wood (Eremophila mitchellii)",
+    "Sweet Lime (Citrus aurantifolia)",
+    "Peppermint (Mentha × piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Buddha Wood": 2,
+        "Sweet Lime": 3,
+        "Peppermint": 1
+      },
+      "notes": "Run 20–30 minutes during morning study to sharpen focus."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Buddha Wood": 2,
+        "Sweet Lime": 5,
+        "Peppermint": 3
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Buddha Wood": 2,
+        "Sweet Lime": 4,
+        "Peppermint": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; spray into air, not on skin."
+    }
+  },
+  "why_it_works": "Sweet lime lifts and brightens the air, peppermint adds a cool, alert edge, and Buddha wood grounds the blend so focus feels steady rather than scattered.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Focused",
+    "Use:Morning work/study"
+  ]
+}
