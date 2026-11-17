@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-17",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Fireside Fade-Out",
+  "oils": [
+    "Frankincense (Boswellia carterii)",
+    "Sweet Marjoram (Origanum majorana)",
+    "Vetiver (Vetiveria zizanioides)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Frankincense": 2,
+        "Sweet Marjoram": 2,
+        "Vetiver": 1
+      },
+      "notes": "Run 20–30 min before bed; keep the room door open."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Frankincense": 3,
+        "Sweet Marjoram": 2,
+        "Vetiver": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Frankincense": 4,
+        "Sweet Marjoram": 3,
+        "Vetiver": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well; mist linens lightly from 30 cm."
+    }
+  },
+  "why_it_works": "Resin-and-herb warmth with a smoky-woody Vetiver base reads as a slow exhale—signaling 'day is done' without heaviness.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calm",
+    "Use:Evening wind-down"
+  ]
+}
