@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-19",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Midday Citrus Lift",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Grapefruit (Citrus paradisi)",
+    "Peppermint (Mentha piperita)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Grapefruit": 2,
+        "Peppermint": 1
+      },
+      "notes": "Diffuse for 15–20 minutes to refresh a midday space."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 4,
+        "Grapefruit": 3,
+        "Peppermint": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Grapefruit": 4,
+        "Peppermint": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; spray into air, not on skin."
+    }
+  },
+  "why_it_works": "Bright citrus notes lift the mood, while a touch of peppermint adds a crisp, alert freshness for the afternoon.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Uplifting",
+    "Use:Midday"
+  ]
+}
