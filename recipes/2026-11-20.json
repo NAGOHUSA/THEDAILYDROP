@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-20",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Quiet Oak Steady",
+  "oils": [
+    "Bergamot (Citrus bergamia)",
+    "Sandalwood (Santalum album)",
+    "Black Pepper (Piper nigrum)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Bergamot": 3,
+        "Sandalwood": 2,
+        "Black Pepper": 1
+      },
+      "notes": "Run 20–30 min during focused blocks."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Bergamot": 5,
+        "Sandalwood": 4,
+        "Black Pepper": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Bergamot": 6,
+        "Sandalwood": 4,
+        "Black Pepper": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each mist."
+    }
+  },
+  "why_it_works": "Bright bergamot lifts tension while creamy sandalwood and a whisper of pepper ground the blend for a calm, steady rhythm.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calm",
+    "Use:Focus"
+  ]
+}
