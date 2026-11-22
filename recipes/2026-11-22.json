@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-22",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Still Earth Sanctuary",
+  "oils": [
+    "Vetiver (Vetiveria zizanioides)",
+    "Frankincense (Boswellia carterii)",
+    "Cedarwood Atlas (Cedrus atlantica)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Vetiver": 3,
+        "Frankincense": 4,
+        "Cedarwood Atlas": 3
+      },
+      "notes": "Diffuse 15–20 minutes during grounding practice."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Vetiver": 2,
+        "Frankincense": 3,
+        "Cedarwood Atlas": 3
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Vetiver": 2,
+        "Frankincense": 3,
+        "Cedarwood Atlas": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use; avoid spraying near face or pets."
+    }
+  },
+  "why_it_works": "Earthy vetiver and resinous frankincense steady the breath, while cedarwood adds a warm, forest-like anchor for meditation.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Grounded",
+    "Use:Meditation"
+  ]
+}
