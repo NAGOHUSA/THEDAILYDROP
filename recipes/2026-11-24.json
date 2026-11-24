@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-24",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Sunlit Maple Morning Lift",
+  "oils": [
+    "Sweet Orange (Citrus sinensis)",
+    "Juniper Berry (Juniperus communis)",
+    "Geranium (Pelargonium graveolens)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Sweet Orange": 3,
+        "Juniper Berry": 2,
+        "Geranium": 1
+      },
+      "notes": "Run 30–45 min in the morning for a bright, airy feel."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Sweet Orange": 4,
+        "Juniper Berry": 3,
+        "Geranium": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Sweet Orange": 6,
+        "Juniper Berry": 4,
+        "Geranium": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Sweet orange brings sunny brightness, juniper adds crisp lift, and geranium softens with a green-floral note—an airy autumn weekend feel.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Bright",
+    "Use:Weekend morning"
+  ]
+}
