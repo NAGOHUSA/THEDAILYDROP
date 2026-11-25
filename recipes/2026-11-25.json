@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-25",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Lamplight Leather Nook",
+  "oils": [
+    "Cedarwood Virginian (Juniperus virginiana)",
+    "Sweet Orange (Citrus sinensis)",
+    "Lavender (Lavandula angustifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Cedarwood Virginian": 2,
+        "Sweet Orange": 2,
+        "Lavender": 1
+      },
+      "notes": "Run 10–15 min while settling in with a book."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Cedarwood Virginian": 3,
+        "Sweet Orange": 2,
+        "Lavender": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Cedarwood Virginian": 2,
+        "Sweet Orange": 2,
+        "Lavender": 1
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each use."
+    }
+  },
+  "why_it_works": "Warm woody cedar meets soft citrus and gentle lavender, evoking a lamplit leather chair and steady autumn calm.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calm",
+    "Use:Reading nook"
+  ]
+}
