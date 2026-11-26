@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-26",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Maple Dawn Desk Spark",
+  "oils": [
+    "Bitter Orange (Citrus aurantium)",
+    "Rosemary (Rosmarinus officinalis ct. camphor)",
+    "Cedarwood Virginian (Juniperus virginiana)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Bitter Orange": 3,
+        "Rosemary": 2,
+        "Cedarwood Virginian": 1
+      },
+      "notes": "Run 20–30 min at the start of your work block."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Bitter Orange": 4,
+        "Rosemary": 3,
+        "Cedarwood Virginian": 3
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Bitter Orange": 5,
+        "Rosemary": 3,
+        "Cedarwood Virginian": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each mist; avoid inhaling directly."
+    }
+  },
+  "why_it_works": "Bright bitter orange lifts alertness while rosemary and cedarwood add a grounded, woody focus cue for desk work.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Focused",
+    "Use:Work/Study"
+  ]
+}
