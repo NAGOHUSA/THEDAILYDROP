@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-27",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Frosted Pine Hush",
+  "oils": [
+    "Siberian Fir (Abies sibirica)",
+    "Roman Chamomile (Chamaemelum nobile)",
+    "Balsam Copaiba (Copaifera officinalis)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Siberian Fir": 2,
+        "Roman Chamomile": 2,
+        "Balsam Copaiba": 1
+      },
+      "notes": "Run 20–30 min before bed."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Siberian Fir": 3,
+        "Roman Chamomile": 4,
+        "Balsam Copaiba": 2
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Siberian Fir": 4,
+        "Roman Chamomile": 5,
+        "Balsam Copaiba": 3
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before misting linens."
+    }
+  },
+  "why_it_works": "Soft conifer resin and gentle herbal-floral notes create a quiet, grounded aroma that eases the transition to rest.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Calm",
+    "Use:Evening wind-down"
+  ]
+}
