@@ -1,0 +1,54 @@
+{
+  "app": "The Daily Drop",
+  "date": "2026-11-28",
+  "season": "Autumn",
+  "hemisphere": "Northern",
+  "title": "Citrus Spruce Reset",
+  "oils": [
+    "Grapefruit (Citrus paradisi)",
+    "Black Spruce (Picea mariana)",
+    "Tea Tree (Melaleuca alternifolia)"
+  ],
+  "formats": {
+    "diffuser": {
+      "drops": {
+        "Grapefruit": 4,
+        "Black Spruce": 2,
+        "Tea Tree": 1
+      },
+      "notes": "Run 30–45 min while airing the room; refresh after vacuuming."
+    },
+    "roller": {
+      "size_ml": 10,
+      "dilution_percent": 2,
+      "drops": {
+        "Grapefruit": 7,
+        "Black Spruce": 4,
+        "Tea Tree": 1
+      },
+      "carrier": "fractionated coconut or jojoba"
+    },
+    "spray_optional": {
+      "size_ml": 30,
+      "drops": {
+        "Grapefruit": 6,
+        "Black Spruce": 3,
+        "Tea Tree": 2
+      },
+      "base": "distilled water + 95% ethanol",
+      "note": "Shake well before each mist; spot-test fabrics first."
+    }
+  },
+  "why_it_works": "Grapefruit lifts with a fresh citrus peel tone, while black spruce and tea tree add a cool, clean forest-air impression—well suited to a just-tidied autumn home.",
+  "safety": [
+    "Patch test; dilute for skin.",
+    "Avoid eyes/mucosa; keep from children & pets.",
+    "Do not ingest oils.",
+    "Consult a professional if pregnant, nursing, or under care."
+  ],
+  "tags": [
+    "Season:Autumn",
+    "Mood:Fresh",
+    "Use:Home reset"
+  ]
+}
